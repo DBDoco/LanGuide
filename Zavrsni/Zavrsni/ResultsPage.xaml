@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Zavrsni.ResultsPage"
+             BackgroundColor="white"
+             NavigationPage.HasNavigationBar="false">
+    
+    <ContentPage.Content NavigationPage.HasNavigationBar="false">
+        <StackLayout Padding="20" Spacing="0">
+            <Grid>
+                <SearchBar x:Name="searchID" SearchButtonPressed="searchID_SearchButtonPressed" Placeholder="Search by UserID" Grid.Column="0" Grid.Row="0" HorizontalOptions="Start"/>
+                <SearchBar x:Name="searchExerciseID" SearchButtonPressed="searchExerciseID_SearchButtonPressed" Placeholder="Search by ExerciseID" Grid.Column="0" Grid.Row="1" HorizontalOptions="Start"/>
+                <SearchBar x:Name="searchResultPercent" SearchButtonPressed="searchResultPercent_SearchButtonPressed" Placeholder="Search by Result %" Grid.Column="1" Grid.Row="0" HorizontalOptions="Start"/>
+                <SearchBar x:Name="searchResultScore" SearchButtonPressed="searchResultScore_SearchButtonPressed" Placeholder="Search by Result Score" Grid.Column="1" Grid.Row="1" HorizontalOptions="Start"/>
+                <SearchBar x:Name="searchResultMax" SearchButtonPressed="searchResultMax_SearchButtonPressed" Placeholder="Search by Result Max" Grid.Column="1" Grid.Row="2" HorizontalOptions="Start"/>
+                <SearchBar x:Name="searchSkill" SearchButtonPressed="searchSkill_SearchButtonPressed" Placeholder="Search by Skill" Grid.Column="2" Grid.Row="0" HorizontalOptions="Start"/>
+                <SearchBar x:Name="searchLanguage" SearchButtonPressed="searchLanguage_SearchButtonPressed" Placeholder="Search by Language" Grid.Column="2" Grid.Row="1" HorizontalOptions="Start"/>
+            </Grid>
+
+            
+            <Frame BackgroundColor="{StaticResource lightRed}" BorderColor="{StaticResource darkGrey}" HeightRequest="100" Padding="0">
+                <Grid Padding="0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="1*"/>
+
+                    </Grid.ColumnDefinitions>
+
+                    <Label Margin="10,0,10,0" Text="User ID" VerticalOptions="Center"  Grid.Column="0" FontSize="20"/>
+                    <Label Margin="10,0,10,0" Text="Email" VerticalOptions="Center"  Grid.Column="1" FontSize="20"/>
+                    <Label Margin="10,0,10,0" Text="Create Time" VerticalOptions="Center"  Grid.Column="2" FontSize="20"/>
+                    <Label Margin="10,0,10,0" Text="Exercise ID" VerticalOptions="Center"  Grid.Column="3" FontSize="20"/>
+                    <Label Margin="10,0,10,0" Text="Result %" VerticalOptions="Center"  Grid.Column="4" FontSize="20"/>
+                    <Label Margin="10,0,10,0" Text="Result Score" VerticalOptions="Center"  Grid.Column="5" FontSize="20"/>
+                    <Label Margin="10,0,10,0" Text="Result Max" VerticalOptions="Center"  Grid.Column="6" FontSize="20"/>
+                    <Label Margin="10,0,10,0" Text="Skill" VerticalOptions="Center"  Grid.Column="7" FontSize="20"/>
+                    <Label Margin="10,0,10,0" Text="Language" VerticalOptions="Center"  Grid.Column="8" FontSize="20"/>
+                    <Label Margin="10,0,10,0" Text="Result Date" VerticalOptions="Center"  Grid.Column="9" FontSize="20"/>
+
+                    <BoxView WidthRequest="1" Grid.Column="0" HorizontalOptions="EndAndExpand" VerticalOptions="FillAndExpand" />
+                    <BoxView WidthRequest="1" Grid.Column="1" HorizontalOptions="EndAndExpand" VerticalOptions="FillAndExpand" />
+                    <BoxView WidthRequest="1" Grid.Column="2" HorizontalOptions="EndAndExpand" VerticalOptions="FillAndExpand" />
+                    <BoxView WidthRequest="1" Grid.Column="3" HorizontalOptions="EndAndExpand" VerticalOptions="FillAndExpand" />
+                    <BoxView WidthRequest="1" Grid.Column="4" HorizontalOptions="EndAndExpand" VerticalOptions="FillAndExpand" />
+                    <BoxView WidthRequest="1" Grid.Column="5" HorizontalOptions="EndAndExpand" VerticalOptions="FillAndExpand" />
+                    <BoxView WidthRequest="1" Grid.Column="6" HorizontalOptions="EndAndExpand" VerticalOptions="FillAndExpand" />
+                    <BoxView WidthRequest="1" Grid.Column="7" HorizontalOptions="EndAndExpand" VerticalOptions="FillAndExpand" />
+                    <BoxView WidthRequest="1" Grid.Column="8" HorizontalOptions="EndAndExpand" VerticalOptions="FillAndExpand" />
+                    <BoxView WidthRequest="1" Grid.Column="9" HorizontalOptions="EndAndExpand" VerticalOptions="FillAndExpand" />
+
+
+                </Grid>
+            </Frame>
+            <ListView x:Name="resultListView" SelectionMode="None" HasUnevenRows="False">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Frame  Padding="0" BorderColor="{StaticResource darkGrey}">
+                                <Grid Padding="0" RowSpacing="0">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="1*"/>
+                                        <ColumnDefinition Width="1*"/>
+                                        <ColumnDefinition Width="1*"/>
+                                        <ColumnDefinition Width="1*"/>
+                                        <ColumnDefinition Width="1*"/>
+                                        <ColumnDefinition Width="1*"/>
+                                        <ColumnDefinition Width="1*"/>
+                                        <ColumnDefinition Width="1*"/>
+                                        <ColumnDefinition Width="1*"/>
+                                        <ColumnDefinition Width="1*"/>
+                                    </Grid.ColumnDefinitions>
+
+                                    <Label Margin="10,0,10,0" Text="{Binding id_user}" VerticalOptions="Center" Grid.Column="0"  />
+                                    <Label Margin="10,0,10,0" Text="{Binding email}" VerticalOptions="Center" Grid.Column="1" />
+                                    <Label Margin="10,0,10,0" Text="{Binding create_time}" VerticalOptions="Center" Grid.Column="2" />
+                                    <Label Margin="10,0,10,0" Text="{Binding id_exercise}" VerticalOptions="Center" Grid.Column="3" />
+                                    <Label Margin="10,0,10,0" Text="{Binding result_percent}" VerticalOptions="Center" Grid.Column="4" />
+                                    <Label Margin="10,0,10,0" Text="{Binding result_score}" VerticalOptions="Center" Grid.Column="5" />
+                                    <Label Margin="10,0,10,0" Text="{Binding result_max}" VerticalOptions="Center" Grid.Column="6" />
+                                    <Label Margin="10,0,10,0" Text="{Binding skill}" VerticalOptions="Center" Grid.Column="7" />
+                                    <Label Margin="10,0,10,0" Text="{Binding language}" VerticalOptions="Center" Grid.Column="8" />
+                                    <Label Margin="10,0,10,0" Text="{Binding result_date}" VerticalOptions="Center" Grid.Column="9" />
+                                    
+                                    <BoxView WidthRequest="1" Grid.Column="0" HorizontalOptions="EndAndExpand" VerticalOptions="FillAndExpand" />
+                                    <BoxView WidthRequest="1" Grid.Column="1" HorizontalOptions="EndAndExpand" VerticalOptions="FillAndExpand"/>
+                                    <BoxView WidthRequest="1" Grid.Column="2" HorizontalOptions="EndAndExpand" VerticalOptions="FillAndExpand"/>
+                                    <BoxView WidthRequest="1" Grid.Column="3" HorizontalOptions="EndAndExpand" VerticalOptions="FillAndExpand"/>
+                                    <BoxView WidthRequest="1" Grid.Column="4" HorizontalOptions="EndAndExpand" VerticalOptions="FillAndExpand"/>
+                                    <BoxView WidthRequest="1" Grid.Column="5" HorizontalOptions="EndAndExpand" VerticalOptions="FillAndExpand"/>
+                                    <BoxView WidthRequest="1" Grid.Column="6" HorizontalOptions="EndAndExpand" VerticalOptions="FillAndExpand"/>
+                                    <BoxView WidthRequest="1" Grid.Column="7" HorizontalOptions="EndAndExpand" VerticalOptions="FillAndExpand"/>
+                                    <BoxView WidthRequest="1" Grid.Column="8" HorizontalOptions="EndAndExpand" VerticalOptions="FillAndExpand"/>
+                                    <BoxView WidthRequest="1" Grid.Column="9" HorizontalOptions="EndAndExpand" VerticalOptions="FillAndExpand"/>
+
+                                </Grid>
+                            </Frame>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

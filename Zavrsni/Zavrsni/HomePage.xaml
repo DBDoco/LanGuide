@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Zavrsni"
+             x:Class="Zavrsni.HomePage"
+             BarBackgroundColor="#30475E"
+             BarTextColor="white"
+             NavigationPage.HasNavigationBar="false"
+             xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
+             android:TabbedPage.ToolbarPlacement="Bottom"
+             android:TabbedPage.BarSelectedItemColor="white">
+
+    <local:UsersPage Title="Users" IconImageSource="user.png"/>
+    <local:ResultsPage Title="Results" IconImageSource="writing.png"/>
+    <local:LanguagesPage Title="Languages" IconImageSource="language.png"/>
+
+</TabbedPage>

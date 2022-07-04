@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Zavrsni.LanguagesPage"
+             BackgroundColor="white"
+             NavigationPage.HasNavigationBar="false">
+    <ContentPage.Content>
+        <StackLayout Padding="300,20" Spacing="0">
+            <Frame BackgroundColor="{StaticResource lightRed}" BorderColor="{StaticResource darkGrey}" HeightRequest="100" Padding="0">
+                <Grid Padding="0">
+                    <Label Margin="0" Text="Languages" VerticalOptions="Center"  Grid.Column="1" FontSize="20"/>
+                    <BoxView WidthRequest="1" Grid.Column="0"/>
+                </Grid>
+            </Frame>
+            <ListView x:Name="languageListView" SelectionMode="None" HasUnevenRows="False">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Frame  Padding="0" BorderColor="{StaticResource darkGrey}">
+                                <Grid Padding="0" RowSpacing="0">
+                                    <Label Margin="0" Text="{Binding language}" VerticalOptions="Center" Grid.Column="1" FontSize="20" />
+                                    <BoxView WidthRequest="1" Grid.Column="1"  />
+                                </Grid>
+                            </Frame>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

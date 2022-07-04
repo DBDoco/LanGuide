@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Zavrsni.UsersPage"
+             BackgroundColor="white"
+             NavigationPage.HasNavigationBar="false">
+    <ContentPage.Content>
+        <StackLayout Padding="20" Spacing="0">
+            <SearchBar x:Name="searchID" SearchButtonPressed="SearchBar_SearchButtonPressed" HorizontalOptions="End" Placeholder="Search Users by ID" Grid.Column="0" Grid.Row="0"/>
+            <Frame BackgroundColor="{StaticResource lightRed}" BorderColor="{StaticResource darkGrey}" HeightRequest="100" Padding="0">
+                <Grid Padding="0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="3.3*"/>
+                        <ColumnDefinition Width="3.3*"/>
+
+                    </Grid.ColumnDefinitions>
+
+                    <Label Margin="10,0,10,0" Text="User ID" VerticalOptions="Center"  Grid.Column="0" FontSize="20"/>
+                    <Label Margin="10,0,10,0" Text="Email" VerticalOptions="Center"  Grid.Column="1" FontSize="20" />
+                    <Label Margin="10,0,10,0" Text="Create Time" VerticalOptions="Center"  Grid.Column="2" FontSize="20" />
+
+                    <BoxView WidthRequest="1" Grid.Column="0" HorizontalOptions="EndAndExpand" VerticalOptions="FillAndExpand"/>
+                    <BoxView WidthRequest="1" Grid.Column="1" HorizontalOptions="EndAndExpand" VerticalOptions="FillAndExpand" />
+                    <BoxView WidthRequest="1" Grid.Column="2" HorizontalOptions="EndAndExpand" VerticalOptions="FillAndExpand" />
+                </Grid>
+            </Frame>
+            <ListView x:Name="userListView" SelectionMode="None" HasUnevenRows="False">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Frame  Padding="0" BorderColor="{StaticResource darkGrey}">
+                                <Grid Padding="0" RowSpacing="0">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="3.3*"/>
+                                        <ColumnDefinition Width="3.3*"/>
+                                    </Grid.ColumnDefinitions>
+
+                                    <Label Margin="10,0,10,0" Text="{Binding id_user}" VerticalOptions="Center" Grid.Column="0"  />
+                                    <Label Margin="10,0,10,0" Text="{Binding email}" VerticalOptions="Center" Grid.Column="1" />
+                                    <Label Margin="10,0,10,0" Text="{Binding create_time}" VerticalOptions="Center" Grid.Column="2" />
+
+                                    <BoxView WidthRequest="1" Grid.Column="0" HorizontalOptions="EndAndExpand" VerticalOptions="FillAndExpand" />
+                                    <BoxView WidthRequest="1" Grid.Column="1" HorizontalOptions="EndAndExpand" VerticalOptions="FillAndExpand"/>
+                                    <BoxView WidthRequest="1" Grid.Column="2" HorizontalOptions="EndAndExpand" VerticalOptions="FillAndExpand"/>
+                                </Grid>
+                            </Frame>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
+
+   
