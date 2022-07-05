@@ -14,7 +14,6 @@ namespace Zavrsni.Model
         public string email { get; set; }
         public string create_time { get; set; }
 
-
         public async static Task<List<User>> GetUsers()
         {
             List<User> users = new List<User>();

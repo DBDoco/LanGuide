@@ -5,10 +5,10 @@
              BackgroundColor="white"
              NavigationPage.HasNavigationBar="false">
     <ContentPage.Content>
-        <StackLayout Padding="300,20" Spacing="0">
+        <StackLayout Padding="700,20" Spacing="0">
             <Frame BackgroundColor="{StaticResource lightRed}" BorderColor="{StaticResource darkGrey}" HeightRequest="100" Padding="0">
                 <Grid Padding="0">
-                    <Label Margin="0" Text="Languages" VerticalOptions="Center"  Grid.Column="1" FontSize="20"/>
+                    <Label Text="Languages" VerticalOptions="Center"  Grid.Column="0" FontSize="20" HorizontalOptions="CenterAndExpand"/>
                     <BoxView WidthRequest="1" Grid.Column="0"/>
                 </Grid>
             </Frame>
@@ -18,8 +18,8 @@
                         <ViewCell>
                             <Frame  Padding="0" BorderColor="{StaticResource darkGrey}">
                                 <Grid Padding="0" RowSpacing="0">
-                                    <Label Margin="0" Text="{Binding language}" VerticalOptions="Center" Grid.Column="1" FontSize="20" />
-                                    <BoxView WidthRequest="1" Grid.Column="1"  />
+                                    <Label Text="{Binding language}" VerticalOptions="Center" Grid.Column="0" FontSize="20" HorizontalOptions="CenterAndExpand"/>
+                                    <BoxView WidthRequest="1" Grid.Column="0"  />
                                 </Grid>
                             </Frame>
                         </ViewCell>

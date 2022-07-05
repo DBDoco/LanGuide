@@ -26,6 +26,4 @@ namespace Zavrsni
             languageListView.ItemsSource = languages.GroupBy(x => x.language).Select(x => x.First());
         }
     }
-
-
 }

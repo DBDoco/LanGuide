@@ -1282,3 +1282,4 @@ D:\Fakultet\Razvoj aplikacija\Zavrsni\Zavrsni\Zavrsni.Android\obj\Debug\120\andr
 D:\Fakultet\Razvoj aplikacija\Zavrsni\Zavrsni\Zavrsni.Android\obj\Debug\120\android\assets\System.Buffers.dll
 D:\Fakultet\Razvoj aplikacija\Zavrsni\Zavrsni\Zavrsni.Android\obj\Debug\120\android\assets\System.Memory.dll
 D:\Fakultet\Razvoj aplikacija\Zavrsni\Zavrsni\Zavrsni.Android\obj\Debug\120\android\assets\System.Runtime.CompilerServices.Unsafe.dll
+D:\Fakultet\Razvoj aplikacija\Zavrsni\Zavrsni\Zavrsni.Android\obj\Debug\120\res\drawable\downarrow.png

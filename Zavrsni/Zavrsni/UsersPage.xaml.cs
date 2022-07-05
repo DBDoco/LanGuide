@@ -32,5 +32,20 @@ namespace Zavrsni
             var users = await User.GetUsers();
             userListView.ItemsSource = users.Where(user => user.id_user.ToLower().StartsWith(keyword.ToLower()));
         }
+
+        private async void ImageButton_Pressed(object sender, EventArgs e)
+        {
+            base.OnAppearing();
+
+            var users = await User.GetUsers();
+            userListView.ItemsSource = users.OrderBy(user => user.id_user);
+        }
+
+        private async void ImageButton_Pressed_2(object sender, EventArgs e)
+        {
+            base.OnAppearing();
+            var users = await User.GetUsers();
+            userListView.ItemsSource = users.OrderBy(user => user.id_user);
+        }
     }
 }

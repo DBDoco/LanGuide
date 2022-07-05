@@ -6,8 +6,16 @@
              NavigationPage.HasNavigationBar="false">
     
     <StackLayout VerticalOptions="Center"
-                 Margin="100">
+                 Margin="500,100">
 
+        <Label Text="LanGuide"
+               TextColor="{StaticResource lightRed}"
+               FontSize="50"
+               VerticalTextAlignment="Center"
+               HorizontalOptions="Center"
+                FontAttributes="Bold"
+               Margin="20,20"/>
+        
         <Entry x:Name="emailEntry"
                Placeholder="Email Address"
                Keyboard="Email"
@@ -21,7 +29,7 @@
                PlaceholderColor="#222831"/>
         
         <Button x:Name="loginButton"
-                Margin="500, 50"
+                Margin="100, 50"
                 Text="Log in"
                 Clicked="loginButton_Clicked"
                 Style="{StaticResource mainButton}"/>

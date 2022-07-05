@@ -35,15 +35,42 @@
                     </Grid.ColumnDefinitions>
 
                     <Label Margin="10,0,10,0" Text="User ID" VerticalOptions="Center"  Grid.Column="0" FontSize="20"/>
+                    <ImageButton Source="downarrow.png"
+                                    HorizontalOptions="EndAndExpand"
+                                    VerticalOptions="Center" Grid.Column="0" BackgroundColor="Transparent" Pressed="ImageButton_Pressed"/>
                     <Label Margin="10,0,10,0" Text="Email" VerticalOptions="Center"  Grid.Column="1" FontSize="20"/>
                     <Label Margin="10,0,10,0" Text="Create Time" VerticalOptions="Center"  Grid.Column="2" FontSize="20"/>
+                    <ImageButton Source="downarrow.png"
+                                    HorizontalOptions="EndAndExpand"
+                                    VerticalOptions="Center" Grid.Column="2" BackgroundColor="Transparent" Pressed="ImageButton_Pressed_1"/>
                     <Label Margin="10,0,10,0" Text="Exercise ID" VerticalOptions="Center"  Grid.Column="3" FontSize="20"/>
+                    <ImageButton Source="downarrow.png"
+                                    HorizontalOptions="EndAndExpand"
+                                    VerticalOptions="Center" Grid.Column="3" BackgroundColor="Transparent" Pressed="ImageButton_Pressed_2"/>
                     <Label Margin="10,0,10,0" Text="Result %" VerticalOptions="Center"  Grid.Column="4" FontSize="20"/>
+                    <ImageButton Source="downarrow.png"
+                                    HorizontalOptions="EndAndExpand"
+                                    VerticalOptions="Center" Grid.Column="4" BackgroundColor="Transparent" Pressed="ImageButton_Pressed_3"/>
                     <Label Margin="10,0,10,0" Text="Result Score" VerticalOptions="Center"  Grid.Column="5" FontSize="20"/>
+                    <ImageButton Source="downarrow.png"
+                                    HorizontalOptions="EndAndExpand"
+                                    VerticalOptions="Center" Grid.Column="5" BackgroundColor="Transparent" Pressed="ImageButton_Pressed_4"/>
                     <Label Margin="10,0,10,0" Text="Result Max" VerticalOptions="Center"  Grid.Column="6" FontSize="20"/>
+                    <ImageButton Source="downarrow.png"
+                                    HorizontalOptions="EndAndExpand"
+                                    VerticalOptions="Center" Grid.Column="6" BackgroundColor="Transparent" Pressed="ImageButton_Pressed_5"/>
                     <Label Margin="10,0,10,0" Text="Skill" VerticalOptions="Center"  Grid.Column="7" FontSize="20"/>
+                    <ImageButton Source="downarrow.png"
+                                    HorizontalOptions="EndAndExpand"
+                                    VerticalOptions="Center" Grid.Column="7" BackgroundColor="Transparent" Pressed="ImageButton_Pressed_6"/>
                     <Label Margin="10,0,10,0" Text="Language" VerticalOptions="Center"  Grid.Column="8" FontSize="20"/>
+                    <ImageButton Source="downarrow.png"
+                                    HorizontalOptions="EndAndExpand"
+                                    VerticalOptions="Center" Grid.Column="8" BackgroundColor="Transparent" Pressed="ImageButton_Pressed_7"/>
                     <Label Margin="10,0,10,0" Text="Result Date" VerticalOptions="Center"  Grid.Column="9" FontSize="20"/>
+                    <ImageButton Source="downarrow.png"
+                                    HorizontalOptions="EndAndExpand"
+                                    VerticalOptions="Center" Grid.Column="9" BackgroundColor="Transparent" Pressed="ImageButton_Pressed_8"/>
 
                     <BoxView WidthRequest="1" Grid.Column="0" HorizontalOptions="EndAndExpand" VerticalOptions="FillAndExpand" />
                     <BoxView WidthRequest="1" Grid.Column="1" HorizontalOptions="EndAndExpand" VerticalOptions="FillAndExpand" />

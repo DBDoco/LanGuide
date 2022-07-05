@@ -74,5 +74,68 @@ namespace Zavrsni
             var results = await Result.GetResults();
             resultListView.ItemsSource = results.Where(result => result.language.ToLower().Contains(keyword.ToLower()));
         }
+
+        private async void ImageButton_Pressed(object sender, EventArgs e)
+        {
+            base.OnAppearing();
+            var results = await Result.GetResults();
+            resultListView.ItemsSource = results.OrderBy(result => result.id_user);
+        }
+
+        private async void ImageButton_Pressed_1(object sender, EventArgs e)
+        {
+            base.OnAppearing();
+            var results = await Result.GetResults();
+            resultListView.ItemsSource = results.OrderBy(result => result.create_time);
+        }
+
+        private async void ImageButton_Pressed_2(object sender, EventArgs e)
+        {
+            base.OnAppearing();
+            var results = await Result.GetResults();
+            resultListView.ItemsSource = results.OrderBy(result => result.id_exercise);
+        }
+
+        private async void ImageButton_Pressed_3(object sender, EventArgs e)
+        {
+            base.OnAppearing();
+            var results = await Result.GetResults();
+            resultListView.ItemsSource = results.OrderBy(result => result.result_percent);
+        }
+
+        private async void ImageButton_Pressed_4(object sender, EventArgs e)
+        {
+            base.OnAppearing();
+            var results = await Result.GetResults();
+            resultListView.ItemsSource = results.OrderBy(result => result.result_score);
+        }
+
+        private async void ImageButton_Pressed_5(object sender, EventArgs e)
+        {
+            base.OnAppearing();
+            var results = await Result.GetResults();
+            resultListView.ItemsSource = results.OrderBy(result => result.result_max);
+        }
+
+        private async void ImageButton_Pressed_6(object sender, EventArgs e)
+        {
+            base.OnAppearing();
+            var results = await Result.GetResults();
+            resultListView.ItemsSource = results.OrderBy(result => result.skill);
+        }
+
+        private async void ImageButton_Pressed_7(object sender, EventArgs e)
+        {
+            base.OnAppearing();
+            var results = await Result.GetResults();
+            resultListView.ItemsSource = results.OrderBy(result => result.language);
+        }
+
+        private async void ImageButton_Pressed_8(object sender, EventArgs e)
+        {
+            base.OnAppearing();
+            var results = await Result.GetResults();
+            resultListView.ItemsSource = results.OrderBy(result => result.result_date);
+        }
     }
 }
