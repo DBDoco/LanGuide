@@ -8,13 +8,24 @@
     <ContentPage.Content NavigationPage.HasNavigationBar="false">
         <StackLayout Padding="20" Spacing="0">
             <Grid>
-                <SearchBar x:Name="searchID" SearchButtonPressed="searchID_SearchButtonPressed" Placeholder="Search by UserID" Grid.Column="0" Grid.Row="0" HorizontalOptions="Start"/>
-                <SearchBar x:Name="searchExerciseID" SearchButtonPressed="searchExerciseID_SearchButtonPressed" Placeholder="Search by ExerciseID" Grid.Column="0" Grid.Row="1" HorizontalOptions="Start"/>
-                <SearchBar x:Name="searchResultPercent" SearchButtonPressed="searchResultPercent_SearchButtonPressed" Placeholder="Search by Result %" Grid.Column="1" Grid.Row="0" HorizontalOptions="Start"/>
-                <SearchBar x:Name="searchResultScore" SearchButtonPressed="searchResultScore_SearchButtonPressed" Placeholder="Search by Result Score" Grid.Column="1" Grid.Row="1" HorizontalOptions="Start"/>
-                <SearchBar x:Name="searchResultMax" SearchButtonPressed="searchResultMax_SearchButtonPressed" Placeholder="Search by Result Max" Grid.Column="1" Grid.Row="2" HorizontalOptions="Start"/>
-                <SearchBar x:Name="searchSkill" SearchButtonPressed="searchSkill_SearchButtonPressed" Placeholder="Search by Skill" Grid.Column="2" Grid.Row="0" HorizontalOptions="Start"/>
-                <SearchBar x:Name="searchLanguage" SearchButtonPressed="searchLanguage_SearchButtonPressed" Placeholder="Search by Language" Grid.Column="2" Grid.Row="1" HorizontalOptions="Start"/>
+                <SearchBar x:Name="searchID" TextChanged="searchID_TextChanged" Placeholder="Enter UserID" Grid.Column="0" Grid.Row="0" HorizontalOptions="Start"/>
+                <SearchBar x:Name="searchExerciseID" TextChanged="searchExerciseID_TextChanged" Placeholder="Enter ExerciseID" Grid.Column="0" Grid.Row="1" HorizontalOptions="Start"/>
+                <Grid Grid.Column="1" HeightRequest="200">
+                    <Label Text="Score Percentage:" HorizontalOptions="StartAndExpand" Grid.Column="0" Grid.Row="0" />
+                    <SearchBar x:Name="resultPercentMin" TextChanged="resultPercentMin_TextChanged" Placeholder="MIN" Grid.Column="1" Grid.Row="0" HorizontalOptions="Start"/>
+                    <SearchBar x:Name="resultPercentMax" TextChanged="resultPercentMax_TextChanged" Placeholder="MAX" Grid.Column="2" Grid.Row="0"  HorizontalOptions="Start"/>
+
+                    <Label Text="Score Result: " HorizontalOptions="StartAndExpand" Grid.Column="0" Grid.Row="1" />
+                    <SearchBar x:Name="resultScoreMin" TextChanged="resultScoreMin_TextChanged" Placeholder="MIN" Grid.Column="1" Grid.Row="1"  HorizontalOptions="Start" />
+                    <SearchBar x:Name="resultScoreMax" TextChanged="resultScoreMax_TextChanged" Placeholder="MAX" Grid.Column="2" Grid.Row="1"  HorizontalOptions="Start" />
+
+                    <Label Text="Score Max: " HorizontalOptions="StartAndExpand" Grid.Column="0" Grid.Row="2"/>
+                    <SearchBar x:Name="scoreMin" TextChanged="scoreMin_TextChanged" Placeholder="MIN" Grid.Column="1" Grid.Row="2" HorizontalOptions="Start" />
+                    <SearchBar x:Name="scoreMax" TextChanged="scoreMax_TextChanged" Placeholder="MAX" Grid.Column="2" Grid.Row="2" HorizontalOptions="Start"/>
+                    
+                </Grid>
+                <SearchBar x:Name="searchSkill" TextChanged="searchSkill_TextChanged" Placeholder="Enter Skill" Grid.Column="2" Grid.Row="0" HorizontalOptions="End"/>
+                <SearchBar x:Name="searchLanguage" TextChanged="searchLanguage_TextChanged" Placeholder="Enter Language" Grid.Column="2" Grid.Row="1" HorizontalOptions="End"/>
             </Grid>
 
             

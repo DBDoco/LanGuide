@@ -10,7 +10,7 @@ namespace Zavrsni.Model
 
     public class User
     {
-        public string id_user { get; set; }
+        public int id_user { get; set; }
         public string email { get; set; }
         public string create_time { get; set; }
 

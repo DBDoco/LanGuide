@@ -6,7 +6,7 @@
              NavigationPage.HasNavigationBar="false">
     <ContentPage.Content>
         <StackLayout Padding="600,20" Spacing="0">
-            <SearchBar x:Name="searchID" SearchButtonPressed="SearchBar_SearchButtonPressed" HorizontalOptions="End" Placeholder="Search Users by ID" Grid.Column="0" Grid.Row="0"/>
+            <SearchBar x:Name="searchID" TextChanged="SearchBar_TextChanged" HorizontalOptions="End" Placeholder="Search Users by ID" Grid.Column="0" Grid.Row="0"/>
             <Frame BackgroundColor="{StaticResource lightRed}" BorderColor="{StaticResource darkGrey}" HeightRequest="100" Padding="0">
                 <Grid Padding="0">
                     <Grid.ColumnDefinitions>
