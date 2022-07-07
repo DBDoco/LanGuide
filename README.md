@@ -3,7 +3,7 @@
   <br>
 </h1>
 
-<h4 align="center">Android aplication made with <a href="https://dotnet.microsoft.com/en-us/apps/xamarin" target="_blank">Xamarin</a>. Made for tablets or large phones.</h4>
+<h4 align="center">Android application made with <a href="https://dotnet.microsoft.com/en-us/apps/xamarin" target="_blank">Xamarin</a>. Made for tablets or large phones.</h4>
 
 <p align="center">
   <img src="https://media3.giphy.com/media/oeRa7lWq6DDRT8WPV5/giphy.gif?cid=790b7611f3935de902470c0cccf8e8e7f6b2ccd3fb0c80dd&rid=giphy.gif&ct=g" alt="languide" />
