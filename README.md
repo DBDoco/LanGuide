@@ -25,5 +25,5 @@ Open "Zavrsni.sln";<br>
 Compile with VS and run.
 
 ## Login Info:
-Email: dominik@mail.com
+Email: dominik@mail.com <br>
 Password: dominik123
