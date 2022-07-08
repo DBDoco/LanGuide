@@ -49,7 +49,7 @@ namespace Zavrsni.Droid.Dependencies
             {
                 throw new Exception(ex.Message);
             }
-            catch (Exception ex)
+            catch
             {
                 throw new Exception("There was an unknown error.");
             }
@@ -75,7 +75,7 @@ namespace Zavrsni.Droid.Dependencies
             {
                 throw new Exception(ex.Message);
             }
-            catch (Exception ex)
+            catch
             {
                 throw new Exception("There was an unknown error.");
             }
