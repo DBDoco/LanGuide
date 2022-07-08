@@ -5,7 +5,7 @@
     Changes to this file may cause incorrect behavior and will be lost if
     the contents are regenerated.
 -->
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.companyname.zavrsni" android:versionCode="1" android:versionName="1.0">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" package="com.companyname.zavrsni" android:versionCode="1" android:versionName="1.0">
   <uses-sdk android:minSdkVersion="21" android:targetSdkVersion="31" />
   <uses-permission android:name="android.permission.INTERNET" />
   <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
@@ -15,7 +15,11 @@
       <action android:name="android.media.browse.MediaBrowserService" />
     </intent>
   </queries>
+  <uses-permission android:name="android.permission.WAKE_LOCK" />
+  <!-- Required by older versions of Google Play services to create IID tokens -->
+  <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
   <application android:name="android.app.Application" android:allowBackup="true" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:debuggable="true" android:extractNativeLibs="true" android:icon="@mipmap/icon" android:label="Zavrsni.Android" android:theme="@style/MainTheme">
+    <uses-library android:name="org.apache.http.legacy" android:required="false" />
     <activity android:name="crc640884d118108b8a16.MainActivity" android:configChanges="orientation|smallestScreenSize|screenLayout|screenSize|uiMode" android:exported="true" android:icon="@mipmap/icon" android:label="Zavrsni" android:theme="@style/MainTheme">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
@@ -33,5 +37,37 @@
     <activity android:name="crc64a0e0a82d0db9a07d.WebAuthenticatorIntermediateActivity" android:configChanges="orientation|screenSize" />
     <receiver android:name="crc643f46942d9dd1fff9.PowerSaveModeBroadcastReceiver" android:enabled="true" android:exported="false" />
     <provider android:name="mono.MonoRuntimeProvider" android:authorities="com.companyname.zavrsni.mono.MonoRuntimeProvider.__mono_init__" android:exported="false" android:initOrder="1999999999" />
+    <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" />
+    <activity android:name="com.google.android.gms.common.api.GoogleApiActivity" android:exported="false" android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+    <provider android:name="com.google.firebase.provider.FirebaseInitProvider" android:authorities="com.companyname.zavrsni.firebaseinitprovider" android:directBootAware="true" android:exported="false" android:initOrder="100" />
+    <service android:name="com.google.firebase.components.ComponentDiscoveryService" android:directBootAware="true" android:exported="false" tools:targetApi="n">
+      <meta-data android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar" android:value="com.google.firebase.components.ComponentRegistrar" />
+      <meta-data android:name="com.google.firebase.components:com.google.firebase.iid.Registrar" android:value="com.google.firebase.components.ComponentRegistrar" />
+      <meta-data android:name="com.google.firebase.components:com.google.firebase.abt.component.AbtRegistrar" android:value="com.google.firebase.components.ComponentRegistrar" />
+      <meta-data android:name="com.google.firebase.components:com.google.firebase.remoteconfig.RemoteConfigRegistrar" android:value="com.google.firebase.components.ComponentRegistrar" />
+      <meta-data android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar" android:value="com.google.firebase.components.ComponentRegistrar" />
+    </service>
+    <activity android:name="com.google.firebase.auth.internal.GenericIdpActivity" android:excludeFromRecents="true" android:exported="true" android:launchMode="singleTask" android:theme="@android:style/Theme.Translucent.NoTitleBar">
+      <intent-filter>
+        <action android:name="android.intent.action.VIEW" />
+        <category android:name="android.intent.category.DEFAULT" />
+        <category android:name="android.intent.category.BROWSABLE" />
+        <data android:host="firebase.auth" android:path="/" android:scheme="genericidp" />
+      </intent-filter>
+    </activity>
+    <activity android:name="com.google.firebase.auth.internal.RecaptchaActivity" android:excludeFromRecents="true" android:exported="true" android:launchMode="singleTask" android:theme="@android:style/Theme.Translucent.NoTitleBar">
+      <intent-filter>
+        <action android:name="android.intent.action.VIEW" />
+        <category android:name="android.intent.category.DEFAULT" />
+        <category android:name="android.intent.category.BROWSABLE" />
+        <data android:host="firebase.auth" android:path="/" android:scheme="recaptcha" />
+      </intent-filter>
+    </activity>
+    <service android:name="com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService" android:enabled="true" android:exported="false">
+      <intent-filter>
+        <action android:name="com.google.firebase.auth.api.gms.service.START" />
+        <category android:name="android.intent.category.DEFAULT" />
+      </intent-filter>
+    </service>
   </application>
 </manifest>

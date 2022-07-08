@@ -73,6 +73,12 @@ androidx.annotation.DimenRes;androidx.annotation.DimenRes
 AndroidX.Annotations.IDimension, Xamarin.AndroidX.Annotation;androidx.annotation.Dimension
 AndroidX.Annotations.IDimension;androidx.annotation.Dimension
 androidx.annotation.Dimension;androidx.annotation.Dimension
+AndroidX.Annotations.IDiscouraged, Xamarin.AndroidX.Annotation;androidx.annotation.Discouraged
+AndroidX.Annotations.IDiscouraged;androidx.annotation.Discouraged
+androidx.annotation.Discouraged;androidx.annotation.Discouraged
+AndroidX.Annotations.IDisplayContext, Xamarin.AndroidX.Annotation;androidx.annotation.DisplayContext
+AndroidX.Annotations.IDisplayContext;androidx.annotation.DisplayContext
+androidx.annotation.DisplayContext;androidx.annotation.DisplayContext
 AndroidX.Annotations.IDoNotInline, Xamarin.AndroidX.Annotation;androidx.annotation.DoNotInline
 AndroidX.Annotations.IDoNotInline;androidx.annotation.DoNotInline
 androidx.annotation.DoNotInline;androidx.annotation.DoNotInline
@@ -88,6 +94,9 @@ androidx.annotation.FontRes;androidx.annotation.FontRes
 AndroidX.Annotations.IFractionRes, Xamarin.AndroidX.Annotation;androidx.annotation.FractionRes
 AndroidX.Annotations.IFractionRes;androidx.annotation.FractionRes
 androidx.annotation.FractionRes;androidx.annotation.FractionRes
+AndroidX.Annotations.IGravityInt, Xamarin.AndroidX.Annotation;androidx.annotation.GravityInt
+AndroidX.Annotations.IGravityInt;androidx.annotation.GravityInt
+androidx.annotation.GravityInt;androidx.annotation.GravityInt
 AndroidX.Annotations.IGuardedBy, Xamarin.AndroidX.Annotation;androidx.annotation.GuardedBy
 AndroidX.Annotations.IGuardedBy;androidx.annotation.GuardedBy
 androidx.annotation.GuardedBy;androidx.annotation.GuardedBy
@@ -139,6 +148,9 @@ androidx.annotation.NavigationRes;androidx.annotation.NavigationRes
 AndroidX.Annotations.INonNull, Xamarin.AndroidX.Annotation;androidx.annotation.NonNull
 AndroidX.Annotations.INonNull;androidx.annotation.NonNull
 androidx.annotation.NonNull;androidx.annotation.NonNull
+AndroidX.Annotations.INonUiContext, Xamarin.AndroidX.Annotation;androidx.annotation.NonUiContext
+AndroidX.Annotations.INonUiContext;androidx.annotation.NonUiContext
+androidx.annotation.NonUiContext;androidx.annotation.NonUiContext
 AndroidX.Annotations.INullable, Xamarin.AndroidX.Annotation;androidx.annotation.Nullable
 AndroidX.Annotations.INullable;androidx.annotation.Nullable
 androidx.annotation.Nullable;androidx.annotation.Nullable
@@ -187,6 +199,9 @@ androidx.annotation.StyleRes;androidx.annotation.StyleRes
 AndroidX.Annotations.ITransitionRes, Xamarin.AndroidX.Annotation;androidx.annotation.TransitionRes
 AndroidX.Annotations.ITransitionRes;androidx.annotation.TransitionRes
 androidx.annotation.TransitionRes;androidx.annotation.TransitionRes
+AndroidX.Annotations.IUiContext, Xamarin.AndroidX.Annotation;androidx.annotation.UiContext
+AndroidX.Annotations.IUiContext;androidx.annotation.UiContext
+androidx.annotation.UiContext;androidx.annotation.UiContext
 AndroidX.Annotations.IUiThread, Xamarin.AndroidX.Annotation;androidx.annotation.UiThread
 AndroidX.Annotations.IUiThread;androidx.annotation.UiThread
 androidx.annotation.UiThread;androidx.annotation.UiThread
@@ -598,6 +613,12 @@ androidx.core.net.ConnectivityManagerCompat$RestrictBackgroundStatus;androidx.co
 AndroidX.Core.Location.GnssStatusCompat+IConstellationType, Xamarin.AndroidX.Core;androidx.core.location.GnssStatusCompat$ConstellationType
 AndroidX.Core.Location.GnssStatusCompat.IConstellationType;androidx.core.location.GnssStatusCompat$ConstellationType
 androidx.core.location.GnssStatusCompat$ConstellationType;androidx.core.location.GnssStatusCompat$ConstellationType
+AndroidX.Core.Location.ILocationListenerCompat, Xamarin.AndroidX.Core;androidx.core.location.LocationListenerCompat
+AndroidX.Core.Location.ILocationListenerCompat;androidx.core.location.LocationListenerCompat
+androidx.core.location.LocationListenerCompat;androidx.core.location.LocationListenerCompat
+AndroidX.Core.Location.LocationRequestCompat+IQuality, Xamarin.AndroidX.Core;androidx.core.location.LocationRequestCompat$Quality
+AndroidX.Core.Location.LocationRequestCompat.IQuality;androidx.core.location.LocationRequestCompat$Quality
+androidx.core.location.LocationRequestCompat$Quality;androidx.core.location.LocationRequestCompat$Quality
 AndroidX.Core.Internal.View.ISupportMenu, Xamarin.AndroidX.Core;androidx.core.internal.view.SupportMenu
 AndroidX.Core.Internal.View.ISupportMenu;androidx.core.internal.view.SupportMenu
 androidx.core.internal.view.SupportMenu;androidx.core.internal.view.SupportMenu
@@ -616,6 +637,9 @@ androidx.core.graphics.drawable.TintAwareDrawable;androidx.core.graphics.drawabl
 AndroidX.Core.Graphics.Drawable.IWrappedDrawable, Xamarin.AndroidX.Core;androidx.core.graphics.drawable.WrappedDrawable
 AndroidX.Core.Graphics.Drawable.IWrappedDrawable;androidx.core.graphics.drawable.WrappedDrawable
 androidx.core.graphics.drawable.WrappedDrawable;androidx.core.graphics.drawable.WrappedDrawable
+AndroidX.Core.Content.PackageManagerCompat+IUnusedAppRestrictionsStatus, Xamarin.AndroidX.Core;androidx.core.content.PackageManagerCompat$UnusedAppRestrictionsStatus
+AndroidX.Core.Content.PackageManagerCompat.IUnusedAppRestrictionsStatus;androidx.core.content.PackageManagerCompat$UnusedAppRestrictionsStatus
+androidx.core.content.PackageManagerCompat$UnusedAppRestrictionsStatus;androidx.core.content.PackageManagerCompat$UnusedAppRestrictionsStatus
 AndroidX.Core.Content.PermissionChecker+IPermissionResult, Xamarin.AndroidX.Core;androidx.core.content.PermissionChecker$PermissionResult
 AndroidX.Core.Content.PermissionChecker.IPermissionResult;androidx.core.content.PermissionChecker$PermissionResult
 androidx.core.content.PermissionChecker$PermissionResult;androidx.core.content.PermissionChecker$PermissionResult
@@ -670,6 +694,9 @@ androidx.core.app.NotificationCompat$GroupAlertBehavior;androidx.core.app.Notifi
 AndroidX.Core.App.NotificationCompat+INotificationVisibility, Xamarin.AndroidX.Core;androidx.core.app.NotificationCompat$NotificationVisibility
 AndroidX.Core.App.NotificationCompat.INotificationVisibility;androidx.core.app.NotificationCompat$NotificationVisibility
 androidx.core.app.NotificationCompat$NotificationVisibility;androidx.core.app.NotificationCompat$NotificationVisibility
+AndroidX.Core.App.NotificationCompat+IServiceNotificationBehavior, Xamarin.AndroidX.Core;androidx.core.app.NotificationCompat$ServiceNotificationBehavior
+AndroidX.Core.App.NotificationCompat.IServiceNotificationBehavior;androidx.core.app.NotificationCompat$ServiceNotificationBehavior
+androidx.core.app.NotificationCompat$ServiceNotificationBehavior;androidx.core.app.NotificationCompat$ServiceNotificationBehavior
 AndroidX.Core.App.NotificationCompat+IStreamType, Xamarin.AndroidX.Core;androidx.core.app.NotificationCompat$StreamType
 AndroidX.Core.App.NotificationCompat.IStreamType;androidx.core.app.NotificationCompat$StreamType
 androidx.core.app.NotificationCompat$StreamType;androidx.core.app.NotificationCompat$StreamType
@@ -691,6 +718,12 @@ mono.androidx.core.app.SharedElementCallback_OnSharedElementsReadyListenerImplem
 AndroidX.Core.App.TaskStackBuilder+ISupportParentable, Xamarin.AndroidX.Core;androidx.core.app.TaskStackBuilder$SupportParentable
 AndroidX.Core.App.TaskStackBuilder.ISupportParentable;androidx.core.app.TaskStackBuilder$SupportParentable
 androidx.core.app.TaskStackBuilder$SupportParentable;androidx.core.app.TaskStackBuilder$SupportParentable
+AndroidX.Core.App.UnusedAppRestrictions.IUnusedAppRestrictionsBackportCallback, Xamarin.AndroidX.Core;androidx.core.app.unusedapprestrictions.IUnusedAppRestrictionsBackportCallback
+AndroidX.Core.App.UnusedAppRestrictions.IUnusedAppRestrictionsBackportCallback;androidx.core.app.unusedapprestrictions.IUnusedAppRestrictionsBackportCallback
+androidx.core.app.unusedapprestrictions.IUnusedAppRestrictionsBackportCallback;androidx.core.app.unusedapprestrictions.IUnusedAppRestrictionsBackportCallback
+AndroidX.Core.App.UnusedAppRestrictions.IUnusedAppRestrictionsBackportService, Xamarin.AndroidX.Core;androidx.core.app.unusedapprestrictions.IUnusedAppRestrictionsBackportService
+AndroidX.Core.App.UnusedAppRestrictions.IUnusedAppRestrictionsBackportService;androidx.core.app.unusedapprestrictions.IUnusedAppRestrictionsBackportService
+androidx.core.app.unusedapprestrictions.IUnusedAppRestrictionsBackportService;androidx.core.app.unusedapprestrictions.IUnusedAppRestrictionsBackportService
 AndroidX.Core.Widget.NestedScrollView+IOnScrollChangeListener, Xamarin.AndroidX.Core;androidx.core.widget.NestedScrollView$OnScrollChangeListener
 AndroidX.Core.Widget.NestedScrollView.IOnScrollChangeListener;androidx.core.widget.NestedScrollView$OnScrollChangeListener
 androidx.core.widget.NestedScrollView$OnScrollChangeListener;androidx.core.widget.NestedScrollView$OnScrollChangeListener
@@ -745,6 +778,12 @@ mono.androidx.core.view.DragStartHelper_OnDragStartListenerImplementor;mono.andr
 AndroidX.Core.View.ILayoutInflaterFactory, Xamarin.AndroidX.Core;androidx.core.view.LayoutInflaterFactory
 AndroidX.Core.View.ILayoutInflaterFactory;androidx.core.view.LayoutInflaterFactory
 androidx.core.view.LayoutInflaterFactory;androidx.core.view.LayoutInflaterFactory
+AndroidX.Core.View.IMenuHost, Xamarin.AndroidX.Core;androidx.core.view.MenuHost
+AndroidX.Core.View.IMenuHost;androidx.core.view.MenuHost
+androidx.core.view.MenuHost;androidx.core.view.MenuHost
+AndroidX.Core.View.IMenuProvider, Xamarin.AndroidX.Core;androidx.core.view.MenuProvider
+AndroidX.Core.View.IMenuProvider;androidx.core.view.MenuProvider
+androidx.core.view.MenuProvider;androidx.core.view.MenuProvider
 AndroidX.Core.View.INestedScrollingChild, Xamarin.AndroidX.Core;androidx.core.view.NestedScrollingChild
 AndroidX.Core.View.INestedScrollingChild;androidx.core.view.NestedScrollingChild
 androidx.core.view.NestedScrollingChild;androidx.core.view.NestedScrollingChild
@@ -919,15 +958,21 @@ mono.androidx.fragment.app.FragmentResultListenerImplementor;mono.androidx.fragm
 AndroidX.Fragment.App.IFragmentResultOwner, Xamarin.AndroidX.Fragment;androidx.fragment.app.FragmentResultOwner
 AndroidX.Fragment.App.IFragmentResultOwner;androidx.fragment.app.FragmentResultOwner
 androidx.fragment.app.FragmentResultOwner;androidx.fragment.app.FragmentResultOwner
-AndroidX.Fragment.App.IFragmentStateManagerControl, Xamarin.AndroidX.Fragment;androidx.fragment.app.FragmentStateManagerControl
-AndroidX.Fragment.App.IFragmentStateManagerControl;androidx.fragment.app.FragmentStateManagerControl
-androidx.fragment.app.FragmentStateManagerControl;androidx.fragment.app.FragmentStateManagerControl
+AndroidX.Fragment.App.StrictMode.FragmentStrictMode+IOnViolationListener, Xamarin.AndroidX.Fragment;androidx.fragment.app.strictmode.FragmentStrictMode$OnViolationListener
+AndroidX.Fragment.App.StrictMode.FragmentStrictMode.IOnViolationListener;androidx.fragment.app.strictmode.FragmentStrictMode$OnViolationListener
+androidx.fragment.app.strictmode.FragmentStrictMode$OnViolationListener;androidx.fragment.app.strictmode.FragmentStrictMode$OnViolationListener
+AndroidX.Fragment.App.StrictMode.FragmentStrictMode+IOnViolationListenerImplementor, Xamarin.AndroidX.Fragment;mono.androidx.fragment.app.strictmode.FragmentStrictMode_OnViolationListenerImplementor
+AndroidX.Fragment.App.StrictMode.FragmentStrictMode.IOnViolationListenerImplementor;mono.androidx.fragment.app.strictmode.FragmentStrictMode_OnViolationListenerImplementor
+mono.androidx.fragment.app.strictmode.FragmentStrictMode_OnViolationListenerImplementor;mono.androidx.fragment.app.strictmode.FragmentStrictMode_OnViolationListenerImplementor
 AndroidX.Legacy.App.ActionBarDrawerToggle+IDelegate, Xamarin.AndroidX.Legacy.Support.Core.UI;androidx.legacy.app.ActionBarDrawerToggle$Delegate
 AndroidX.Legacy.App.ActionBarDrawerToggle.IDelegate;androidx.legacy.app.ActionBarDrawerToggle$Delegate
 androidx.legacy.app.ActionBarDrawerToggle$Delegate;androidx.legacy.app.ActionBarDrawerToggle$Delegate
 AndroidX.Legacy.App.ActionBarDrawerToggle+IDelegateProvider, Xamarin.AndroidX.Legacy.Support.Core.UI;androidx.legacy.app.ActionBarDrawerToggle$DelegateProvider
 AndroidX.Legacy.App.ActionBarDrawerToggle.IDelegateProvider;androidx.legacy.app.ActionBarDrawerToggle$DelegateProvider
 androidx.legacy.app.ActionBarDrawerToggle$DelegateProvider;androidx.legacy.app.ActionBarDrawerToggle$DelegateProvider
+AndroidX.Lifecycle.IDefaultLifecycleObserver, Xamarin.AndroidX.Lifecycle.Common;androidx.lifecycle.DefaultLifecycleObserver
+AndroidX.Lifecycle.IDefaultLifecycleObserver;androidx.lifecycle.DefaultLifecycleObserver
+androidx.lifecycle.DefaultLifecycleObserver;androidx.lifecycle.DefaultLifecycleObserver
 AndroidX.Lifecycle.IGeneratedAdapter, Xamarin.AndroidX.Lifecycle.Common;androidx.lifecycle.GeneratedAdapter
 AndroidX.Lifecycle.IGeneratedAdapter;androidx.lifecycle.GeneratedAdapter
 androidx.lifecycle.GeneratedAdapter;androidx.lifecycle.GeneratedAdapter
@@ -1285,6 +1330,9 @@ androidx.viewpager2.widget.ViewPager2$ScrollState;androidx.viewpager2.widget.Vie
 AndroidX.ViewPager2.Adapter.IStatefulAdapter, Xamarin.AndroidX.ViewPager2;androidx.viewpager2.adapter.StatefulAdapter
 AndroidX.ViewPager2.Adapter.IStatefulAdapter;androidx.viewpager2.adapter.StatefulAdapter
 androidx.viewpager2.adapter.StatefulAdapter;androidx.viewpager2.adapter.StatefulAdapter
+Xamarin.Essentials.Connectivity+EssentialsNetworkCallback, Xamarin.Essentials;crc64a0e0a82d0db9a07d.Connectivity_EssentialsNetworkCallback
+Xamarin.Essentials.Connectivity.EssentialsNetworkCallback;crc64a0e0a82d0db9a07d.Connectivity_EssentialsNetworkCallback
+xamarin.essentials.Connectivity_EssentialsNetworkCallback;crc64a0e0a82d0db9a07d.Connectivity_EssentialsNetworkCallback
 Xamarin.Essentials.AccelerometerListener, Xamarin.Essentials;crc64a0e0a82d0db9a07d.AccelerometerListener
 Xamarin.Essentials.AccelerometerListener;crc64a0e0a82d0db9a07d.AccelerometerListener
 xamarin.essentials.AccelerometerListener;crc64a0e0a82d0db9a07d.AccelerometerListener
@@ -1339,6 +1387,180 @@ xamarin.essentials.WebAuthenticatorCallbackActivity;crc64a0e0a82d0db9a07d.WebAut
 Xamarin.Essentials.WebAuthenticatorIntermediateActivity, Xamarin.Essentials;crc64a0e0a82d0db9a07d.WebAuthenticatorIntermediateActivity
 Xamarin.Essentials.WebAuthenticatorIntermediateActivity;crc64a0e0a82d0db9a07d.WebAuthenticatorIntermediateActivity
 xamarin.essentials.WebAuthenticatorIntermediateActivity;crc64a0e0a82d0db9a07d.WebAuthenticatorIntermediateActivity
+Firebase.Abt.FirebaseABTesting+IOriginService, Xamarin.Firebase.Abt;com.google.firebase.abt.FirebaseABTesting$OriginService
+Firebase.Abt.FirebaseABTesting.IOriginService;com.google.firebase.abt.FirebaseABTesting$OriginService
+com.google.firebase.abt.FirebaseABTesting$OriginService;com.google.firebase.abt.FirebaseABTesting$OriginService
+Firebase.Annotations.IDeferredApi, Xamarin.Firebase.Annotations;com.google.firebase.annotations.DeferredApi
+Firebase.Annotations.IDeferredApi;com.google.firebase.annotations.DeferredApi
+com.google.firebase.annotations.DeferredApi;com.google.firebase.annotations.DeferredApi
+Firebase.Auth.FirebaseAuth+IAuthStateListener, Xamarin.Firebase.Auth;com.google.firebase.auth.FirebaseAuth$AuthStateListener
+Firebase.Auth.FirebaseAuth.IAuthStateListener;com.google.firebase.auth.FirebaseAuth$AuthStateListener
+com.google.firebase.auth.FirebaseAuth$AuthStateListener;com.google.firebase.auth.FirebaseAuth$AuthStateListener
+Firebase.Auth.FirebaseAuth+IAuthStateListenerImplementor, Xamarin.Firebase.Auth;mono.com.google.firebase.auth.FirebaseAuth_AuthStateListenerImplementor
+Firebase.Auth.FirebaseAuth.IAuthStateListenerImplementor;mono.com.google.firebase.auth.FirebaseAuth_AuthStateListenerImplementor
+mono.com.google.firebase.auth.FirebaseAuth_AuthStateListenerImplementor;mono.com.google.firebase.auth.FirebaseAuth_AuthStateListenerImplementor
+Firebase.Auth.FirebaseAuth+IIdTokenListener, Xamarin.Firebase.Auth;com.google.firebase.auth.FirebaseAuth$IdTokenListener
+Firebase.Auth.FirebaseAuth.IIdTokenListener;com.google.firebase.auth.FirebaseAuth$IdTokenListener
+com.google.firebase.auth.FirebaseAuth$IdTokenListener;com.google.firebase.auth.FirebaseAuth$IdTokenListener
+Firebase.Auth.FirebaseAuth+IIdTokenListenerImplementor, Xamarin.Firebase.Auth;mono.com.google.firebase.auth.FirebaseAuth_IdTokenListenerImplementor
+Firebase.Auth.FirebaseAuth.IIdTokenListenerImplementor;mono.com.google.firebase.auth.FirebaseAuth_IdTokenListenerImplementor
+mono.com.google.firebase.auth.FirebaseAuth_IdTokenListenerImplementor;mono.com.google.firebase.auth.FirebaseAuth_IdTokenListenerImplementor
+Firebase.Auth.IActionCodeResultActionDataKey, Xamarin.Firebase.Auth;com.google.firebase.auth.ActionCodeResult$ActionDataKey
+Firebase.Auth.IActionCodeResultActionDataKey;com.google.firebase.auth.ActionCodeResult$ActionDataKey
+com.google.firebase.auth.ActionCodeResult$ActionDataKey;com.google.firebase.auth.ActionCodeResult$ActionDataKey
+Firebase.Auth.IActionCodeResultOperation, Xamarin.Firebase.Auth;com.google.firebase.auth.ActionCodeResult$Operation
+Firebase.Auth.IActionCodeResultOperation;com.google.firebase.auth.ActionCodeResult$Operation
+com.google.firebase.auth.ActionCodeResult$Operation;com.google.firebase.auth.ActionCodeResult$Operation
+Firebase.Auth.IActionCodeResult, Xamarin.Firebase.Auth;com.google.firebase.auth.ActionCodeResult
+Firebase.Auth.IActionCodeResult;com.google.firebase.auth.ActionCodeResult
+com.google.firebase.auth.ActionCodeResult;com.google.firebase.auth.ActionCodeResult
+Firebase.Auth.IAdditionalUserInfo, Xamarin.Firebase.Auth;com.google.firebase.auth.AdditionalUserInfo
+Firebase.Auth.IAdditionalUserInfo;com.google.firebase.auth.AdditionalUserInfo
+com.google.firebase.auth.AdditionalUserInfo;com.google.firebase.auth.AdditionalUserInfo
+Firebase.Auth.IAuthResult, Xamarin.Firebase.Auth;com.google.firebase.auth.AuthResult
+Firebase.Auth.IAuthResult;com.google.firebase.auth.AuthResult
+com.google.firebase.auth.AuthResult;com.google.firebase.auth.AuthResult
+Firebase.Auth.IFirebaseAuthProvider, Xamarin.Firebase.Auth;com.google.firebase.auth.FirebaseAuthProvider
+Firebase.Auth.IFirebaseAuthProvider;com.google.firebase.auth.FirebaseAuthProvider
+com.google.firebase.auth.FirebaseAuthProvider;com.google.firebase.auth.FirebaseAuthProvider
+Firebase.Auth.IFirebaseUserMetadata, Xamarin.Firebase.Auth;com.google.firebase.auth.FirebaseUserMetadata
+Firebase.Auth.IFirebaseUserMetadata;com.google.firebase.auth.FirebaseUserMetadata
+com.google.firebase.auth.FirebaseUserMetadata;com.google.firebase.auth.FirebaseUserMetadata
+Firebase.Auth.ISignInMethodQueryResult, Xamarin.Firebase.Auth;com.google.firebase.auth.SignInMethodQueryResult
+Firebase.Auth.ISignInMethodQueryResult;com.google.firebase.auth.SignInMethodQueryResult
+com.google.firebase.auth.SignInMethodQueryResult;com.google.firebase.auth.SignInMethodQueryResult
+Firebase.Auth.IUserInfo, Xamarin.Firebase.Auth;com.google.firebase.auth.UserInfo
+Firebase.Auth.IUserInfo;com.google.firebase.auth.UserInfo
+com.google.firebase.auth.UserInfo;com.google.firebase.auth.UserInfo
+Firebase.Internal.IInternalTokenProvider, Xamarin.Firebase.Auth.Interop;com.google.firebase.internal.InternalTokenProvider
+Firebase.Internal.IInternalTokenProvider;com.google.firebase.internal.InternalTokenProvider
+com.google.firebase.internal.InternalTokenProvider;com.google.firebase.internal.InternalTokenProvider
+Firebase.Auth.Internal.IIdTokenListener, Xamarin.Firebase.Auth.Interop;com.google.firebase.auth.internal.IdTokenListener
+Firebase.Auth.Internal.IIdTokenListener;com.google.firebase.auth.internal.IdTokenListener
+com.google.firebase.auth.internal.IdTokenListener;com.google.firebase.auth.internal.IdTokenListener
+Firebase.Auth.Internal.IIdTokenListenerImplementor, Xamarin.Firebase.Auth.Interop;mono.com.google.firebase.auth.internal.IdTokenListenerImplementor
+Firebase.Auth.Internal.IIdTokenListenerImplementor;mono.com.google.firebase.auth.internal.IdTokenListenerImplementor
+mono.com.google.firebase.auth.internal.IdTokenListenerImplementor;mono.com.google.firebase.auth.internal.IdTokenListenerImplementor
+Firebase.Auth.Internal.IInternalAuthProvider, Xamarin.Firebase.Auth.Interop;com.google.firebase.auth.internal.InternalAuthProvider
+Firebase.Auth.Internal.IInternalAuthProvider;com.google.firebase.auth.internal.InternalAuthProvider
+com.google.firebase.auth.internal.InternalAuthProvider;com.google.firebase.auth.internal.InternalAuthProvider
+Firebase.FirebaseApp+IBackgroundStateChangeListener, Xamarin.Firebase.Common;com.google.firebase.FirebaseApp$BackgroundStateChangeListener
+Firebase.FirebaseApp.IBackgroundStateChangeListener;com.google.firebase.FirebaseApp$BackgroundStateChangeListener
+com.google.firebase.FirebaseApp$BackgroundStateChangeListener;com.google.firebase.FirebaseApp$BackgroundStateChangeListener
+Firebase.FirebaseApp+IBackgroundStateChangeListenerImplementor, Xamarin.Firebase.Common;mono.com.google.firebase.FirebaseApp_BackgroundStateChangeListenerImplementor
+Firebase.FirebaseApp.IBackgroundStateChangeListenerImplementor;mono.com.google.firebase.FirebaseApp_BackgroundStateChangeListenerImplementor
+mono.com.google.firebase.FirebaseApp_BackgroundStateChangeListenerImplementor;mono.com.google.firebase.FirebaseApp_BackgroundStateChangeListenerImplementor
+Firebase.IFirebaseAppLifecycleListener, Xamarin.Firebase.Common;com.google.firebase.FirebaseAppLifecycleListener
+Firebase.IFirebaseAppLifecycleListener;com.google.firebase.FirebaseAppLifecycleListener
+com.google.firebase.FirebaseAppLifecycleListener;com.google.firebase.FirebaseAppLifecycleListener
+Firebase.IFirebaseAppLifecycleListenerImplementor, Xamarin.Firebase.Common;mono.com.google.firebase.FirebaseAppLifecycleListenerImplementor
+Firebase.IFirebaseAppLifecycleListenerImplementor;mono.com.google.firebase.FirebaseAppLifecycleListenerImplementor
+mono.com.google.firebase.FirebaseAppLifecycleListenerImplementor;mono.com.google.firebase.FirebaseAppLifecycleListenerImplementor
+Firebase.PlatformInfo.IUserAgentPublisher, Xamarin.Firebase.Common;com.google.firebase.platforminfo.UserAgentPublisher
+Firebase.PlatformInfo.IUserAgentPublisher;com.google.firebase.platforminfo.UserAgentPublisher
+com.google.firebase.platforminfo.UserAgentPublisher;com.google.firebase.platforminfo.UserAgentPublisher
+Firebase.PlatformInfo.LibraryVersionComponent+IVersionExtractor, Xamarin.Firebase.Common;com.google.firebase.platforminfo.LibraryVersionComponent$VersionExtractor
+Firebase.PlatformInfo.LibraryVersionComponent.IVersionExtractor;com.google.firebase.platforminfo.LibraryVersionComponent$VersionExtractor
+com.google.firebase.platforminfo.LibraryVersionComponent$VersionExtractor;com.google.firebase.platforminfo.LibraryVersionComponent$VersionExtractor
+Firebase.HeartBeatInfo.IHeartBeatConsumer, Xamarin.Firebase.Common;com.google.firebase.heartbeatinfo.HeartBeatConsumer
+Firebase.HeartBeatInfo.IHeartBeatConsumer;com.google.firebase.heartbeatinfo.HeartBeatConsumer
+com.google.firebase.heartbeatinfo.HeartBeatConsumer;com.google.firebase.heartbeatinfo.HeartBeatConsumer
+Firebase.HeartBeatInfo.IHeartBeatInfo, Xamarin.Firebase.Common;com.google.firebase.heartbeatinfo.HeartBeatInfo
+Firebase.HeartBeatInfo.IHeartBeatInfo;com.google.firebase.heartbeatinfo.HeartBeatInfo
+com.google.firebase.heartbeatinfo.HeartBeatInfo;com.google.firebase.heartbeatinfo.HeartBeatInfo
+Firebase.Annotations.IPublicApi, Xamarin.Firebase.Common;com.google.firebase.annotations.PublicApi
+Firebase.Annotations.IPublicApi;com.google.firebase.annotations.PublicApi
+com.google.firebase.annotations.PublicApi;com.google.firebase.annotations.PublicApi
+Firebase.Inject.IDeferredDeferredHandler, Xamarin.Firebase.Components;com.google.firebase.inject.Deferred$DeferredHandler
+Firebase.Inject.IDeferredDeferredHandler;com.google.firebase.inject.Deferred$DeferredHandler
+com.google.firebase.inject.Deferred$DeferredHandler;com.google.firebase.inject.Deferred$DeferredHandler
+Firebase.Inject.IDeferred, Xamarin.Firebase.Components;com.google.firebase.inject.Deferred
+Firebase.Inject.IDeferred;com.google.firebase.inject.Deferred
+com.google.firebase.inject.Deferred;com.google.firebase.inject.Deferred
+Firebase.Inject.IProvider, Xamarin.Firebase.Components;com.google.firebase.inject.Provider
+Firebase.Inject.IProvider;com.google.firebase.inject.Provider
+com.google.firebase.inject.Provider;com.google.firebase.inject.Provider
+Firebase.Events.IEventHandler, Xamarin.Firebase.Components;com.google.firebase.events.EventHandler
+Firebase.Events.IEventHandler;com.google.firebase.events.EventHandler
+com.google.firebase.events.EventHandler;com.google.firebase.events.EventHandler
+Firebase.Events.IPublisher, Xamarin.Firebase.Components;com.google.firebase.events.Publisher
+Firebase.Events.IPublisher;com.google.firebase.events.Publisher
+com.google.firebase.events.Publisher;com.google.firebase.events.Publisher
+Firebase.Events.ISubscriber, Xamarin.Firebase.Components;com.google.firebase.events.Subscriber
+Firebase.Events.ISubscriber;com.google.firebase.events.Subscriber
+com.google.firebase.events.Subscriber;com.google.firebase.events.Subscriber
+Firebase.DynamicLoading.IComponentLoader, Xamarin.Firebase.Components;com.google.firebase.dynamicloading.ComponentLoader
+Firebase.DynamicLoading.IComponentLoader;com.google.firebase.dynamicloading.ComponentLoader
+com.google.firebase.dynamicloading.ComponentLoader;com.google.firebase.dynamicloading.ComponentLoader
+Firebase.Components.IComponentContainer, Xamarin.Firebase.Components;com.google.firebase.components.ComponentContainer
+Firebase.Components.IComponentContainer;com.google.firebase.components.ComponentContainer
+com.google.firebase.components.ComponentContainer;com.google.firebase.components.ComponentContainer
+Firebase.Components.IComponentFactory, Xamarin.Firebase.Components;com.google.firebase.components.ComponentFactory
+Firebase.Components.IComponentFactory;com.google.firebase.components.ComponentFactory
+com.google.firebase.components.ComponentFactory;com.google.firebase.components.ComponentFactory
+Firebase.Components.IComponentRegistrar, Xamarin.Firebase.Components;com.google.firebase.components.ComponentRegistrar
+Firebase.Components.IComponentRegistrar;com.google.firebase.components.ComponentRegistrar
+com.google.firebase.components.ComponentRegistrar;com.google.firebase.components.ComponentRegistrar
+Firebase.RemoteConfig.IFirebaseRemoteConfigInfo, Xamarin.Firebase.Config;com.google.firebase.remoteconfig.FirebaseRemoteConfigInfo
+Firebase.RemoteConfig.IFirebaseRemoteConfigInfo;com.google.firebase.remoteconfig.FirebaseRemoteConfigInfo
+com.google.firebase.remoteconfig.FirebaseRemoteConfigInfo;com.google.firebase.remoteconfig.FirebaseRemoteConfigInfo
+Firebase.RemoteConfig.IFirebaseRemoteConfigValue, Xamarin.Firebase.Config;com.google.firebase.remoteconfig.FirebaseRemoteConfigValue
+Firebase.RemoteConfig.IFirebaseRemoteConfigValue;com.google.firebase.remoteconfig.FirebaseRemoteConfigValue
+com.google.firebase.remoteconfig.FirebaseRemoteConfigValue;com.google.firebase.remoteconfig.FirebaseRemoteConfigValue
+Firebase.RemoteConfig.RemoteConfigConstants+IExperimentDescriptionFieldKey, Xamarin.Firebase.Config;com.google.firebase.remoteconfig.RemoteConfigConstants$ExperimentDescriptionFieldKey
+Firebase.RemoteConfig.RemoteConfigConstants.IExperimentDescriptionFieldKey;com.google.firebase.remoteconfig.RemoteConfigConstants$ExperimentDescriptionFieldKey
+com.google.firebase.remoteconfig.RemoteConfigConstants$ExperimentDescriptionFieldKey;com.google.firebase.remoteconfig.RemoteConfigConstants$ExperimentDescriptionFieldKey
+Firebase.RemoteConfig.RemoteConfigConstants+IRequestFieldKey, Xamarin.Firebase.Config;com.google.firebase.remoteconfig.RemoteConfigConstants$RequestFieldKey
+Firebase.RemoteConfig.RemoteConfigConstants.IRequestFieldKey;com.google.firebase.remoteconfig.RemoteConfigConstants$RequestFieldKey
+com.google.firebase.remoteconfig.RemoteConfigConstants$RequestFieldKey;com.google.firebase.remoteconfig.RemoteConfigConstants$RequestFieldKey
+Firebase.RemoteConfig.RemoteConfigConstants+IResponseFieldKey, Xamarin.Firebase.Config;com.google.firebase.remoteconfig.RemoteConfigConstants$ResponseFieldKey
+Firebase.RemoteConfig.RemoteConfigConstants.IResponseFieldKey;com.google.firebase.remoteconfig.RemoteConfigConstants$ResponseFieldKey
+com.google.firebase.remoteconfig.RemoteConfigConstants$ResponseFieldKey;com.google.firebase.remoteconfig.RemoteConfigConstants$ResponseFieldKey
+Firebase.RemoteConfig.Internal.ConfigFetchHandler+FetchResponse+IStatus, Xamarin.Firebase.Config;com.google.firebase.remoteconfig.internal.ConfigFetchHandler$FetchResponse$Status
+Firebase.RemoteConfig.Internal.ConfigFetchHandler.FetchResponse.IStatus;com.google.firebase.remoteconfig.internal.ConfigFetchHandler$FetchResponse$Status
+com.google.firebase.remoteconfig.internal.ConfigFetchHandler$FetchResponse$Status;com.google.firebase.remoteconfig.internal.ConfigFetchHandler$FetchResponse$Status
+Firebase.RemoteConfig.Internal.ICode, Xamarin.Firebase.Config;com.google.firebase.remoteconfig.internal.Code
+Firebase.RemoteConfig.Internal.ICode;com.google.firebase.remoteconfig.internal.Code
+com.google.firebase.remoteconfig.internal.Code;com.google.firebase.remoteconfig.internal.Code
+Firebase.Iid.IInstanceIdResult, Xamarin.Firebase.Iid;com.google.firebase.iid.InstanceIdResult
+Firebase.Iid.IInstanceIdResult;com.google.firebase.iid.InstanceIdResult
+com.google.firebase.iid.InstanceIdResult;com.google.firebase.iid.InstanceIdResult
+Firebase.Iid.Internal.IFirebaseInstanceIdInternalNewTokenListener, Xamarin.Firebase.Iid.Interop;com.google.firebase.iid.internal.FirebaseInstanceIdInternal$NewTokenListener
+Firebase.Iid.Internal.IFirebaseInstanceIdInternalNewTokenListener;com.google.firebase.iid.internal.FirebaseInstanceIdInternal$NewTokenListener
+com.google.firebase.iid.internal.FirebaseInstanceIdInternal$NewTokenListener;com.google.firebase.iid.internal.FirebaseInstanceIdInternal$NewTokenListener
+Firebase.Iid.Internal.IFirebaseInstanceIdInternalNewTokenListenerImplementor, Xamarin.Firebase.Iid.Interop;mono.com.google.firebase.iid.internal.FirebaseInstanceIdInternal_NewTokenListenerImplementor
+Firebase.Iid.Internal.IFirebaseInstanceIdInternalNewTokenListenerImplementor;mono.com.google.firebase.iid.internal.FirebaseInstanceIdInternal_NewTokenListenerImplementor
+mono.com.google.firebase.iid.internal.FirebaseInstanceIdInternal_NewTokenListenerImplementor;mono.com.google.firebase.iid.internal.FirebaseInstanceIdInternal_NewTokenListenerImplementor
+Firebase.Iid.Internal.IFirebaseInstanceIdInternal, Xamarin.Firebase.Iid.Interop;com.google.firebase.iid.internal.FirebaseInstanceIdInternal
+Firebase.Iid.Internal.IFirebaseInstanceIdInternal;com.google.firebase.iid.internal.FirebaseInstanceIdInternal
+com.google.firebase.iid.internal.FirebaseInstanceIdInternal;com.google.firebase.iid.internal.FirebaseInstanceIdInternal
+Firebase.Installations.Time.IClock, Xamarin.Firebase.Installations;com.google.firebase.installations.time.Clock
+Firebase.Installations.Time.IClock;com.google.firebase.installations.time.Clock
+com.google.firebase.installations.time.Clock;com.google.firebase.installations.time.Clock
+Firebase.Installations.IFirebaseInstallationsApi, Xamarin.Firebase.Installations.InterOp;com.google.firebase.installations.FirebaseInstallationsApi
+Firebase.Installations.IFirebaseInstallationsApi;com.google.firebase.installations.FirebaseInstallationsApi
+com.google.firebase.installations.FirebaseInstallationsApi;com.google.firebase.installations.FirebaseInstallationsApi
+Firebase.Installations.Internal.IFidListener, Xamarin.Firebase.Installations.InterOp;com.google.firebase.installations.internal.FidListener
+Firebase.Installations.Internal.IFidListener;com.google.firebase.installations.internal.FidListener
+com.google.firebase.installations.internal.FidListener;com.google.firebase.installations.internal.FidListener
+Firebase.Installations.Internal.IFidListenerImplementor, Xamarin.Firebase.Installations.InterOp;mono.com.google.firebase.installations.internal.FidListenerImplementor
+Firebase.Installations.Internal.IFidListenerImplementor;mono.com.google.firebase.installations.internal.FidListenerImplementor
+mono.com.google.firebase.installations.internal.FidListenerImplementor;mono.com.google.firebase.installations.internal.FidListenerImplementor
+Firebase.Installations.Internal.IFidListenerHandle, Xamarin.Firebase.Installations.InterOp;com.google.firebase.installations.internal.FidListenerHandle
+Firebase.Installations.Internal.IFidListenerHandle;com.google.firebase.installations.internal.FidListenerHandle
+com.google.firebase.installations.internal.FidListenerHandle;com.google.firebase.installations.internal.FidListenerHandle
+Firebase.Analytics.Connector.IAnalyticsConnectorAnalyticsConnectorHandle, Xamarin.Firebase.Measurement.Connector;com.google.firebase.analytics.connector.AnalyticsConnector$AnalyticsConnectorHandle
+Firebase.Analytics.Connector.IAnalyticsConnectorAnalyticsConnectorHandle;com.google.firebase.analytics.connector.AnalyticsConnector$AnalyticsConnectorHandle
+com.google.firebase.analytics.connector.AnalyticsConnector$AnalyticsConnectorHandle;com.google.firebase.analytics.connector.AnalyticsConnector$AnalyticsConnectorHandle
+Firebase.Analytics.Connector.IAnalyticsConnectorAnalyticsConnectorListener, Xamarin.Firebase.Measurement.Connector;com.google.firebase.analytics.connector.AnalyticsConnector$AnalyticsConnectorListener
+Firebase.Analytics.Connector.IAnalyticsConnectorAnalyticsConnectorListener;com.google.firebase.analytics.connector.AnalyticsConnector$AnalyticsConnectorListener
+com.google.firebase.analytics.connector.AnalyticsConnector$AnalyticsConnectorListener;com.google.firebase.analytics.connector.AnalyticsConnector$AnalyticsConnectorListener
+Firebase.Analytics.Connector.IAnalyticsConnectorAnalyticsConnectorListenerImplementor, Xamarin.Firebase.Measurement.Connector;mono.com.google.firebase.analytics.connector.AnalyticsConnector_AnalyticsConnectorListenerImplementor
+Firebase.Analytics.Connector.IAnalyticsConnectorAnalyticsConnectorListenerImplementor;mono.com.google.firebase.analytics.connector.AnalyticsConnector_AnalyticsConnectorListenerImplementor
+mono.com.google.firebase.analytics.connector.AnalyticsConnector_AnalyticsConnectorListenerImplementor;mono.com.google.firebase.analytics.connector.AnalyticsConnector_AnalyticsConnectorListenerImplementor
+Firebase.Analytics.Connector.IAnalyticsConnector, Xamarin.Firebase.Measurement.Connector;com.google.firebase.analytics.connector.AnalyticsConnector
+Firebase.Analytics.Connector.IAnalyticsConnector;com.google.firebase.analytics.connector.AnalyticsConnector
+com.google.firebase.analytics.connector.AnalyticsConnector;com.google.firebase.analytics.connector.AnalyticsConnector
 Xamarin.Forms.Platform.Android.AccessibilityDelegateAutomationId, Xamarin.Forms.Platform.Android;crc643f46942d9dd1fff9.AccessibilityDelegateAutomationId
 Xamarin.Forms.Platform.Android.AccessibilityDelegateAutomationId;crc643f46942d9dd1fff9.AccessibilityDelegateAutomationId
 xamarin.forms.platform.android.AccessibilityDelegateAutomationId;crc643f46942d9dd1fff9.AccessibilityDelegateAutomationId
@@ -1378,21 +1600,36 @@ xamarin.forms.platform.android.RadioButtonRenderer;crc643f46942d9dd1fff9.RadioBu
 Xamarin.Forms.Platform.Android.CellAdapter, Xamarin.Forms.Platform.Android;crc643f46942d9dd1fff9.CellAdapter
 Xamarin.Forms.Platform.Android.CellAdapter;crc643f46942d9dd1fff9.CellAdapter
 xamarin.forms.platform.android.CellAdapter;crc643f46942d9dd1fff9.CellAdapter
+Xamarin.Forms.Platform.Android.BaseCellAppCompatView, Xamarin.Forms.Platform.Android;crc643f46942d9dd1fff9.BaseCellAppCompatView
+Xamarin.Forms.Platform.Android.BaseCellAppCompatView;crc643f46942d9dd1fff9.BaseCellAppCompatView
+xamarin.forms.platform.android.BaseCellAppCompatView;crc643f46942d9dd1fff9.BaseCellAppCompatView
 Xamarin.Forms.Platform.Android.BaseCellView, Xamarin.Forms.Platform.Android;crc643f46942d9dd1fff9.BaseCellView
 Xamarin.Forms.Platform.Android.BaseCellView;crc643f46942d9dd1fff9.BaseCellView
 xamarin.forms.platform.android.BaseCellView;crc643f46942d9dd1fff9.BaseCellView
 Xamarin.Forms.Platform.Android.CellRenderer+RendererHolder, Xamarin.Forms.Platform.Android;crc643f46942d9dd1fff9.CellRenderer_RendererHolder
 Xamarin.Forms.Platform.Android.CellRenderer.RendererHolder;crc643f46942d9dd1fff9.CellRenderer_RendererHolder
 xamarin.forms.platform.android.CellRenderer_RendererHolder;crc643f46942d9dd1fff9.CellRenderer_RendererHolder
+Xamarin.Forms.Platform.Android.EntryCellAppCompatEditText, Xamarin.Forms.Platform.Android;crc643f46942d9dd1fff9.EntryCellAppCompatEditText
+Xamarin.Forms.Platform.Android.EntryCellAppCompatEditText;crc643f46942d9dd1fff9.EntryCellAppCompatEditText
+xamarin.forms.platform.android.EntryCellAppCompatEditText;crc643f46942d9dd1fff9.EntryCellAppCompatEditText
+Xamarin.Forms.Platform.Android.EntryCellAppCompatView, Xamarin.Forms.Platform.Android;crc643f46942d9dd1fff9.EntryCellAppCompatView
+Xamarin.Forms.Platform.Android.EntryCellAppCompatView;crc643f46942d9dd1fff9.EntryCellAppCompatView
+xamarin.forms.platform.android.EntryCellAppCompatView;crc643f46942d9dd1fff9.EntryCellAppCompatView
 Xamarin.Forms.Platform.Android.EntryCellEditText, Xamarin.Forms.Platform.Android;crc643f46942d9dd1fff9.EntryCellEditText
 Xamarin.Forms.Platform.Android.EntryCellEditText;crc643f46942d9dd1fff9.EntryCellEditText
 xamarin.forms.platform.android.EntryCellEditText;crc643f46942d9dd1fff9.EntryCellEditText
 Xamarin.Forms.Platform.Android.EntryCellView, Xamarin.Forms.Platform.Android;crc643f46942d9dd1fff9.EntryCellView
 Xamarin.Forms.Platform.Android.EntryCellView;crc643f46942d9dd1fff9.EntryCellView
 xamarin.forms.platform.android.EntryCellView;crc643f46942d9dd1fff9.EntryCellView
+Xamarin.Forms.Platform.Android.SwitchCellAppCompatView, Xamarin.Forms.Platform.Android;crc643f46942d9dd1fff9.SwitchCellAppCompatView
+Xamarin.Forms.Platform.Android.SwitchCellAppCompatView;crc643f46942d9dd1fff9.SwitchCellAppCompatView
+xamarin.forms.platform.android.SwitchCellAppCompatView;crc643f46942d9dd1fff9.SwitchCellAppCompatView
 Xamarin.Forms.Platform.Android.SwitchCellView, Xamarin.Forms.Platform.Android;crc643f46942d9dd1fff9.SwitchCellView
 Xamarin.Forms.Platform.Android.SwitchCellView;crc643f46942d9dd1fff9.SwitchCellView
 xamarin.forms.platform.android.SwitchCellView;crc643f46942d9dd1fff9.SwitchCellView
+Xamarin.Forms.Platform.Android.TextCellAppCompatRenderer+TextCellAppCompatView, Xamarin.Forms.Platform.Android;crc643f46942d9dd1fff9.TextCellAppCompatRenderer_TextCellAppCompatView
+Xamarin.Forms.Platform.Android.TextCellAppCompatRenderer.TextCellAppCompatView;crc643f46942d9dd1fff9.TextCellAppCompatRenderer_TextCellAppCompatView
+xamarin.forms.platform.android.TextCellAppCompatRenderer_TextCellAppCompatView;crc643f46942d9dd1fff9.TextCellAppCompatRenderer_TextCellAppCompatView
 Xamarin.Forms.Platform.Android.TextCellRenderer+TextCellView, Xamarin.Forms.Platform.Android;crc643f46942d9dd1fff9.TextCellRenderer_TextCellView
 Xamarin.Forms.Platform.Android.TextCellRenderer.TextCellView;crc643f46942d9dd1fff9.TextCellRenderer_TextCellView
 xamarin.forms.platform.android.TextCellRenderer_TextCellView;crc643f46942d9dd1fff9.TextCellRenderer_TextCellView
@@ -1618,12 +1855,18 @@ xamarin.forms.platform.android.DatePickerRendererBase_1;crc643f46942d9dd1fff9.Da
 Xamarin.Forms.Platform.Android.DatePickerRenderer, Xamarin.Forms.Platform.Android;crc643f46942d9dd1fff9.DatePickerRenderer
 Xamarin.Forms.Platform.Android.DatePickerRenderer;crc643f46942d9dd1fff9.DatePickerRenderer
 xamarin.forms.platform.android.DatePickerRenderer;crc643f46942d9dd1fff9.DatePickerRenderer
+Xamarin.Forms.Platform.Android.EditorAppCompatRenderer, Xamarin.Forms.Platform.Android;crc643f46942d9dd1fff9.EditorAppCompatRenderer
+Xamarin.Forms.Platform.Android.EditorAppCompatRenderer;crc643f46942d9dd1fff9.EditorAppCompatRenderer
+xamarin.forms.platform.android.EditorAppCompatRenderer;crc643f46942d9dd1fff9.EditorAppCompatRenderer
 Xamarin.Forms.Platform.Android.EditorRenderer, Xamarin.Forms.Platform.Android;crc643f46942d9dd1fff9.EditorRenderer
 Xamarin.Forms.Platform.Android.EditorRenderer;crc643f46942d9dd1fff9.EditorRenderer
 xamarin.forms.platform.android.EditorRenderer;crc643f46942d9dd1fff9.EditorRenderer
 Xamarin.Forms.Platform.Android.EditorRendererBase`1, Xamarin.Forms.Platform.Android;crc643f46942d9dd1fff9.EditorRendererBase_1
 Xamarin.Forms.Platform.Android.EditorRendererBase`1;crc643f46942d9dd1fff9.EditorRendererBase_1
 xamarin.forms.platform.android.EditorRendererBase_1;crc643f46942d9dd1fff9.EditorRendererBase_1
+Xamarin.Forms.Platform.Android.EntryAppCompatRenderer, Xamarin.Forms.Platform.Android;crc643f46942d9dd1fff9.EntryAppCompatRenderer
+Xamarin.Forms.Platform.Android.EntryAppCompatRenderer;crc643f46942d9dd1fff9.EntryAppCompatRenderer
+xamarin.forms.platform.android.EntryAppCompatRenderer;crc643f46942d9dd1fff9.EntryAppCompatRenderer
 Xamarin.Forms.Platform.Android.EntryRenderer, Xamarin.Forms.Platform.Android;crc643f46942d9dd1fff9.EntryRenderer
 Xamarin.Forms.Platform.Android.EntryRenderer;crc643f46942d9dd1fff9.EntryRenderer
 xamarin.forms.platform.android.EntryRenderer;crc643f46942d9dd1fff9.EntryRenderer
@@ -1642,6 +1885,21 @@ xamarin.forms.platform.android.FormattedStringExtensions_TextDecorationSpan;crc6
 Xamarin.Forms.Platform.Android.FormattedStringExtensions+LineHeightSpan, Xamarin.Forms.Platform.Android;crc643f46942d9dd1fff9.FormattedStringExtensions_LineHeightSpan
 Xamarin.Forms.Platform.Android.FormattedStringExtensions.LineHeightSpan;crc643f46942d9dd1fff9.FormattedStringExtensions_LineHeightSpan
 xamarin.forms.platform.android.FormattedStringExtensions_LineHeightSpan;crc643f46942d9dd1fff9.FormattedStringExtensions_LineHeightSpan
+Xamarin.Forms.Platform.Android.FormsAppCompatEditText, Xamarin.Forms.Platform.Android;crc643f46942d9dd1fff9.FormsAppCompatEditText
+Xamarin.Forms.Platform.Android.FormsAppCompatEditText;crc643f46942d9dd1fff9.FormsAppCompatEditText
+xamarin.forms.platform.android.FormsAppCompatEditText;crc643f46942d9dd1fff9.FormsAppCompatEditText
+Xamarin.Forms.Platform.Android.FormsAppCompatEditTextBase, Xamarin.Forms.Platform.Android;crc643f46942d9dd1fff9.FormsAppCompatEditTextBase
+Xamarin.Forms.Platform.Android.FormsAppCompatEditTextBase;crc643f46942d9dd1fff9.FormsAppCompatEditTextBase
+xamarin.forms.platform.android.FormsAppCompatEditTextBase;crc643f46942d9dd1fff9.FormsAppCompatEditTextBase
+Xamarin.Forms.Platform.Android.EntryAppCompatEditText, Xamarin.Forms.Platform.Android;crc643f46942d9dd1fff9.EntryAppCompatEditText
+Xamarin.Forms.Platform.Android.EntryAppCompatEditText;crc643f46942d9dd1fff9.EntryAppCompatEditText
+xamarin.forms.platform.android.EntryAppCompatEditText;crc643f46942d9dd1fff9.EntryAppCompatEditText
+Xamarin.Forms.Platform.Android.EditorAppCompatEditText, Xamarin.Forms.Platform.Android;crc643f46942d9dd1fff9.EditorAppCompatEditText
+Xamarin.Forms.Platform.Android.EditorAppCompatEditText;crc643f46942d9dd1fff9.EditorAppCompatEditText
+xamarin.forms.platform.android.EditorAppCompatEditText;crc643f46942d9dd1fff9.EditorAppCompatEditText
+Xamarin.Forms.Platform.Android.FormsAppCompatTextView, Xamarin.Forms.Platform.Android;crc643f46942d9dd1fff9.FormsAppCompatTextView
+Xamarin.Forms.Platform.Android.FormsAppCompatTextView;crc643f46942d9dd1fff9.FormsAppCompatTextView
+xamarin.forms.platform.android.FormsAppCompatTextView;crc643f46942d9dd1fff9.FormsAppCompatTextView
 Xamarin.Forms.Platform.Android.FormsEditText, Xamarin.Forms.Platform.Android;crc643f46942d9dd1fff9.FormsEditText
 Xamarin.Forms.Platform.Android.FormsEditText;crc643f46942d9dd1fff9.FormsEditText
 xamarin.forms.platform.android.FormsEditText;crc643f46942d9dd1fff9.FormsEditText
@@ -1732,6 +1990,9 @@ xamarin.forms.platform.android.PageContainer;crc643f46942d9dd1fff9.PageContainer
 Xamarin.Forms.Platform.Android.PageRenderer, Xamarin.Forms.Platform.Android;crc643f46942d9dd1fff9.PageRenderer
 Xamarin.Forms.Platform.Android.PageRenderer;crc643f46942d9dd1fff9.PageRenderer
 xamarin.forms.platform.android.PageRenderer;crc643f46942d9dd1fff9.PageRenderer
+Xamarin.Forms.Platform.Android.PickerAppCompatEditText, Xamarin.Forms.Platform.Android;crc643f46942d9dd1fff9.PickerAppCompatEditText
+Xamarin.Forms.Platform.Android.PickerAppCompatEditText;crc643f46942d9dd1fff9.PickerAppCompatEditText
+xamarin.forms.platform.android.PickerAppCompatEditText;crc643f46942d9dd1fff9.PickerAppCompatEditText
 Xamarin.Forms.Platform.Android.PickerEditText, Xamarin.Forms.Platform.Android;crc643f46942d9dd1fff9.PickerEditText
 Xamarin.Forms.Platform.Android.PickerEditText;crc643f46942d9dd1fff9.PickerEditText
 xamarin.forms.platform.android.PickerEditText;crc643f46942d9dd1fff9.PickerEditText
@@ -1750,6 +2011,9 @@ xamarin.forms.platform.android.ScrollViewContainer;crc643f46942d9dd1fff9.ScrollV
 Xamarin.Forms.Platform.Android.ScrollViewRenderer, Xamarin.Forms.Platform.Android;crc643f46942d9dd1fff9.ScrollViewRenderer
 Xamarin.Forms.Platform.Android.ScrollViewRenderer;crc643f46942d9dd1fff9.ScrollViewRenderer
 xamarin.forms.platform.android.ScrollViewRenderer;crc643f46942d9dd1fff9.ScrollViewRenderer
+Xamarin.Forms.Platform.Android.SearchBarAppCompatRenderer, Xamarin.Forms.Platform.Android;crc643f46942d9dd1fff9.SearchBarAppCompatRenderer
+Xamarin.Forms.Platform.Android.SearchBarAppCompatRenderer;crc643f46942d9dd1fff9.SearchBarAppCompatRenderer
+xamarin.forms.platform.android.SearchBarAppCompatRenderer;crc643f46942d9dd1fff9.SearchBarAppCompatRenderer
 Xamarin.Forms.Platform.Android.SearchBarRenderer, Xamarin.Forms.Platform.Android;crc643f46942d9dd1fff9.SearchBarRenderer
 Xamarin.Forms.Platform.Android.SearchBarRenderer;crc643f46942d9dd1fff9.SearchBarRenderer
 xamarin.forms.platform.android.SearchBarRenderer;crc643f46942d9dd1fff9.SearchBarRenderer
@@ -1921,6 +2185,9 @@ xamarin.forms.platform.android.fastrenderers.FrameRenderer;crc64ee486da937c010f4
 Xamarin.Forms.Platform.Android.FastRenderers.ImageRenderer, Xamarin.Forms.Platform.Android;crc64ee486da937c010f4.ImageRenderer
 Xamarin.Forms.Platform.Android.FastRenderers.ImageRenderer;crc64ee486da937c010f4.ImageRenderer
 xamarin.forms.platform.android.fastrenderers.ImageRenderer;crc64ee486da937c010f4.ImageRenderer
+Xamarin.Forms.Platform.Android.FastRenderers.LabelAppCompatRenderer, Xamarin.Forms.Platform.Android;crc64ee486da937c010f4.LabelAppCompatRenderer
+Xamarin.Forms.Platform.Android.FastRenderers.LabelAppCompatRenderer;crc64ee486da937c010f4.LabelAppCompatRenderer
+xamarin.forms.platform.android.fastrenderers.LabelAppCompatRenderer;crc64ee486da937c010f4.LabelAppCompatRenderer
 Xamarin.Forms.Platform.Android.FastRenderers.LabelRenderer, Xamarin.Forms.Platform.Android;crc64ee486da937c010f4.LabelRenderer
 Xamarin.Forms.Platform.Android.FastRenderers.LabelRenderer;crc64ee486da937c010f4.LabelRenderer
 xamarin.forms.platform.android.fastrenderers.LabelRenderer;crc64ee486da937c010f4.LabelRenderer
@@ -1963,6 +2230,12 @@ xamarin.forms.platform.android.appcompat.NavigationPageRenderer_Container;crc647
 Xamarin.Forms.Platform.Android.AppCompat.NavigationPageRenderer+DrawerMultiplexedListener, Xamarin.Forms.Platform.Android;crc64720bb2db43a66fe9.NavigationPageRenderer_DrawerMultiplexedListener
 Xamarin.Forms.Platform.Android.AppCompat.NavigationPageRenderer.DrawerMultiplexedListener;crc64720bb2db43a66fe9.NavigationPageRenderer_DrawerMultiplexedListener
 xamarin.forms.platform.android.appcompat.NavigationPageRenderer_DrawerMultiplexedListener;crc64720bb2db43a66fe9.NavigationPageRenderer_DrawerMultiplexedListener
+Xamarin.Forms.Platform.Android.AppCompat.PickerAppCompatRendererBase`1, Xamarin.Forms.Platform.Android;crc64720bb2db43a66fe9.PickerAppCompatRendererBase_1
+Xamarin.Forms.Platform.Android.AppCompat.PickerAppCompatRendererBase`1;crc64720bb2db43a66fe9.PickerAppCompatRendererBase_1
+xamarin.forms.platform.android.appcompat.PickerAppCompatRendererBase_1;crc64720bb2db43a66fe9.PickerAppCompatRendererBase_1
+Xamarin.Forms.Platform.Android.AppCompat.PickerAppCompatRenderer, Xamarin.Forms.Platform.Android;crc64720bb2db43a66fe9.PickerAppCompatRenderer
+Xamarin.Forms.Platform.Android.AppCompat.PickerAppCompatRenderer;crc64720bb2db43a66fe9.PickerAppCompatRenderer
+xamarin.forms.platform.android.appcompat.PickerAppCompatRenderer;crc64720bb2db43a66fe9.PickerAppCompatRenderer
 Xamarin.Forms.Platform.Android.AppCompat.PickerRendererBase`1, Xamarin.Forms.Platform.Android;crc64720bb2db43a66fe9.PickerRendererBase_1
 Xamarin.Forms.Platform.Android.AppCompat.PickerRendererBase`1;crc64720bb2db43a66fe9.PickerRendererBase_1
 xamarin.forms.platform.android.appcompat.PickerRendererBase_1;crc64720bb2db43a66fe9.PickerRendererBase_1
@@ -2308,3 +2581,909 @@ com.google.android.material.animation.TransformationCallback;com.google.android.
 Google.Common.Util.Concurrent.IListenableFuture, Xamarin.Google.Guava.ListenableFuture;com.google.common.util.concurrent.ListenableFuture
 Google.Common.Util.Concurrent.IListenableFuture;com.google.common.util.concurrent.ListenableFuture
 com.google.common.util.concurrent.ListenableFuture;com.google.common.util.concurrent.ListenableFuture
+Android.Gms.Auth.Api.Phone.ISmsCodeAutofillClientPermissionState, Xamarin.GooglePlayServices.Auth.Api.Phone;com.google.android.gms.auth.api.phone.SmsCodeAutofillClient$PermissionState
+Android.Gms.Auth.Api.Phone.ISmsCodeAutofillClientPermissionState;com.google.android.gms.auth.api.phone.SmsCodeAutofillClient$PermissionState
+com.google.android.gms.auth.api.phone.SmsCodeAutofillClient$PermissionState;com.google.android.gms.auth.api.phone.SmsCodeAutofillClient$PermissionState
+Android.Gms.Auth.Api.Phone.ISmsCodeAutofillClient, Xamarin.GooglePlayServices.Auth.Api.Phone;com.google.android.gms.auth.api.phone.SmsCodeAutofillClient
+Android.Gms.Auth.Api.Phone.ISmsCodeAutofillClient;com.google.android.gms.auth.api.phone.SmsCodeAutofillClient
+com.google.android.gms.auth.api.phone.SmsCodeAutofillClient;com.google.android.gms.auth.api.phone.SmsCodeAutofillClient
+Android.Gms.Auth.Api.Phone.ISmsCodeBrowserClient, Xamarin.GooglePlayServices.Auth.Api.Phone;com.google.android.gms.auth.api.phone.SmsCodeBrowserClient
+Android.Gms.Auth.Api.Phone.ISmsCodeBrowserClient;com.google.android.gms.auth.api.phone.SmsCodeBrowserClient
+com.google.android.gms.auth.api.phone.SmsCodeBrowserClient;com.google.android.gms.auth.api.phone.SmsCodeBrowserClient
+Android.Gms.Auth.Api.Phone.ISmsRetrieverApi, Xamarin.GooglePlayServices.Auth.Api.Phone;com.google.android.gms.auth.api.phone.SmsRetrieverApi
+Android.Gms.Auth.Api.Phone.ISmsRetrieverApi;com.google.android.gms.auth.api.phone.SmsRetrieverApi
+com.google.android.gms.auth.api.phone.SmsRetrieverApi;com.google.android.gms.auth.api.phone.SmsRetrieverApi
+Android.Gms.Auth.Api.SignIn.IGoogleSignInOptionsExtension, Xamarin.GooglePlayServices.Base;com.google.android.gms.auth.api.signin.GoogleSignInOptionsExtension
+Android.Gms.Auth.Api.SignIn.IGoogleSignInOptionsExtension;com.google.android.gms.auth.api.signin.GoogleSignInOptionsExtension
+com.google.android.gms.auth.api.signin.GoogleSignInOptionsExtension;com.google.android.gms.auth.api.signin.GoogleSignInOptionsExtension
+Android.Gms.Common.SignInButton+IButtonSize, Xamarin.GooglePlayServices.Base;com.google.android.gms.common.SignInButton$ButtonSize
+Android.Gms.Common.SignInButton.IButtonSize;com.google.android.gms.common.SignInButton$ButtonSize
+com.google.android.gms.common.SignInButton$ButtonSize;com.google.android.gms.common.SignInButton$ButtonSize
+Android.Gms.Common.SignInButton+IColorScheme, Xamarin.GooglePlayServices.Base;com.google.android.gms.common.SignInButton$ColorScheme
+Android.Gms.Common.SignInButton.IColorScheme;com.google.android.gms.common.SignInButton$ColorScheme
+com.google.android.gms.common.SignInButton$ColorScheme;com.google.android.gms.common.SignInButton$ColorScheme
+Android.Gms.Common.Server.Response.FastJsonResponse+IFieldConverter, Xamarin.GooglePlayServices.Base;com.google.android.gms.common.server.response.FastJsonResponse$FieldConverter
+Android.Gms.Common.Server.Response.FastJsonResponse.IFieldConverter;com.google.android.gms.common.server.response.FastJsonResponse$FieldConverter
+com.google.android.gms.common.server.response.FastJsonResponse$FieldConverter;com.google.android.gms.common.server.response.FastJsonResponse$FieldConverter
+Android.Gms.Common.Images.ImageManager+IOnImageLoadedListener, Xamarin.GooglePlayServices.Base;com.google.android.gms.common.images.ImageManager$OnImageLoadedListener
+Android.Gms.Common.Images.ImageManager.IOnImageLoadedListener;com.google.android.gms.common.images.ImageManager$OnImageLoadedListener
+com.google.android.gms.common.images.ImageManager$OnImageLoadedListener;com.google.android.gms.common.images.ImageManager$OnImageLoadedListener
+Android.Gms.Common.Images.ImageManager+IOnImageLoadedListenerImplementor, Xamarin.GooglePlayServices.Base;mono.com.google.android.gms.common.images.ImageManager_OnImageLoadedListenerImplementor
+Android.Gms.Common.Images.ImageManager.IOnImageLoadedListenerImplementor;mono.com.google.android.gms.common.images.ImageManager_OnImageLoadedListenerImplementor
+mono.com.google.android.gms.common.images.ImageManager_OnImageLoadedListenerImplementor;mono.com.google.android.gms.common.images.ImageManager_OnImageLoadedListenerImplementor
+Android.Gms.Common.Api.Internal.BaseImplementation+IResultHolder, Xamarin.GooglePlayServices.Base;com.google.android.gms.common.api.internal.BaseImplementation$ResultHolder
+Android.Gms.Common.Api.Internal.BaseImplementation.IResultHolder;com.google.android.gms.common.api.internal.BaseImplementation$ResultHolder
+com.google.android.gms.common.api.internal.BaseImplementation$ResultHolder;com.google.android.gms.common.api.internal.BaseImplementation$ResultHolder
+Android.Gms.Common.Api.Internal.IConnectionCallbacks, Xamarin.GooglePlayServices.Base;com.google.android.gms.common.api.internal.ConnectionCallbacks
+Android.Gms.Common.Api.Internal.IConnectionCallbacks;com.google.android.gms.common.api.internal.ConnectionCallbacks
+com.google.android.gms.common.api.internal.ConnectionCallbacks;com.google.android.gms.common.api.internal.ConnectionCallbacks
+Android.Gms.Common.Api.Internal.IOnConnectionFailedListener, Xamarin.GooglePlayServices.Base;com.google.android.gms.common.api.internal.OnConnectionFailedListener
+Android.Gms.Common.Api.Internal.IOnConnectionFailedListener;com.google.android.gms.common.api.internal.OnConnectionFailedListener
+com.google.android.gms.common.api.internal.OnConnectionFailedListener;com.google.android.gms.common.api.internal.OnConnectionFailedListener
+Android.Gms.Common.Api.Internal.IOnConnectionFailedListenerImplementor, Xamarin.GooglePlayServices.Base;mono.com.google.android.gms.common.api.internal.OnConnectionFailedListenerImplementor
+Android.Gms.Common.Api.Internal.IOnConnectionFailedListenerImplementor;mono.com.google.android.gms.common.api.internal.OnConnectionFailedListenerImplementor
+mono.com.google.android.gms.common.api.internal.OnConnectionFailedListenerImplementor;mono.com.google.android.gms.common.api.internal.OnConnectionFailedListenerImplementor
+Android.Gms.Common.Api.Internal.IRemoteCall, Xamarin.GooglePlayServices.Base;com.google.android.gms.common.api.internal.RemoteCall
+Android.Gms.Common.Api.Internal.IRemoteCall;com.google.android.gms.common.api.internal.RemoteCall
+com.google.android.gms.common.api.internal.RemoteCall;com.google.android.gms.common.api.internal.RemoteCall
+Android.Gms.Common.Api.Internal.ISignInConnectionListener, Xamarin.GooglePlayServices.Base;com.google.android.gms.common.api.internal.SignInConnectionListener
+Android.Gms.Common.Api.Internal.ISignInConnectionListener;com.google.android.gms.common.api.internal.SignInConnectionListener
+com.google.android.gms.common.api.internal.SignInConnectionListener;com.google.android.gms.common.api.internal.SignInConnectionListener
+Android.Gms.Common.Api.Internal.ISignInConnectionListenerImplementor, Xamarin.GooglePlayServices.Base;mono.com.google.android.gms.common.api.internal.SignInConnectionListenerImplementor
+Android.Gms.Common.Api.Internal.ISignInConnectionListenerImplementor;mono.com.google.android.gms.common.api.internal.SignInConnectionListenerImplementor
+mono.com.google.android.gms.common.api.internal.SignInConnectionListenerImplementor;mono.com.google.android.gms.common.api.internal.SignInConnectionListenerImplementor
+Android.Gms.Common.Api.Internal.IStatusCallback, Xamarin.GooglePlayServices.Base;com.google.android.gms.common.api.internal.IStatusCallback
+Android.Gms.Common.Api.Internal.IStatusCallback;com.google.android.gms.common.api.internal.IStatusCallback
+com.google.android.gms.common.api.internal.IStatusCallback;com.google.android.gms.common.api.internal.IStatusCallback
+Android.Gms.Common.Api.Internal.IZabf, Xamarin.GooglePlayServices.Base;com.google.android.gms.common.api.internal.zabf
+Android.Gms.Common.Api.Internal.IZabf;com.google.android.gms.common.api.internal.zabf
+com.google.android.gms.common.api.internal.zabf;com.google.android.gms.common.api.internal.zabf
+Android.Gms.Common.Api.Internal.IZabz, Xamarin.GooglePlayServices.Base;com.google.android.gms.common.api.internal.zabz
+Android.Gms.Common.Api.Internal.IZabz;com.google.android.gms.common.api.internal.zabz
+com.google.android.gms.common.api.internal.zabz;com.google.android.gms.common.api.internal.zabz
+Android.Gms.Common.Api.Internal.IZaca, Xamarin.GooglePlayServices.Base;com.google.android.gms.common.api.internal.zaca
+Android.Gms.Common.Api.Internal.IZaca;com.google.android.gms.common.api.internal.zaca
+com.google.android.gms.common.api.internal.zaca;com.google.android.gms.common.api.internal.zaca
+Android.Gms.Common.Api.Internal.IZacs, Xamarin.GooglePlayServices.Base;com.google.android.gms.common.api.internal.zacs
+Android.Gms.Common.Api.Internal.IZacs;com.google.android.gms.common.api.internal.zacs
+com.google.android.gms.common.api.internal.zacs;com.google.android.gms.common.api.internal.zacs
+Android.Gms.Common.Api.Internal.IZau, Xamarin.GooglePlayServices.Base;com.google.android.gms.common.api.internal.zau
+Android.Gms.Common.Api.Internal.IZau;com.google.android.gms.common.api.internal.zau
+com.google.android.gms.common.api.internal.zau;com.google.android.gms.common.api.internal.zau
+Android.Gms.Common.Api.Internal.ListenerHolder+INotifier, Xamarin.GooglePlayServices.Base;com.google.android.gms.common.api.internal.ListenerHolder$Notifier
+Android.Gms.Common.Api.Internal.ListenerHolder.INotifier;com.google.android.gms.common.api.internal.ListenerHolder$Notifier
+com.google.android.gms.common.api.internal.ListenerHolder$Notifier;com.google.android.gms.common.api.internal.ListenerHolder$Notifier
+Android.Gms.Common.Apis.GoogleApiClient+IConnectionCallbacks, Xamarin.GooglePlayServices.Base;com.google.android.gms.common.api.GoogleApiClient$ConnectionCallbacks
+Android.Gms.Common.Apis.GoogleApiClient.IConnectionCallbacks;com.google.android.gms.common.api.GoogleApiClient$ConnectionCallbacks
+com.google.android.gms.common.api.GoogleApiClient$ConnectionCallbacks;com.google.android.gms.common.api.GoogleApiClient$ConnectionCallbacks
+Android.Gms.Common.Apis.GoogleApiClient+IOnConnectionFailedListener, Xamarin.GooglePlayServices.Base;com.google.android.gms.common.api.GoogleApiClient$OnConnectionFailedListener
+Android.Gms.Common.Apis.GoogleApiClient.IOnConnectionFailedListener;com.google.android.gms.common.api.GoogleApiClient$OnConnectionFailedListener
+com.google.android.gms.common.api.GoogleApiClient$OnConnectionFailedListener;com.google.android.gms.common.api.GoogleApiClient$OnConnectionFailedListener
+Android.Gms.Common.Apis.GoogleApiClientConnectionCallbacksImpl, Xamarin.GooglePlayServices.Base;crc6434af9c19aa01b597.GoogleApiClientConnectionCallbacksImpl
+Android.Gms.Common.Apis.GoogleApiClientConnectionCallbacksImpl;crc6434af9c19aa01b597.GoogleApiClientConnectionCallbacksImpl
+android.gms.common.apis.GoogleApiClientConnectionCallbacksImpl;crc6434af9c19aa01b597.GoogleApiClientConnectionCallbacksImpl
+Android.Gms.Common.Apis.GoogleApiClientOnConnectionFailedListenerImpl, Xamarin.GooglePlayServices.Base;crc6434af9c19aa01b597.GoogleApiClientOnConnectionFailedListenerImpl
+Android.Gms.Common.Apis.GoogleApiClientOnConnectionFailedListenerImpl;crc6434af9c19aa01b597.GoogleApiClientOnConnectionFailedListenerImpl
+android.gms.common.apis.GoogleApiClientOnConnectionFailedListenerImpl;crc6434af9c19aa01b597.GoogleApiClientOnConnectionFailedListenerImpl
+Android.Gms.Common.Apis.Api+IAnyClient, Xamarin.GooglePlayServices.Base;com.google.android.gms.common.api.Api$AnyClient
+Android.Gms.Common.Apis.Api.IAnyClient;com.google.android.gms.common.api.Api$AnyClient
+com.google.android.gms.common.api.Api$AnyClient;com.google.android.gms.common.api.Api$AnyClient
+Android.Gms.Common.Apis.Api+IApiOptionsHasAccountOptions, Xamarin.GooglePlayServices.Base;com.google.android.gms.common.api.Api$ApiOptions$HasAccountOptions
+Android.Gms.Common.Apis.Api.IApiOptionsHasAccountOptions;com.google.android.gms.common.api.Api$ApiOptions$HasAccountOptions
+com.google.android.gms.common.api.Api$ApiOptions$HasAccountOptions;com.google.android.gms.common.api.Api$ApiOptions$HasAccountOptions
+Android.Gms.Common.Apis.Api+IApiOptionsHasGoogleSignInAccountOptions, Xamarin.GooglePlayServices.Base;com.google.android.gms.common.api.Api$ApiOptions$HasGoogleSignInAccountOptions
+Android.Gms.Common.Apis.Api.IApiOptionsHasGoogleSignInAccountOptions;com.google.android.gms.common.api.Api$ApiOptions$HasGoogleSignInAccountOptions
+com.google.android.gms.common.api.Api$ApiOptions$HasGoogleSignInAccountOptions;com.google.android.gms.common.api.Api$ApiOptions$HasGoogleSignInAccountOptions
+Android.Gms.Common.Apis.Api+IApiOptionsHasOptions, Xamarin.GooglePlayServices.Base;com.google.android.gms.common.api.Api$ApiOptions$HasOptions
+Android.Gms.Common.Apis.Api.IApiOptionsHasOptions;com.google.android.gms.common.api.Api$ApiOptions$HasOptions
+com.google.android.gms.common.api.Api$ApiOptions$HasOptions;com.google.android.gms.common.api.Api$ApiOptions$HasOptions
+Android.Gms.Common.Apis.Api+IApiOptionsNotRequiredOptions, Xamarin.GooglePlayServices.Base;com.google.android.gms.common.api.Api$ApiOptions$NotRequiredOptions
+Android.Gms.Common.Apis.Api.IApiOptionsNotRequiredOptions;com.google.android.gms.common.api.Api$ApiOptions$NotRequiredOptions
+com.google.android.gms.common.api.Api$ApiOptions$NotRequiredOptions;com.google.android.gms.common.api.Api$ApiOptions$NotRequiredOptions
+Android.Gms.Common.Apis.Api+IApiOptionsOptional, Xamarin.GooglePlayServices.Base;com.google.android.gms.common.api.Api$ApiOptions$Optional
+Android.Gms.Common.Apis.Api.IApiOptionsOptional;com.google.android.gms.common.api.Api$ApiOptions$Optional
+com.google.android.gms.common.api.Api$ApiOptions$Optional;com.google.android.gms.common.api.Api$ApiOptions$Optional
+Android.Gms.Common.Apis.Api+IApiOptions, Xamarin.GooglePlayServices.Base;com.google.android.gms.common.api.Api$ApiOptions
+Android.Gms.Common.Apis.Api.IApiOptions;com.google.android.gms.common.api.Api$ApiOptions
+com.google.android.gms.common.api.Api$ApiOptions;com.google.android.gms.common.api.Api$ApiOptions
+Android.Gms.Common.Apis.Api+IClient, Xamarin.GooglePlayServices.Base;com.google.android.gms.common.api.Api$Client
+Android.Gms.Common.Apis.Api.IClient;com.google.android.gms.common.api.Api$Client
+com.google.android.gms.common.api.Api$Client;com.google.android.gms.common.api.Api$Client
+Android.Gms.Common.Apis.IHasApiKey, Xamarin.GooglePlayServices.Base;com.google.android.gms.common.api.HasApiKey
+Android.Gms.Common.Apis.IHasApiKey;com.google.android.gms.common.api.HasApiKey
+com.google.android.gms.common.api.HasApiKey;com.google.android.gms.common.api.HasApiKey
+Android.Gms.Common.Apis.PendingResult+IStatusListener, Xamarin.GooglePlayServices.Base;com.google.android.gms.common.api.PendingResult$StatusListener
+Android.Gms.Common.Apis.PendingResult.IStatusListener;com.google.android.gms.common.api.PendingResult$StatusListener
+com.google.android.gms.common.api.PendingResult$StatusListener;com.google.android.gms.common.api.PendingResult$StatusListener
+Android.Gms.Common.Apis.PendingResult+IStatusListenerImplementor, Xamarin.GooglePlayServices.Base;mono.com.google.android.gms.common.api.PendingResult_StatusListenerImplementor
+Android.Gms.Common.Apis.PendingResult.IStatusListenerImplementor;mono.com.google.android.gms.common.api.PendingResult_StatusListenerImplementor
+mono.com.google.android.gms.common.api.PendingResult_StatusListenerImplementor;mono.com.google.android.gms.common.api.PendingResult_StatusListenerImplementor
+Android.Gms.Common.Data.IDataBuffer, Xamarin.GooglePlayServices.Base;com.google.android.gms.common.data.DataBuffer
+Android.Gms.Common.Data.IDataBuffer;com.google.android.gms.common.data.DataBuffer
+com.google.android.gms.common.data.DataBuffer;com.google.android.gms.common.data.DataBuffer
+Android.Gms.Common.Data.IDataBufferObserverObservable, Xamarin.GooglePlayServices.Base;com.google.android.gms.common.data.DataBufferObserver$Observable
+Android.Gms.Common.Data.IDataBufferObserverObservable;com.google.android.gms.common.data.DataBufferObserver$Observable
+com.google.android.gms.common.data.DataBufferObserver$Observable;com.google.android.gms.common.data.DataBufferObserver$Observable
+Android.Gms.Common.Data.IDataBufferObserver, Xamarin.GooglePlayServices.Base;com.google.android.gms.common.data.DataBufferObserver
+Android.Gms.Common.Data.IDataBufferObserver;com.google.android.gms.common.data.DataBufferObserver
+com.google.android.gms.common.data.DataBufferObserver;com.google.android.gms.common.data.DataBufferObserver
+Android.Gms.Common.Data.IFreezable, Xamarin.GooglePlayServices.Base;com.google.android.gms.common.data.Freezable
+Android.Gms.Common.Data.IFreezable;com.google.android.gms.common.data.Freezable
+com.google.android.gms.common.data.Freezable;com.google.android.gms.common.data.Freezable
+Android.Gms.Security.ProviderInstaller+IProviderInstallListener, Xamarin.GooglePlayServices.Basement;com.google.android.gms.security.ProviderInstaller$ProviderInstallListener
+Android.Gms.Security.ProviderInstaller.IProviderInstallListener;com.google.android.gms.security.ProviderInstaller$ProviderInstallListener
+com.google.android.gms.security.ProviderInstaller$ProviderInstallListener;com.google.android.gms.security.ProviderInstaller$ProviderInstallListener
+Android.Gms.Security.ProviderInstaller+IProviderInstallListenerImplementor, Xamarin.GooglePlayServices.Basement;mono.com.google.android.gms.security.ProviderInstaller_ProviderInstallListenerImplementor
+Android.Gms.Security.ProviderInstaller.IProviderInstallListenerImplementor;mono.com.google.android.gms.security.ProviderInstaller_ProviderInstallListenerImplementor
+mono.com.google.android.gms.security.ProviderInstaller_ProviderInstallListenerImplementor;mono.com.google.android.gms.security.ProviderInstaller_ProviderInstallListenerImplementor
+Android.Gms.Internal.Constants.IListAppsActivityContract, Xamarin.GooglePlayServices.Basement;com.google.android.gms.common.internal.constants.ListAppsActivityContract
+Android.Gms.Internal.Constants.IListAppsActivityContract;com.google.android.gms.common.internal.constants.ListAppsActivityContract
+com.google.android.gms.common.internal.constants.ListAppsActivityContract;com.google.android.gms.common.internal.constants.ListAppsActivityContract
+Android.Gms.Dynamite.DynamiteModule+IVersionPolicyVersions, Xamarin.GooglePlayServices.Basement;com.google.android.gms.dynamite.DynamiteModule$VersionPolicy$IVersions
+Android.Gms.Dynamite.DynamiteModule.IVersionPolicyVersions;com.google.android.gms.dynamite.DynamiteModule$VersionPolicy$IVersions
+com.google.android.gms.dynamite.DynamiteModule$VersionPolicy$IVersions;com.google.android.gms.dynamite.DynamiteModule$VersionPolicy$IVersions
+Android.Gms.Dynamite.DynamiteModule+IVersionPolicy, Xamarin.GooglePlayServices.Basement;com.google.android.gms.dynamite.DynamiteModule$VersionPolicy
+Android.Gms.Dynamite.DynamiteModule.IVersionPolicy;com.google.android.gms.dynamite.DynamiteModule$VersionPolicy
+com.google.android.gms.dynamite.DynamiteModule$VersionPolicy;com.google.android.gms.dynamite.DynamiteModule$VersionPolicy
+Android.Gms.Dynamic.IFragmentWrapper, Xamarin.GooglePlayServices.Basement;com.google.android.gms.dynamic.IFragmentWrapper
+Android.Gms.Dynamic.IFragmentWrapper;com.google.android.gms.dynamic.IFragmentWrapper
+com.google.android.gms.dynamic.IFragmentWrapper;com.google.android.gms.dynamic.IFragmentWrapper
+Android.Gms.Dynamic.ILifecycleDelegate, Xamarin.GooglePlayServices.Basement;com.google.android.gms.dynamic.LifecycleDelegate
+Android.Gms.Dynamic.ILifecycleDelegate;com.google.android.gms.dynamic.LifecycleDelegate
+com.google.android.gms.dynamic.LifecycleDelegate;com.google.android.gms.dynamic.LifecycleDelegate
+Android.Gms.Dynamic.IObjectWrapper, Xamarin.GooglePlayServices.Basement;com.google.android.gms.dynamic.IObjectWrapper
+Android.Gms.Dynamic.IObjectWrapper;com.google.android.gms.dynamic.IObjectWrapper
+com.google.android.gms.dynamic.IObjectWrapper;com.google.android.gms.dynamic.IObjectWrapper
+Android.Gms.Dynamic.IOnDelegateCreatedListener, Xamarin.GooglePlayServices.Basement;com.google.android.gms.dynamic.OnDelegateCreatedListener
+Android.Gms.Dynamic.IOnDelegateCreatedListener;com.google.android.gms.dynamic.OnDelegateCreatedListener
+com.google.android.gms.dynamic.OnDelegateCreatedListener;com.google.android.gms.dynamic.OnDelegateCreatedListener
+Android.Gms.Dynamic.IOnDelegateCreatedListenerImplementor, Xamarin.GooglePlayServices.Basement;mono.com.google.android.gms.dynamic.OnDelegateCreatedListenerImplementor
+Android.Gms.Dynamic.IOnDelegateCreatedListenerImplementor;mono.com.google.android.gms.dynamic.OnDelegateCreatedListenerImplementor
+mono.com.google.android.gms.dynamic.OnDelegateCreatedListenerImplementor;mono.com.google.android.gms.dynamic.OnDelegateCreatedListenerImplementor
+Android.Gms.Common.Util.IBiConsumer, Xamarin.GooglePlayServices.Basement;com.google.android.gms.common.util.BiConsumer
+Android.Gms.Common.Util.IBiConsumer;com.google.android.gms.common.util.BiConsumer
+com.google.android.gms.common.util.BiConsumer;com.google.android.gms.common.util.BiConsumer
+Android.Gms.Common.Util.IClock, Xamarin.GooglePlayServices.Basement;com.google.android.gms.common.util.Clock
+Android.Gms.Common.Util.IClock;com.google.android.gms.common.util.Clock
+com.google.android.gms.common.util.Clock;com.google.android.gms.common.util.Clock
+Android.Gms.Common.Util.IDynamiteApi, Xamarin.GooglePlayServices.Basement;com.google.android.gms.common.util.DynamiteApi
+Android.Gms.Common.Util.IDynamiteApi;com.google.android.gms.common.util.DynamiteApi
+com.google.android.gms.common.util.DynamiteApi;com.google.android.gms.common.util.DynamiteApi
+Android.Gms.Common.Util.IPredicate, Xamarin.GooglePlayServices.Basement;com.google.android.gms.common.util.Predicate
+Android.Gms.Common.Util.IPredicate;com.google.android.gms.common.util.Predicate
+com.google.android.gms.common.util.Predicate;com.google.android.gms.common.util.Predicate
+Android.Gms.Common.Util.IRetainForClient, Xamarin.GooglePlayServices.Basement;com.google.android.gms.common.util.RetainForClient
+Android.Gms.Common.Util.IRetainForClient;com.google.android.gms.common.util.RetainForClient
+com.google.android.gms.common.util.RetainForClient;com.google.android.gms.common.util.RetainForClient
+Android.Gms.Common.Util.IVisibleForTesting, Xamarin.GooglePlayServices.Basement;com.google.android.gms.common.util.VisibleForTesting
+Android.Gms.Common.Util.IVisibleForTesting;com.google.android.gms.common.util.VisibleForTesting
+com.google.android.gms.common.util.VisibleForTesting;com.google.android.gms.common.util.VisibleForTesting
+Android.Gms.Common.Stats.StatsEvent+ITypes, Xamarin.GooglePlayServices.Basement;com.google.android.gms.common.stats.StatsEvent$Types
+Android.Gms.Common.Stats.StatsEvent.ITypes;com.google.android.gms.common.stats.StatsEvent$Types
+com.google.android.gms.common.stats.StatsEvent$Types;com.google.android.gms.common.stats.StatsEvent$Types
+Android.Gms.Common.Providers.PooledExecutorsProvider+IPooledExecutorFactory, Xamarin.GooglePlayServices.Basement;com.google.android.gms.common.providers.PooledExecutorsProvider$PooledExecutorFactory
+Android.Gms.Common.Providers.PooledExecutorsProvider.IPooledExecutorFactory;com.google.android.gms.common.providers.PooledExecutorsProvider$PooledExecutorFactory
+com.google.android.gms.common.providers.PooledExecutorsProvider$PooledExecutorFactory;com.google.android.gms.common.providers.PooledExecutorsProvider$PooledExecutorFactory
+Android.Gms.Common.Internal.IAccountAccessor, Xamarin.GooglePlayServices.Basement;com.google.android.gms.common.internal.IAccountAccessor
+Android.Gms.Common.Internal.IAccountAccessor;com.google.android.gms.common.internal.IAccountAccessor
+com.google.android.gms.common.internal.IAccountAccessor;com.google.android.gms.common.internal.IAccountAccessor
+Android.Gms.Common.Internal.ICancelToken, Xamarin.GooglePlayServices.Basement;com.google.android.gms.common.internal.ICancelToken
+Android.Gms.Common.Internal.ICancelToken;com.google.android.gms.common.internal.ICancelToken
+com.google.android.gms.common.internal.ICancelToken;com.google.android.gms.common.internal.ICancelToken
+Android.Gms.Common.Internal.IGmsCallbacks, Xamarin.GooglePlayServices.Basement;com.google.android.gms.common.internal.IGmsCallbacks
+Android.Gms.Common.Internal.IGmsCallbacks;com.google.android.gms.common.internal.IGmsCallbacks
+com.google.android.gms.common.internal.IGmsCallbacks;com.google.android.gms.common.internal.IGmsCallbacks
+Android.Gms.Common.Internal.IHideFirstParty, Xamarin.GooglePlayServices.Basement;com.google.android.gms.common.internal.HideFirstParty
+Android.Gms.Common.Internal.IHideFirstParty;com.google.android.gms.common.internal.HideFirstParty
+com.google.android.gms.common.internal.HideFirstParty;com.google.android.gms.common.internal.HideFirstParty
+Android.Gms.Common.Internal.IReflectedParcelable, Xamarin.GooglePlayServices.Basement;com.google.android.gms.common.internal.ReflectedParcelable
+Android.Gms.Common.Internal.IReflectedParcelable;com.google.android.gms.common.internal.ReflectedParcelable
+com.google.android.gms.common.internal.ReflectedParcelable;com.google.android.gms.common.internal.ReflectedParcelable
+Android.Gms.Common.Internal.IShowFirstParty, Xamarin.GooglePlayServices.Basement;com.google.android.gms.common.internal.ShowFirstParty
+Android.Gms.Common.Internal.IShowFirstParty;com.google.android.gms.common.internal.ShowFirstParty
+com.google.android.gms.common.internal.ShowFirstParty;com.google.android.gms.common.internal.ShowFirstParty
+Android.Gms.Common.Internal.SafeParcel.ISafeParcelableClass, Xamarin.GooglePlayServices.Basement;com.google.android.gms.common.internal.safeparcel.SafeParcelable$Class
+Android.Gms.Common.Internal.SafeParcel.ISafeParcelableClass;com.google.android.gms.common.internal.safeparcel.SafeParcelable$Class
+com.google.android.gms.common.internal.safeparcel.SafeParcelable$Class;com.google.android.gms.common.internal.safeparcel.SafeParcelable$Class
+Android.Gms.Common.Internal.SafeParcel.ISafeParcelableConstructor, Xamarin.GooglePlayServices.Basement;com.google.android.gms.common.internal.safeparcel.SafeParcelable$Constructor
+Android.Gms.Common.Internal.SafeParcel.ISafeParcelableConstructor;com.google.android.gms.common.internal.safeparcel.SafeParcelable$Constructor
+com.google.android.gms.common.internal.safeparcel.SafeParcelable$Constructor;com.google.android.gms.common.internal.safeparcel.SafeParcelable$Constructor
+Android.Gms.Common.Internal.SafeParcel.ISafeParcelableField, Xamarin.GooglePlayServices.Basement;com.google.android.gms.common.internal.safeparcel.SafeParcelable$Field
+Android.Gms.Common.Internal.SafeParcel.ISafeParcelableField;com.google.android.gms.common.internal.safeparcel.SafeParcelable$Field
+com.google.android.gms.common.internal.safeparcel.SafeParcelable$Field;com.google.android.gms.common.internal.safeparcel.SafeParcelable$Field
+Android.Gms.Common.Internal.SafeParcel.ISafeParcelableIndicator, Xamarin.GooglePlayServices.Basement;com.google.android.gms.common.internal.safeparcel.SafeParcelable$Indicator
+Android.Gms.Common.Internal.SafeParcel.ISafeParcelableIndicator;com.google.android.gms.common.internal.safeparcel.SafeParcelable$Indicator
+com.google.android.gms.common.internal.safeparcel.SafeParcelable$Indicator;com.google.android.gms.common.internal.safeparcel.SafeParcelable$Indicator
+Android.Gms.Common.Internal.SafeParcel.ISafeParcelableParam, Xamarin.GooglePlayServices.Basement;com.google.android.gms.common.internal.safeparcel.SafeParcelable$Param
+Android.Gms.Common.Internal.SafeParcel.ISafeParcelableParam;com.google.android.gms.common.internal.safeparcel.SafeParcelable$Param
+com.google.android.gms.common.internal.safeparcel.SafeParcelable$Param;com.google.android.gms.common.internal.safeparcel.SafeParcelable$Param
+Android.Gms.Common.Internal.SafeParcel.ISafeParcelableReserved, Xamarin.GooglePlayServices.Basement;com.google.android.gms.common.internal.safeparcel.SafeParcelable$Reserved
+Android.Gms.Common.Internal.SafeParcel.ISafeParcelableReserved;com.google.android.gms.common.internal.safeparcel.SafeParcelable$Reserved
+com.google.android.gms.common.internal.safeparcel.SafeParcelable$Reserved;com.google.android.gms.common.internal.safeparcel.SafeParcelable$Reserved
+Android.Gms.Common.Internal.SafeParcel.ISafeParcelableVersionField, Xamarin.GooglePlayServices.Basement;com.google.android.gms.common.internal.safeparcel.SafeParcelable$VersionField
+Android.Gms.Common.Internal.SafeParcel.ISafeParcelableVersionField;com.google.android.gms.common.internal.safeparcel.SafeParcelable$VersionField
+com.google.android.gms.common.internal.safeparcel.SafeParcelable$VersionField;com.google.android.gms.common.internal.safeparcel.SafeParcelable$VersionField
+Android.Gms.Common.Internal.SafeParcel.ISafeParcelable, Xamarin.GooglePlayServices.Basement;com.google.android.gms.common.internal.safeparcel.SafeParcelable
+Android.Gms.Common.Internal.SafeParcel.ISafeParcelable;com.google.android.gms.common.internal.safeparcel.SafeParcelable
+com.google.android.gms.common.internal.safeparcel.SafeParcelable;com.google.android.gms.common.internal.safeparcel.SafeParcelable
+Android.Gms.Common.Annotations.IKeepForSdk, Xamarin.GooglePlayServices.Basement;com.google.android.gms.common.annotation.KeepForSdk
+Android.Gms.Common.Annotations.IKeepForSdk;com.google.android.gms.common.annotation.KeepForSdk
+com.google.android.gms.common.annotation.KeepForSdk;com.google.android.gms.common.annotation.KeepForSdk
+Android.Gms.Common.Annotations.IKeepForSdkWithFieldsAndMethods, Xamarin.GooglePlayServices.Basement;com.google.android.gms.common.annotation.KeepForSdkWithFieldsAndMethods
+Android.Gms.Common.Annotations.IKeepForSdkWithFieldsAndMethods;com.google.android.gms.common.annotation.KeepForSdkWithFieldsAndMethods
+com.google.android.gms.common.annotation.KeepForSdkWithFieldsAndMethods;com.google.android.gms.common.annotation.KeepForSdkWithFieldsAndMethods
+Android.Gms.Common.Annotations.IKeepForSdkWithMembers, Xamarin.GooglePlayServices.Basement;com.google.android.gms.common.annotation.KeepForSdkWithMembers
+Android.Gms.Common.Annotations.IKeepForSdkWithMembers;com.google.android.gms.common.annotation.KeepForSdkWithMembers
+com.google.android.gms.common.annotation.KeepForSdkWithMembers;com.google.android.gms.common.annotation.KeepForSdkWithMembers
+Android.Gms.Common.Annotations.IKeepName, Xamarin.GooglePlayServices.Basement;com.google.android.gms.common.annotation.KeepName
+Android.Gms.Common.Annotations.IKeepName;com.google.android.gms.common.annotation.KeepName
+com.google.android.gms.common.annotation.KeepName;com.google.android.gms.common.annotation.KeepName
+Android.Gms.Common.Annotations.INonNullApi, Xamarin.GooglePlayServices.Basement;com.google.android.gms.common.annotation.NonNullApi
+Android.Gms.Common.Annotations.INonNullApi;com.google.android.gms.common.annotation.NonNullApi
+com.google.android.gms.common.annotation.NonNullApi;com.google.android.gms.common.annotation.NonNullApi
+Android.Gms.Common.Apis.ResultCallback`1, Xamarin.GooglePlayServices.Basement;crc6450e07d0e82e86181.ResultCallback_1
+Android.Gms.Common.Apis.ResultCallback`1;crc6450e07d0e82e86181.ResultCallback_1
+android.gms.common.apis.ResultCallback_1;crc6450e07d0e82e86181.ResultCallback_1
+Android.Gms.Common.Apis.AwaitableResultCallback`1, Xamarin.GooglePlayServices.Basement;crc6450e07d0e82e86181.AwaitableResultCallback_1
+Android.Gms.Common.Apis.AwaitableResultCallback`1;crc6450e07d0e82e86181.AwaitableResultCallback_1
+android.gms.common.apis.AwaitableResultCallback_1;crc6450e07d0e82e86181.AwaitableResultCallback_1
+Android.Gms.Common.Apis.IReleasable, Xamarin.GooglePlayServices.Basement;com.google.android.gms.common.api.Releasable
+Android.Gms.Common.Apis.IReleasable;com.google.android.gms.common.api.Releasable
+com.google.android.gms.common.api.Releasable;com.google.android.gms.common.api.Releasable
+Android.Gms.Common.Apis.IResult, Xamarin.GooglePlayServices.Basement;com.google.android.gms.common.api.Result
+Android.Gms.Common.Apis.IResult;com.google.android.gms.common.api.Result
+com.google.android.gms.common.api.Result;com.google.android.gms.common.api.Result
+Android.Gms.Common.Apis.IResultCallback, Xamarin.GooglePlayServices.Basement;com.google.android.gms.common.api.ResultCallback
+Android.Gms.Common.Apis.IResultCallback;com.google.android.gms.common.api.ResultCallback
+com.google.android.gms.common.api.ResultCallback;com.google.android.gms.common.api.ResultCallback
+Android.Gms.Common.Apis.Internal.BackgroundDetector+IBackgroundStateChangeListener, Xamarin.GooglePlayServices.Basement;com.google.android.gms.common.api.internal.BackgroundDetector$BackgroundStateChangeListener
+Android.Gms.Common.Apis.Internal.BackgroundDetector.IBackgroundStateChangeListener;com.google.android.gms.common.api.internal.BackgroundDetector$BackgroundStateChangeListener
+com.google.android.gms.common.api.internal.BackgroundDetector$BackgroundStateChangeListener;com.google.android.gms.common.api.internal.BackgroundDetector$BackgroundStateChangeListener
+Android.Gms.Common.Apis.Internal.BackgroundDetector+IBackgroundStateChangeListenerImplementor, Xamarin.GooglePlayServices.Basement;mono.com.google.android.gms.common.api.internal.BackgroundDetector_BackgroundStateChangeListenerImplementor
+Android.Gms.Common.Apis.Internal.BackgroundDetector.IBackgroundStateChangeListenerImplementor;mono.com.google.android.gms.common.api.internal.BackgroundDetector_BackgroundStateChangeListenerImplementor
+mono.com.google.android.gms.common.api.internal.BackgroundDetector_BackgroundStateChangeListenerImplementor;mono.com.google.android.gms.common.api.internal.BackgroundDetector_BackgroundStateChangeListenerImplementor
+Android.Gms.Common.Apis.Internal.ILifecycleFragment, Xamarin.GooglePlayServices.Basement;com.google.android.gms.common.api.internal.LifecycleFragment
+Android.Gms.Common.Apis.Internal.ILifecycleFragment;com.google.android.gms.common.api.internal.LifecycleFragment
+com.google.android.gms.common.api.internal.LifecycleFragment;com.google.android.gms.common.api.internal.LifecycleFragment
+Android.Gms.Common.Apis.Internal.IStatusExceptionMapper, Xamarin.GooglePlayServices.Basement;com.google.android.gms.common.api.internal.StatusExceptionMapper
+Android.Gms.Common.Apis.Internal.IStatusExceptionMapper;com.google.android.gms.common.api.internal.StatusExceptionMapper
+com.google.android.gms.common.api.internal.StatusExceptionMapper;com.google.android.gms.common.api.internal.StatusExceptionMapper
+Android.Gms.CloudMessaging.CloudMessage+IMessagePriority, Xamarin.GooglePlayServices.CloudMessaging;com.google.android.gms.cloudmessaging.CloudMessage$MessagePriority
+Android.Gms.CloudMessaging.CloudMessage.IMessagePriority;com.google.android.gms.cloudmessaging.CloudMessage$MessagePriority
+com.google.android.gms.cloudmessaging.CloudMessage$MessagePriority;com.google.android.gms.cloudmessaging.CloudMessage$MessagePriority
+Android.Gms.SafetyNet.ISafetyNetApiAttestationResult, Xamarin.GooglePlayServices.SafetyNet;com.google.android.gms.safetynet.SafetyNetApi$AttestationResult
+Android.Gms.SafetyNet.ISafetyNetApiAttestationResult;com.google.android.gms.safetynet.SafetyNetApi$AttestationResult
+com.google.android.gms.safetynet.SafetyNetApi$AttestationResult;com.google.android.gms.safetynet.SafetyNetApi$AttestationResult
+Android.Gms.SafetyNet.ISafetyNetApiHarmfulAppsResult, Xamarin.GooglePlayServices.SafetyNet;com.google.android.gms.safetynet.SafetyNetApi$HarmfulAppsResult
+Android.Gms.SafetyNet.ISafetyNetApiHarmfulAppsResult;com.google.android.gms.safetynet.SafetyNetApi$HarmfulAppsResult
+com.google.android.gms.safetynet.SafetyNetApi$HarmfulAppsResult;com.google.android.gms.safetynet.SafetyNetApi$HarmfulAppsResult
+Android.Gms.SafetyNet.ISafetyNetApiRecaptchaTokenResult, Xamarin.GooglePlayServices.SafetyNet;com.google.android.gms.safetynet.SafetyNetApi$RecaptchaTokenResult
+Android.Gms.SafetyNet.ISafetyNetApiRecaptchaTokenResult;com.google.android.gms.safetynet.SafetyNetApi$RecaptchaTokenResult
+com.google.android.gms.safetynet.SafetyNetApi$RecaptchaTokenResult;com.google.android.gms.safetynet.SafetyNetApi$RecaptchaTokenResult
+Android.Gms.SafetyNet.ISafetyNetApiSafeBrowsingResult, Xamarin.GooglePlayServices.SafetyNet;com.google.android.gms.safetynet.SafetyNetApi$SafeBrowsingResult
+Android.Gms.SafetyNet.ISafetyNetApiSafeBrowsingResult;com.google.android.gms.safetynet.SafetyNetApi$SafeBrowsingResult
+com.google.android.gms.safetynet.SafetyNetApi$SafeBrowsingResult;com.google.android.gms.safetynet.SafetyNetApi$SafeBrowsingResult
+Android.Gms.SafetyNet.ISafetyNetApiVerifyAppsUserResult, Xamarin.GooglePlayServices.SafetyNet;com.google.android.gms.safetynet.SafetyNetApi$VerifyAppsUserResult
+Android.Gms.SafetyNet.ISafetyNetApiVerifyAppsUserResult;com.google.android.gms.safetynet.SafetyNetApi$VerifyAppsUserResult
+com.google.android.gms.safetynet.SafetyNetApi$VerifyAppsUserResult;com.google.android.gms.safetynet.SafetyNetApi$VerifyAppsUserResult
+Android.Gms.SafetyNet.ISafetyNetApi, Xamarin.GooglePlayServices.SafetyNet;com.google.android.gms.safetynet.SafetyNetApi
+Android.Gms.SafetyNet.ISafetyNetApi;com.google.android.gms.safetynet.SafetyNetApi
+com.google.android.gms.safetynet.SafetyNetApi;com.google.android.gms.safetynet.SafetyNetApi
+Android.Gms.Stats.ICodePackage, Xamarin.GooglePlayServices.Stats;com.google.android.gms.stats.CodePackage
+Android.Gms.Stats.ICodePackage;com.google.android.gms.stats.CodePackage
+com.google.android.gms.stats.CodePackage;com.google.android.gms.stats.CodePackage
+Android.Gms.Tasks.IContinuation, Xamarin.GooglePlayServices.Tasks;com.google.android.gms.tasks.Continuation
+Android.Gms.Tasks.IContinuation;com.google.android.gms.tasks.Continuation
+com.google.android.gms.tasks.Continuation;com.google.android.gms.tasks.Continuation
+Android.Gms.Tasks.IOnCanceledListener, Xamarin.GooglePlayServices.Tasks;com.google.android.gms.tasks.OnCanceledListener
+Android.Gms.Tasks.IOnCanceledListener;com.google.android.gms.tasks.OnCanceledListener
+com.google.android.gms.tasks.OnCanceledListener;com.google.android.gms.tasks.OnCanceledListener
+Android.Gms.Tasks.IOnCanceledListenerImplementor, Xamarin.GooglePlayServices.Tasks;mono.com.google.android.gms.tasks.OnCanceledListenerImplementor
+Android.Gms.Tasks.IOnCanceledListenerImplementor;mono.com.google.android.gms.tasks.OnCanceledListenerImplementor
+mono.com.google.android.gms.tasks.OnCanceledListenerImplementor;mono.com.google.android.gms.tasks.OnCanceledListenerImplementor
+Android.Gms.Tasks.IOnCompleteListener, Xamarin.GooglePlayServices.Tasks;com.google.android.gms.tasks.OnCompleteListener
+Android.Gms.Tasks.IOnCompleteListener;com.google.android.gms.tasks.OnCompleteListener
+com.google.android.gms.tasks.OnCompleteListener;com.google.android.gms.tasks.OnCompleteListener
+Android.Gms.Tasks.IOnCompleteListenerImplementor, Xamarin.GooglePlayServices.Tasks;mono.com.google.android.gms.tasks.OnCompleteListenerImplementor
+Android.Gms.Tasks.IOnCompleteListenerImplementor;mono.com.google.android.gms.tasks.OnCompleteListenerImplementor
+mono.com.google.android.gms.tasks.OnCompleteListenerImplementor;mono.com.google.android.gms.tasks.OnCompleteListenerImplementor
+Android.Gms.Tasks.IOnFailureListener, Xamarin.GooglePlayServices.Tasks;com.google.android.gms.tasks.OnFailureListener
+Android.Gms.Tasks.IOnFailureListener;com.google.android.gms.tasks.OnFailureListener
+com.google.android.gms.tasks.OnFailureListener;com.google.android.gms.tasks.OnFailureListener
+Android.Gms.Tasks.IOnFailureListenerImplementor, Xamarin.GooglePlayServices.Tasks;mono.com.google.android.gms.tasks.OnFailureListenerImplementor
+Android.Gms.Tasks.IOnFailureListenerImplementor;mono.com.google.android.gms.tasks.OnFailureListenerImplementor
+mono.com.google.android.gms.tasks.OnFailureListenerImplementor;mono.com.google.android.gms.tasks.OnFailureListenerImplementor
+Android.Gms.Tasks.IOnSuccessListener, Xamarin.GooglePlayServices.Tasks;com.google.android.gms.tasks.OnSuccessListener
+Android.Gms.Tasks.IOnSuccessListener;com.google.android.gms.tasks.OnSuccessListener
+com.google.android.gms.tasks.OnSuccessListener;com.google.android.gms.tasks.OnSuccessListener
+Android.Gms.Tasks.IOnSuccessListenerImplementor, Xamarin.GooglePlayServices.Tasks;mono.com.google.android.gms.tasks.OnSuccessListenerImplementor
+Android.Gms.Tasks.IOnSuccessListenerImplementor;mono.com.google.android.gms.tasks.OnSuccessListenerImplementor
+mono.com.google.android.gms.tasks.OnSuccessListenerImplementor;mono.com.google.android.gms.tasks.OnSuccessListenerImplementor
+Android.Gms.Tasks.IOnTokenCanceledListener, Xamarin.GooglePlayServices.Tasks;com.google.android.gms.tasks.OnTokenCanceledListener
+Android.Gms.Tasks.IOnTokenCanceledListener;com.google.android.gms.tasks.OnTokenCanceledListener
+com.google.android.gms.tasks.OnTokenCanceledListener;com.google.android.gms.tasks.OnTokenCanceledListener
+Android.Gms.Tasks.IOnTokenCanceledListenerImplementor, Xamarin.GooglePlayServices.Tasks;mono.com.google.android.gms.tasks.OnTokenCanceledListenerImplementor
+Android.Gms.Tasks.IOnTokenCanceledListenerImplementor;mono.com.google.android.gms.tasks.OnTokenCanceledListenerImplementor
+mono.com.google.android.gms.tasks.OnTokenCanceledListenerImplementor;mono.com.google.android.gms.tasks.OnTokenCanceledListenerImplementor
+Android.Gms.Tasks.ISuccessContinuation, Xamarin.GooglePlayServices.Tasks;com.google.android.gms.tasks.SuccessContinuation
+Android.Gms.Tasks.ISuccessContinuation;com.google.android.gms.tasks.SuccessContinuation
+com.google.android.gms.tasks.SuccessContinuation;com.google.android.gms.tasks.SuccessContinuation
+Android.Gms.Extensions.AwaitableTaskCompleteListener`1, Xamarin.GooglePlayServices.Tasks;crc6495d4f5d63cc5c882.AwaitableTaskCompleteListener_1
+Android.Gms.Extensions.AwaitableTaskCompleteListener`1;crc6495d4f5d63cc5c882.AwaitableTaskCompleteListener_1
+android.gms.extensions.AwaitableTaskCompleteListener_1;crc6495d4f5d63cc5c882.AwaitableTaskCompleteListener_1
+JetBrains.Annotations.ApiStatus+IAvailableSince, Xamarin.Jetbrains.Annotations;org.jetbrains.annotations.ApiStatus$AvailableSince
+JetBrains.Annotations.ApiStatus.IAvailableSince;org.jetbrains.annotations.ApiStatus$AvailableSince
+org.jetbrains.annotations.ApiStatus$AvailableSince;org.jetbrains.annotations.ApiStatus$AvailableSince
+JetBrains.Annotations.ApiStatus+IExperimental, Xamarin.Jetbrains.Annotations;org.jetbrains.annotations.ApiStatus$Experimental
+JetBrains.Annotations.ApiStatus.IExperimental;org.jetbrains.annotations.ApiStatus$Experimental
+org.jetbrains.annotations.ApiStatus$Experimental;org.jetbrains.annotations.ApiStatus$Experimental
+JetBrains.Annotations.ApiStatus+IInternal, Xamarin.Jetbrains.Annotations;org.jetbrains.annotations.ApiStatus$Internal
+JetBrains.Annotations.ApiStatus.IInternal;org.jetbrains.annotations.ApiStatus$Internal
+org.jetbrains.annotations.ApiStatus$Internal;org.jetbrains.annotations.ApiStatus$Internal
+JetBrains.Annotations.ApiStatus+INonExtendable, Xamarin.Jetbrains.Annotations;org.jetbrains.annotations.ApiStatus$NonExtendable
+JetBrains.Annotations.ApiStatus.INonExtendable;org.jetbrains.annotations.ApiStatus$NonExtendable
+org.jetbrains.annotations.ApiStatus$NonExtendable;org.jetbrains.annotations.ApiStatus$NonExtendable
+JetBrains.Annotations.ApiStatus+IOverrideOnly, Xamarin.Jetbrains.Annotations;org.jetbrains.annotations.ApiStatus$OverrideOnly
+JetBrains.Annotations.ApiStatus.IOverrideOnly;org.jetbrains.annotations.ApiStatus$OverrideOnly
+org.jetbrains.annotations.ApiStatus$OverrideOnly;org.jetbrains.annotations.ApiStatus$OverrideOnly
+JetBrains.Annotations.ApiStatus+IScheduledForRemoval, Xamarin.Jetbrains.Annotations;org.jetbrains.annotations.ApiStatus$ScheduledForRemoval
+JetBrains.Annotations.ApiStatus.IScheduledForRemoval;org.jetbrains.annotations.ApiStatus$ScheduledForRemoval
+org.jetbrains.annotations.ApiStatus$ScheduledForRemoval;org.jetbrains.annotations.ApiStatus$ScheduledForRemoval
+JetBrains.Annotations.Async+IExecute, Xamarin.Jetbrains.Annotations;org.jetbrains.annotations.Async$Execute
+JetBrains.Annotations.Async.IExecute;org.jetbrains.annotations.Async$Execute
+org.jetbrains.annotations.Async$Execute;org.jetbrains.annotations.Async$Execute
+JetBrains.Annotations.Async+ISchedule, Xamarin.Jetbrains.Annotations;org.jetbrains.annotations.Async$Schedule
+JetBrains.Annotations.Async.ISchedule;org.jetbrains.annotations.Async$Schedule
+org.jetbrains.annotations.Async$Schedule;org.jetbrains.annotations.Async$Schedule
+JetBrains.Annotations.Debug+IRenderer, Xamarin.Jetbrains.Annotations;org.jetbrains.annotations.Debug$Renderer
+JetBrains.Annotations.Debug.IRenderer;org.jetbrains.annotations.Debug$Renderer
+org.jetbrains.annotations.Debug$Renderer;org.jetbrains.annotations.Debug$Renderer
+JetBrains.Annotations.IBlocking, Xamarin.Jetbrains.Annotations;org.jetbrains.annotations.Blocking
+JetBrains.Annotations.IBlocking;org.jetbrains.annotations.Blocking
+org.jetbrains.annotations.Blocking;org.jetbrains.annotations.Blocking
+JetBrains.Annotations.IBlockingExecutor, Xamarin.Jetbrains.Annotations;org.jetbrains.annotations.BlockingExecutor
+JetBrains.Annotations.IBlockingExecutor;org.jetbrains.annotations.BlockingExecutor
+org.jetbrains.annotations.BlockingExecutor;org.jetbrains.annotations.BlockingExecutor
+JetBrains.Annotations.IContract, Xamarin.Jetbrains.Annotations;org.jetbrains.annotations.Contract
+JetBrains.Annotations.IContract;org.jetbrains.annotations.Contract
+org.jetbrains.annotations.Contract;org.jetbrains.annotations.Contract
+JetBrains.Annotations.IMustBeInvokedByOverriders, Xamarin.Jetbrains.Annotations;org.jetbrains.annotations.MustBeInvokedByOverriders
+JetBrains.Annotations.IMustBeInvokedByOverriders;org.jetbrains.annotations.MustBeInvokedByOverriders
+org.jetbrains.annotations.MustBeInvokedByOverriders;org.jetbrains.annotations.MustBeInvokedByOverriders
+JetBrains.Annotations.INls, Xamarin.Jetbrains.Annotations;org.jetbrains.annotations.Nls
+JetBrains.Annotations.INls;org.jetbrains.annotations.Nls
+org.jetbrains.annotations.Nls;org.jetbrains.annotations.Nls
+JetBrains.Annotations.INonBlocking, Xamarin.Jetbrains.Annotations;org.jetbrains.annotations.NonBlocking
+JetBrains.Annotations.INonBlocking;org.jetbrains.annotations.NonBlocking
+org.jetbrains.annotations.NonBlocking;org.jetbrains.annotations.NonBlocking
+JetBrains.Annotations.INonBlockingExecutor, Xamarin.Jetbrains.Annotations;org.jetbrains.annotations.NonBlockingExecutor
+JetBrains.Annotations.INonBlockingExecutor;org.jetbrains.annotations.NonBlockingExecutor
+org.jetbrains.annotations.NonBlockingExecutor;org.jetbrains.annotations.NonBlockingExecutor
+JetBrains.Annotations.INonNls, Xamarin.Jetbrains.Annotations;org.jetbrains.annotations.NonNls
+JetBrains.Annotations.INonNls;org.jetbrains.annotations.NonNls
+org.jetbrains.annotations.NonNls;org.jetbrains.annotations.NonNls
+JetBrains.Annotations.INotNull, Xamarin.Jetbrains.Annotations;org.jetbrains.annotations.NotNull
+JetBrains.Annotations.INotNull;org.jetbrains.annotations.NotNull
+org.jetbrains.annotations.NotNull;org.jetbrains.annotations.NotNull
+JetBrains.Annotations.INullable, Xamarin.Jetbrains.Annotations;org.jetbrains.annotations.Nullable
+JetBrains.Annotations.INullable;org.jetbrains.annotations.Nullable
+org.jetbrains.annotations.Nullable;org.jetbrains.annotations.Nullable
+JetBrains.Annotations.IPropertyKey, Xamarin.Jetbrains.Annotations;org.jetbrains.annotations.PropertyKey
+JetBrains.Annotations.IPropertyKey;org.jetbrains.annotations.PropertyKey
+org.jetbrains.annotations.PropertyKey;org.jetbrains.annotations.PropertyKey
+JetBrains.Annotations.IRange, Xamarin.Jetbrains.Annotations;org.jetbrains.annotations.Range
+JetBrains.Annotations.IRange;org.jetbrains.annotations.Range
+org.jetbrains.annotations.Range;org.jetbrains.annotations.Range
+JetBrains.Annotations.ITestOnly, Xamarin.Jetbrains.Annotations;org.jetbrains.annotations.TestOnly
+JetBrains.Annotations.ITestOnly;org.jetbrains.annotations.TestOnly
+org.jetbrains.annotations.TestOnly;org.jetbrains.annotations.TestOnly
+JetBrains.Annotations.IUnknownNullability, Xamarin.Jetbrains.Annotations;org.jetbrains.annotations.UnknownNullability
+JetBrains.Annotations.IUnknownNullability;org.jetbrains.annotations.UnknownNullability
+org.jetbrains.annotations.UnknownNullability;org.jetbrains.annotations.UnknownNullability
+JetBrains.Annotations.IUnmodifiable, Xamarin.Jetbrains.Annotations;org.jetbrains.annotations.Unmodifiable
+JetBrains.Annotations.IUnmodifiable;org.jetbrains.annotations.Unmodifiable
+org.jetbrains.annotations.Unmodifiable;org.jetbrains.annotations.Unmodifiable
+JetBrains.Annotations.IUnmodifiableView, Xamarin.Jetbrains.Annotations;org.jetbrains.annotations.UnmodifiableView
+JetBrains.Annotations.IUnmodifiableView;org.jetbrains.annotations.UnmodifiableView
+org.jetbrains.annotations.UnmodifiableView;org.jetbrains.annotations.UnmodifiableView
+JetBrains.Annotations.IVisibleForTesting, Xamarin.Jetbrains.Annotations;org.jetbrains.annotations.VisibleForTesting
+JetBrains.Annotations.IVisibleForTesting;org.jetbrains.annotations.VisibleForTesting
+org.jetbrains.annotations.VisibleForTesting;org.jetbrains.annotations.VisibleForTesting
+IntelliJ.Lang.Annotations.IFlow, Xamarin.Jetbrains.Annotations;org.intellij.lang.annotations.Flow
+IntelliJ.Lang.Annotations.IFlow;org.intellij.lang.annotations.Flow
+org.intellij.lang.annotations.Flow;org.intellij.lang.annotations.Flow
+IntelliJ.Lang.Annotations.IIdentifier, Xamarin.Jetbrains.Annotations;org.intellij.lang.annotations.Identifier
+IntelliJ.Lang.Annotations.IIdentifier;org.intellij.lang.annotations.Identifier
+org.intellij.lang.annotations.Identifier;org.intellij.lang.annotations.Identifier
+IntelliJ.Lang.Annotations.ILanguage, Xamarin.Jetbrains.Annotations;org.intellij.lang.annotations.Language
+IntelliJ.Lang.Annotations.ILanguage;org.intellij.lang.annotations.Language
+org.intellij.lang.annotations.Language;org.intellij.lang.annotations.Language
+IntelliJ.Lang.Annotations.IMagicConstant, Xamarin.Jetbrains.Annotations;org.intellij.lang.annotations.MagicConstant
+IntelliJ.Lang.Annotations.IMagicConstant;org.intellij.lang.annotations.MagicConstant
+org.intellij.lang.annotations.MagicConstant;org.intellij.lang.annotations.MagicConstant
+IntelliJ.Lang.Annotations.IPattern, Xamarin.Jetbrains.Annotations;org.intellij.lang.annotations.Pattern
+IntelliJ.Lang.Annotations.IPattern;org.intellij.lang.annotations.Pattern
+org.intellij.lang.annotations.Pattern;org.intellij.lang.annotations.Pattern
+IntelliJ.Lang.Annotations.IPrintFormat, Xamarin.Jetbrains.Annotations;org.intellij.lang.annotations.PrintFormat
+IntelliJ.Lang.Annotations.IPrintFormat;org.intellij.lang.annotations.PrintFormat
+org.intellij.lang.annotations.PrintFormat;org.intellij.lang.annotations.PrintFormat
+IntelliJ.Lang.Annotations.IRegExp, Xamarin.Jetbrains.Annotations;org.intellij.lang.annotations.RegExp
+IntelliJ.Lang.Annotations.IRegExp;org.intellij.lang.annotations.RegExp
+org.intellij.lang.annotations.RegExp;org.intellij.lang.annotations.RegExp
+IntelliJ.Lang.Annotations.ISubst, Xamarin.Jetbrains.Annotations;org.intellij.lang.annotations.Subst
+IntelliJ.Lang.Annotations.ISubst;org.intellij.lang.annotations.Subst
+org.intellij.lang.annotations.Subst;org.intellij.lang.annotations.Subst
+IntelliJ.Lang.Annotations.JdkConstants+IAdjustableOrientation, Xamarin.Jetbrains.Annotations;org.intellij.lang.annotations.JdkConstants$AdjustableOrientation
+IntelliJ.Lang.Annotations.JdkConstants.IAdjustableOrientation;org.intellij.lang.annotations.JdkConstants$AdjustableOrientation
+org.intellij.lang.annotations.JdkConstants$AdjustableOrientation;org.intellij.lang.annotations.JdkConstants$AdjustableOrientation
+IntelliJ.Lang.Annotations.JdkConstants+IBoxLayoutAxis, Xamarin.Jetbrains.Annotations;org.intellij.lang.annotations.JdkConstants$BoxLayoutAxis
+IntelliJ.Lang.Annotations.JdkConstants.IBoxLayoutAxis;org.intellij.lang.annotations.JdkConstants$BoxLayoutAxis
+org.intellij.lang.annotations.JdkConstants$BoxLayoutAxis;org.intellij.lang.annotations.JdkConstants$BoxLayoutAxis
+IntelliJ.Lang.Annotations.JdkConstants+ICalendarMonth, Xamarin.Jetbrains.Annotations;org.intellij.lang.annotations.JdkConstants$CalendarMonth
+IntelliJ.Lang.Annotations.JdkConstants.ICalendarMonth;org.intellij.lang.annotations.JdkConstants$CalendarMonth
+org.intellij.lang.annotations.JdkConstants$CalendarMonth;org.intellij.lang.annotations.JdkConstants$CalendarMonth
+IntelliJ.Lang.Annotations.JdkConstants+ICursorType, Xamarin.Jetbrains.Annotations;org.intellij.lang.annotations.JdkConstants$CursorType
+IntelliJ.Lang.Annotations.JdkConstants.ICursorType;org.intellij.lang.annotations.JdkConstants$CursorType
+org.intellij.lang.annotations.JdkConstants$CursorType;org.intellij.lang.annotations.JdkConstants$CursorType
+IntelliJ.Lang.Annotations.JdkConstants+IFlowLayoutAlignment, Xamarin.Jetbrains.Annotations;org.intellij.lang.annotations.JdkConstants$FlowLayoutAlignment
+IntelliJ.Lang.Annotations.JdkConstants.IFlowLayoutAlignment;org.intellij.lang.annotations.JdkConstants$FlowLayoutAlignment
+org.intellij.lang.annotations.JdkConstants$FlowLayoutAlignment;org.intellij.lang.annotations.JdkConstants$FlowLayoutAlignment
+IntelliJ.Lang.Annotations.JdkConstants+IFontStyle, Xamarin.Jetbrains.Annotations;org.intellij.lang.annotations.JdkConstants$FontStyle
+IntelliJ.Lang.Annotations.JdkConstants.IFontStyle;org.intellij.lang.annotations.JdkConstants$FontStyle
+org.intellij.lang.annotations.JdkConstants$FontStyle;org.intellij.lang.annotations.JdkConstants$FontStyle
+IntelliJ.Lang.Annotations.JdkConstants+IHorizontalAlignment, Xamarin.Jetbrains.Annotations;org.intellij.lang.annotations.JdkConstants$HorizontalAlignment
+IntelliJ.Lang.Annotations.JdkConstants.IHorizontalAlignment;org.intellij.lang.annotations.JdkConstants$HorizontalAlignment
+org.intellij.lang.annotations.JdkConstants$HorizontalAlignment;org.intellij.lang.annotations.JdkConstants$HorizontalAlignment
+IntelliJ.Lang.Annotations.JdkConstants+IHorizontalScrollBarPolicy, Xamarin.Jetbrains.Annotations;org.intellij.lang.annotations.JdkConstants$HorizontalScrollBarPolicy
+IntelliJ.Lang.Annotations.JdkConstants.IHorizontalScrollBarPolicy;org.intellij.lang.annotations.JdkConstants$HorizontalScrollBarPolicy
+org.intellij.lang.annotations.JdkConstants$HorizontalScrollBarPolicy;org.intellij.lang.annotations.JdkConstants$HorizontalScrollBarPolicy
+IntelliJ.Lang.Annotations.JdkConstants+IInputEventMask, Xamarin.Jetbrains.Annotations;org.intellij.lang.annotations.JdkConstants$InputEventMask
+IntelliJ.Lang.Annotations.JdkConstants.IInputEventMask;org.intellij.lang.annotations.JdkConstants$InputEventMask
+org.intellij.lang.annotations.JdkConstants$InputEventMask;org.intellij.lang.annotations.JdkConstants$InputEventMask
+IntelliJ.Lang.Annotations.JdkConstants+IListSelectionMode, Xamarin.Jetbrains.Annotations;org.intellij.lang.annotations.JdkConstants$ListSelectionMode
+IntelliJ.Lang.Annotations.JdkConstants.IListSelectionMode;org.intellij.lang.annotations.JdkConstants$ListSelectionMode
+org.intellij.lang.annotations.JdkConstants$ListSelectionMode;org.intellij.lang.annotations.JdkConstants$ListSelectionMode
+IntelliJ.Lang.Annotations.JdkConstants+IPatternFlags, Xamarin.Jetbrains.Annotations;org.intellij.lang.annotations.JdkConstants$PatternFlags
+IntelliJ.Lang.Annotations.JdkConstants.IPatternFlags;org.intellij.lang.annotations.JdkConstants$PatternFlags
+org.intellij.lang.annotations.JdkConstants$PatternFlags;org.intellij.lang.annotations.JdkConstants$PatternFlags
+IntelliJ.Lang.Annotations.JdkConstants+ITabLayoutPolicy, Xamarin.Jetbrains.Annotations;org.intellij.lang.annotations.JdkConstants$TabLayoutPolicy
+IntelliJ.Lang.Annotations.JdkConstants.ITabLayoutPolicy;org.intellij.lang.annotations.JdkConstants$TabLayoutPolicy
+org.intellij.lang.annotations.JdkConstants$TabLayoutPolicy;org.intellij.lang.annotations.JdkConstants$TabLayoutPolicy
+IntelliJ.Lang.Annotations.JdkConstants+ITabPlacement, Xamarin.Jetbrains.Annotations;org.intellij.lang.annotations.JdkConstants$TabPlacement
+IntelliJ.Lang.Annotations.JdkConstants.ITabPlacement;org.intellij.lang.annotations.JdkConstants$TabPlacement
+org.intellij.lang.annotations.JdkConstants$TabPlacement;org.intellij.lang.annotations.JdkConstants$TabPlacement
+IntelliJ.Lang.Annotations.JdkConstants+ITitledBorderJustification, Xamarin.Jetbrains.Annotations;org.intellij.lang.annotations.JdkConstants$TitledBorderJustification
+IntelliJ.Lang.Annotations.JdkConstants.ITitledBorderJustification;org.intellij.lang.annotations.JdkConstants$TitledBorderJustification
+org.intellij.lang.annotations.JdkConstants$TitledBorderJustification;org.intellij.lang.annotations.JdkConstants$TitledBorderJustification
+IntelliJ.Lang.Annotations.JdkConstants+ITitledBorderTitlePosition, Xamarin.Jetbrains.Annotations;org.intellij.lang.annotations.JdkConstants$TitledBorderTitlePosition
+IntelliJ.Lang.Annotations.JdkConstants.ITitledBorderTitlePosition;org.intellij.lang.annotations.JdkConstants$TitledBorderTitlePosition
+org.intellij.lang.annotations.JdkConstants$TitledBorderTitlePosition;org.intellij.lang.annotations.JdkConstants$TitledBorderTitlePosition
+IntelliJ.Lang.Annotations.JdkConstants+ITreeSelectionMode, Xamarin.Jetbrains.Annotations;org.intellij.lang.annotations.JdkConstants$TreeSelectionMode
+IntelliJ.Lang.Annotations.JdkConstants.ITreeSelectionMode;org.intellij.lang.annotations.JdkConstants$TreeSelectionMode
+org.intellij.lang.annotations.JdkConstants$TreeSelectionMode;org.intellij.lang.annotations.JdkConstants$TreeSelectionMode
+IntelliJ.Lang.Annotations.JdkConstants+IVerticalScrollBarPolicy, Xamarin.Jetbrains.Annotations;org.intellij.lang.annotations.JdkConstants$VerticalScrollBarPolicy
+IntelliJ.Lang.Annotations.JdkConstants.IVerticalScrollBarPolicy;org.intellij.lang.annotations.JdkConstants$VerticalScrollBarPolicy
+org.intellij.lang.annotations.JdkConstants$VerticalScrollBarPolicy;org.intellij.lang.annotations.JdkConstants$VerticalScrollBarPolicy
+Kotlin.IBuilderInference, Xamarin.Kotlin.StdLib;kotlin.BuilderInference
+Kotlin.IBuilderInference;kotlin.BuilderInference
+kotlin.BuilderInference;kotlin.BuilderInference
+Kotlin.IContextFunctionTypeParams, Xamarin.Kotlin.StdLib;kotlin.ContextFunctionTypeParams
+Kotlin.IContextFunctionTypeParams;kotlin.ContextFunctionTypeParams
+kotlin.ContextFunctionTypeParams;kotlin.ContextFunctionTypeParams
+Kotlin.IDeprecated, Xamarin.Kotlin.StdLib;kotlin.Deprecated
+Kotlin.IDeprecated;kotlin.Deprecated
+kotlin.Deprecated;kotlin.Deprecated
+Kotlin.IDeprecatedSinceKotlin, Xamarin.Kotlin.StdLib;kotlin.DeprecatedSinceKotlin
+Kotlin.IDeprecatedSinceKotlin;kotlin.DeprecatedSinceKotlin
+kotlin.DeprecatedSinceKotlin;kotlin.DeprecatedSinceKotlin
+Kotlin.IDslMarker, Xamarin.Kotlin.StdLib;kotlin.DslMarker
+Kotlin.IDslMarker;kotlin.DslMarker
+kotlin.DslMarker;kotlin.DslMarker
+Kotlin.IExperimental, Xamarin.Kotlin.StdLib;kotlin.Experimental
+Kotlin.IExperimental;kotlin.Experimental
+kotlin.Experimental;kotlin.Experimental
+Kotlin.IExperimentalMultiplatform, Xamarin.Kotlin.StdLib;kotlin.ExperimentalMultiplatform
+Kotlin.IExperimentalMultiplatform;kotlin.ExperimentalMultiplatform
+kotlin.ExperimentalMultiplatform;kotlin.ExperimentalMultiplatform
+Kotlin.IExperimentalStdlibApi, Xamarin.Kotlin.StdLib;kotlin.ExperimentalStdlibApi
+Kotlin.IExperimentalStdlibApi;kotlin.ExperimentalStdlibApi
+kotlin.ExperimentalStdlibApi;kotlin.ExperimentalStdlibApi
+Kotlin.IExperimentalUnsignedTypes, Xamarin.Kotlin.StdLib;kotlin.ExperimentalUnsignedTypes
+Kotlin.IExperimentalUnsignedTypes;kotlin.ExperimentalUnsignedTypes
+kotlin.ExperimentalUnsignedTypes;kotlin.ExperimentalUnsignedTypes
+Kotlin.IExtensionFunctionType, Xamarin.Kotlin.StdLib;kotlin.ExtensionFunctionType
+Kotlin.IExtensionFunctionType;kotlin.ExtensionFunctionType
+kotlin.ExtensionFunctionType;kotlin.ExtensionFunctionType
+Kotlin.IFunction, Xamarin.Kotlin.StdLib;kotlin.Function
+Kotlin.IFunction;kotlin.Function
+kotlin.Function;kotlin.Function
+Kotlin.ILazy, Xamarin.Kotlin.StdLib;kotlin.Lazy
+Kotlin.ILazy;kotlin.Lazy
+kotlin.Lazy;kotlin.Lazy
+Kotlin.IMetadata, Xamarin.Kotlin.StdLib;kotlin.Metadata
+Kotlin.IMetadata;kotlin.Metadata
+kotlin.Metadata;kotlin.Metadata
+Kotlin.IOptIn, Xamarin.Kotlin.StdLib;kotlin.OptIn
+Kotlin.IOptIn;kotlin.OptIn
+kotlin.OptIn;kotlin.OptIn
+Kotlin.IOptionalExpectation, Xamarin.Kotlin.StdLib;kotlin.OptionalExpectation
+Kotlin.IOptionalExpectation;kotlin.OptionalExpectation
+kotlin.OptionalExpectation;kotlin.OptionalExpectation
+Kotlin.IOverloadResolutionByLambdaReturnType, Xamarin.Kotlin.StdLib;kotlin.OverloadResolutionByLambdaReturnType
+Kotlin.IOverloadResolutionByLambdaReturnType;kotlin.OverloadResolutionByLambdaReturnType
+kotlin.OverloadResolutionByLambdaReturnType;kotlin.OverloadResolutionByLambdaReturnType
+Kotlin.IParameterName, Xamarin.Kotlin.StdLib;kotlin.ParameterName
+Kotlin.IParameterName;kotlin.ParameterName
+kotlin.ParameterName;kotlin.ParameterName
+Kotlin.IPublishedApi, Xamarin.Kotlin.StdLib;kotlin.PublishedApi
+Kotlin.IPublishedApi;kotlin.PublishedApi
+kotlin.PublishedApi;kotlin.PublishedApi
+Kotlin.IReplaceWith, Xamarin.Kotlin.StdLib;kotlin.ReplaceWith
+Kotlin.IReplaceWith;kotlin.ReplaceWith
+kotlin.ReplaceWith;kotlin.ReplaceWith
+Kotlin.IRequiresOptIn, Xamarin.Kotlin.StdLib;kotlin.RequiresOptIn
+Kotlin.IRequiresOptIn;kotlin.RequiresOptIn
+kotlin.RequiresOptIn;kotlin.RequiresOptIn
+Kotlin.ISinceKotlin, Xamarin.Kotlin.StdLib;kotlin.SinceKotlin
+Kotlin.ISinceKotlin;kotlin.SinceKotlin
+kotlin.SinceKotlin;kotlin.SinceKotlin
+Kotlin.ISuppress, Xamarin.Kotlin.StdLib;kotlin.Suppress
+Kotlin.ISuppress;kotlin.Suppress
+kotlin.Suppress;kotlin.Suppress
+Kotlin.IUnsafeVariance, Xamarin.Kotlin.StdLib;kotlin.UnsafeVariance
+Kotlin.IUnsafeVariance;kotlin.UnsafeVariance
+kotlin.UnsafeVariance;kotlin.UnsafeVariance
+Kotlin.IUseExperimental, Xamarin.Kotlin.StdLib;kotlin.UseExperimental
+Kotlin.IUseExperimental;kotlin.UseExperimental
+kotlin.UseExperimental;kotlin.UseExperimental
+Kotlin.Time.IExperimentalTime, Xamarin.Kotlin.StdLib;kotlin.time.ExperimentalTime
+Kotlin.Time.IExperimentalTime;kotlin.time.ExperimentalTime
+kotlin.time.ExperimentalTime;kotlin.time.ExperimentalTime
+Kotlin.Time.ITimeSource, Xamarin.Kotlin.StdLib;kotlin.time.TimeSource
+Kotlin.Time.ITimeSource;kotlin.time.TimeSource
+kotlin.time.TimeSource;kotlin.time.TimeSource
+Kotlin.Text.IMatchGroupCollection, Xamarin.Kotlin.StdLib;kotlin.text.MatchGroupCollection
+Kotlin.Text.IMatchGroupCollection;kotlin.text.MatchGroupCollection
+kotlin.text.MatchGroupCollection;kotlin.text.MatchGroupCollection
+Kotlin.Text.IMatchNamedGroupCollection, Xamarin.Kotlin.StdLib;kotlin.text.MatchNamedGroupCollection
+Kotlin.Text.IMatchNamedGroupCollection;kotlin.text.MatchNamedGroupCollection
+kotlin.text.MatchNamedGroupCollection;kotlin.text.MatchNamedGroupCollection
+Kotlin.Text.IMatchResult, Xamarin.Kotlin.StdLib;kotlin.text.MatchResult
+Kotlin.Text.IMatchResult;kotlin.text.MatchResult
+kotlin.text.MatchResult;kotlin.text.MatchResult
+Kotlin.Sequences.ISequence, Xamarin.Kotlin.StdLib;kotlin.sequences.Sequence
+Kotlin.Sequences.ISequence;kotlin.sequences.Sequence
+kotlin.sequences.Sequence;kotlin.sequences.Sequence
+Kotlin.Reflect.IKAnnotatedElement, Xamarin.Kotlin.StdLib;kotlin.reflect.KAnnotatedElement
+Kotlin.Reflect.IKAnnotatedElement;kotlin.reflect.KAnnotatedElement
+kotlin.reflect.KAnnotatedElement;kotlin.reflect.KAnnotatedElement
+Kotlin.Reflect.IKCallable, Xamarin.Kotlin.StdLib;kotlin.reflect.KCallable
+Kotlin.Reflect.IKCallable;kotlin.reflect.KCallable
+kotlin.reflect.KCallable;kotlin.reflect.KCallable
+Kotlin.Reflect.IKClass, Xamarin.Kotlin.StdLib;kotlin.reflect.KClass
+Kotlin.Reflect.IKClass;kotlin.reflect.KClass
+kotlin.reflect.KClass;kotlin.reflect.KClass
+Kotlin.Reflect.IKClassifier, Xamarin.Kotlin.StdLib;kotlin.reflect.KClassifier
+Kotlin.Reflect.IKClassifier;kotlin.reflect.KClassifier
+kotlin.reflect.KClassifier;kotlin.reflect.KClassifier
+Kotlin.Reflect.IKDeclarationContainer, Xamarin.Kotlin.StdLib;kotlin.reflect.KDeclarationContainer
+Kotlin.Reflect.IKDeclarationContainer;kotlin.reflect.KDeclarationContainer
+kotlin.reflect.KDeclarationContainer;kotlin.reflect.KDeclarationContainer
+Kotlin.Reflect.IKFunction, Xamarin.Kotlin.StdLib;kotlin.reflect.KFunction
+Kotlin.Reflect.IKFunction;kotlin.reflect.KFunction
+kotlin.reflect.KFunction;kotlin.reflect.KFunction
+Kotlin.Reflect.IKMutablePropertySetter, Xamarin.Kotlin.StdLib;kotlin.reflect.KMutableProperty$Setter
+Kotlin.Reflect.IKMutablePropertySetter;kotlin.reflect.KMutableProperty$Setter
+kotlin.reflect.KMutableProperty$Setter;kotlin.reflect.KMutableProperty$Setter
+Kotlin.Reflect.IKMutableProperty, Xamarin.Kotlin.StdLib;kotlin.reflect.KMutableProperty
+Kotlin.Reflect.IKMutableProperty;kotlin.reflect.KMutableProperty
+kotlin.reflect.KMutableProperty;kotlin.reflect.KMutableProperty
+Kotlin.Reflect.IKMutableProperty0Setter, Xamarin.Kotlin.StdLib;kotlin.reflect.KMutableProperty0$Setter
+Kotlin.Reflect.IKMutableProperty0Setter;kotlin.reflect.KMutableProperty0$Setter
+kotlin.reflect.KMutableProperty0$Setter;kotlin.reflect.KMutableProperty0$Setter
+Kotlin.Reflect.IKMutableProperty0, Xamarin.Kotlin.StdLib;kotlin.reflect.KMutableProperty0
+Kotlin.Reflect.IKMutableProperty0;kotlin.reflect.KMutableProperty0
+kotlin.reflect.KMutableProperty0;kotlin.reflect.KMutableProperty0
+Kotlin.Reflect.IKMutableProperty1Setter, Xamarin.Kotlin.StdLib;kotlin.reflect.KMutableProperty1$Setter
+Kotlin.Reflect.IKMutableProperty1Setter;kotlin.reflect.KMutableProperty1$Setter
+kotlin.reflect.KMutableProperty1$Setter;kotlin.reflect.KMutableProperty1$Setter
+Kotlin.Reflect.IKMutableProperty1, Xamarin.Kotlin.StdLib;kotlin.reflect.KMutableProperty1
+Kotlin.Reflect.IKMutableProperty1;kotlin.reflect.KMutableProperty1
+kotlin.reflect.KMutableProperty1;kotlin.reflect.KMutableProperty1
+Kotlin.Reflect.IKMutableProperty2Setter, Xamarin.Kotlin.StdLib;kotlin.reflect.KMutableProperty2$Setter
+Kotlin.Reflect.IKMutableProperty2Setter;kotlin.reflect.KMutableProperty2$Setter
+kotlin.reflect.KMutableProperty2$Setter;kotlin.reflect.KMutableProperty2$Setter
+Kotlin.Reflect.IKMutableProperty2, Xamarin.Kotlin.StdLib;kotlin.reflect.KMutableProperty2
+Kotlin.Reflect.IKMutableProperty2;kotlin.reflect.KMutableProperty2
+kotlin.reflect.KMutableProperty2;kotlin.reflect.KMutableProperty2
+Kotlin.Reflect.IKParameter, Xamarin.Kotlin.StdLib;kotlin.reflect.KParameter
+Kotlin.Reflect.IKParameter;kotlin.reflect.KParameter
+kotlin.reflect.KParameter;kotlin.reflect.KParameter
+Kotlin.Reflect.IKPropertyAccessor, Xamarin.Kotlin.StdLib;kotlin.reflect.KProperty$Accessor
+Kotlin.Reflect.IKPropertyAccessor;kotlin.reflect.KProperty$Accessor
+kotlin.reflect.KProperty$Accessor;kotlin.reflect.KProperty$Accessor
+Kotlin.Reflect.IKPropertyGetter, Xamarin.Kotlin.StdLib;kotlin.reflect.KProperty$Getter
+Kotlin.Reflect.IKPropertyGetter;kotlin.reflect.KProperty$Getter
+kotlin.reflect.KProperty$Getter;kotlin.reflect.KProperty$Getter
+Kotlin.Reflect.IKProperty, Xamarin.Kotlin.StdLib;kotlin.reflect.KProperty
+Kotlin.Reflect.IKProperty;kotlin.reflect.KProperty
+kotlin.reflect.KProperty;kotlin.reflect.KProperty
+Kotlin.Reflect.IKProperty0Getter, Xamarin.Kotlin.StdLib;kotlin.reflect.KProperty0$Getter
+Kotlin.Reflect.IKProperty0Getter;kotlin.reflect.KProperty0$Getter
+kotlin.reflect.KProperty0$Getter;kotlin.reflect.KProperty0$Getter
+Kotlin.Reflect.IKProperty0, Xamarin.Kotlin.StdLib;kotlin.reflect.KProperty0
+Kotlin.Reflect.IKProperty0;kotlin.reflect.KProperty0
+kotlin.reflect.KProperty0;kotlin.reflect.KProperty0
+Kotlin.Reflect.IKProperty1Getter, Xamarin.Kotlin.StdLib;kotlin.reflect.KProperty1$Getter
+Kotlin.Reflect.IKProperty1Getter;kotlin.reflect.KProperty1$Getter
+kotlin.reflect.KProperty1$Getter;kotlin.reflect.KProperty1$Getter
+Kotlin.Reflect.IKProperty1, Xamarin.Kotlin.StdLib;kotlin.reflect.KProperty1
+Kotlin.Reflect.IKProperty1;kotlin.reflect.KProperty1
+kotlin.reflect.KProperty1;kotlin.reflect.KProperty1
+Kotlin.Reflect.IKProperty2Getter, Xamarin.Kotlin.StdLib;kotlin.reflect.KProperty2$Getter
+Kotlin.Reflect.IKProperty2Getter;kotlin.reflect.KProperty2$Getter
+kotlin.reflect.KProperty2$Getter;kotlin.reflect.KProperty2$Getter
+Kotlin.Reflect.IKProperty2, Xamarin.Kotlin.StdLib;kotlin.reflect.KProperty2
+Kotlin.Reflect.IKProperty2;kotlin.reflect.KProperty2
+kotlin.reflect.KProperty2;kotlin.reflect.KProperty2
+Kotlin.Reflect.IKType, Xamarin.Kotlin.StdLib;kotlin.reflect.KType
+Kotlin.Reflect.IKType;kotlin.reflect.KType
+kotlin.reflect.KType;kotlin.reflect.KType
+Kotlin.Reflect.IKTypeParameter, Xamarin.Kotlin.StdLib;kotlin.reflect.KTypeParameter
+Kotlin.Reflect.IKTypeParameter;kotlin.reflect.KTypeParameter
+kotlin.reflect.KTypeParameter;kotlin.reflect.KTypeParameter
+Kotlin.Properties.IPropertyDelegateProvider, Xamarin.Kotlin.StdLib;kotlin.properties.PropertyDelegateProvider
+Kotlin.Properties.IPropertyDelegateProvider;kotlin.properties.PropertyDelegateProvider
+kotlin.properties.PropertyDelegateProvider;kotlin.properties.PropertyDelegateProvider
+Kotlin.Properties.IReadOnlyProperty, Xamarin.Kotlin.StdLib;kotlin.properties.ReadOnlyProperty
+Kotlin.Properties.IReadOnlyProperty;kotlin.properties.ReadOnlyProperty
+kotlin.properties.ReadOnlyProperty;kotlin.properties.ReadOnlyProperty
+Kotlin.Properties.IReadWriteProperty, Xamarin.Kotlin.StdLib;kotlin.properties.ReadWriteProperty
+Kotlin.Properties.IReadWriteProperty;kotlin.properties.ReadWriteProperty
+kotlin.properties.ReadWriteProperty;kotlin.properties.ReadWriteProperty
+Kotlin.Jvm.IJvmDefault, Xamarin.Kotlin.StdLib;kotlin.jvm.JvmDefault
+Kotlin.Jvm.IJvmDefault;kotlin.jvm.JvmDefault
+kotlin.jvm.JvmDefault;kotlin.jvm.JvmDefault
+Kotlin.Jvm.IJvmDefaultWithCompatibility, Xamarin.Kotlin.StdLib;kotlin.jvm.JvmDefaultWithCompatibility
+Kotlin.Jvm.IJvmDefaultWithCompatibility;kotlin.jvm.JvmDefaultWithCompatibility
+kotlin.jvm.JvmDefaultWithCompatibility;kotlin.jvm.JvmDefaultWithCompatibility
+Kotlin.Jvm.IJvmDefaultWithoutCompatibility, Xamarin.Kotlin.StdLib;kotlin.jvm.JvmDefaultWithoutCompatibility
+Kotlin.Jvm.IJvmDefaultWithoutCompatibility;kotlin.jvm.JvmDefaultWithoutCompatibility
+kotlin.jvm.JvmDefaultWithoutCompatibility;kotlin.jvm.JvmDefaultWithoutCompatibility
+Kotlin.Jvm.IJvmField, Xamarin.Kotlin.StdLib;kotlin.jvm.JvmField
+Kotlin.Jvm.IJvmField;kotlin.jvm.JvmField
+kotlin.jvm.JvmField;kotlin.jvm.JvmField
+Kotlin.Jvm.IJvmInline, Xamarin.Kotlin.StdLib;kotlin.jvm.JvmInline
+Kotlin.Jvm.IJvmInline;kotlin.jvm.JvmInline
+kotlin.jvm.JvmInline;kotlin.jvm.JvmInline
+Kotlin.Jvm.IJvmMultifileClass, Xamarin.Kotlin.StdLib;kotlin.jvm.JvmMultifileClass
+Kotlin.Jvm.IJvmMultifileClass;kotlin.jvm.JvmMultifileClass
+kotlin.jvm.JvmMultifileClass;kotlin.jvm.JvmMultifileClass
+Kotlin.Jvm.IJvmName, Xamarin.Kotlin.StdLib;kotlin.jvm.JvmName
+Kotlin.Jvm.IJvmName;kotlin.jvm.JvmName
+kotlin.jvm.JvmName;kotlin.jvm.JvmName
+Kotlin.Jvm.IJvmOverloads, Xamarin.Kotlin.StdLib;kotlin.jvm.JvmOverloads
+Kotlin.Jvm.IJvmOverloads;kotlin.jvm.JvmOverloads
+kotlin.jvm.JvmOverloads;kotlin.jvm.JvmOverloads
+Kotlin.Jvm.IJvmRecord, Xamarin.Kotlin.StdLib;kotlin.jvm.JvmRecord
+Kotlin.Jvm.IJvmRecord;kotlin.jvm.JvmRecord
+kotlin.jvm.JvmRecord;kotlin.jvm.JvmRecord
+Kotlin.Jvm.IJvmStatic, Xamarin.Kotlin.StdLib;kotlin.jvm.JvmStatic
+Kotlin.Jvm.IJvmStatic;kotlin.jvm.JvmStatic
+kotlin.jvm.JvmStatic;kotlin.jvm.JvmStatic
+Kotlin.Jvm.IJvmSuppressWildcards, Xamarin.Kotlin.StdLib;kotlin.jvm.JvmSuppressWildcards
+Kotlin.Jvm.IJvmSuppressWildcards;kotlin.jvm.JvmSuppressWildcards
+kotlin.jvm.JvmSuppressWildcards;kotlin.jvm.JvmSuppressWildcards
+Kotlin.Jvm.IJvmSynthetic, Xamarin.Kotlin.StdLib;kotlin.jvm.JvmSynthetic
+Kotlin.Jvm.IJvmSynthetic;kotlin.jvm.JvmSynthetic
+kotlin.jvm.JvmSynthetic;kotlin.jvm.JvmSynthetic
+Kotlin.Jvm.IJvmWildcard, Xamarin.Kotlin.StdLib;kotlin.jvm.JvmWildcard
+Kotlin.Jvm.IJvmWildcard;kotlin.jvm.JvmWildcard
+kotlin.jvm.JvmWildcard;kotlin.jvm.JvmWildcard
+Kotlin.Jvm.IPurelyImplements, Xamarin.Kotlin.StdLib;kotlin.jvm.PurelyImplements
+Kotlin.Jvm.IPurelyImplements;kotlin.jvm.PurelyImplements
+kotlin.jvm.PurelyImplements;kotlin.jvm.PurelyImplements
+Kotlin.Jvm.IStrictfp, Xamarin.Kotlin.StdLib;kotlin.jvm.Strictfp
+Kotlin.Jvm.IStrictfp;kotlin.jvm.Strictfp
+kotlin.jvm.Strictfp;kotlin.jvm.Strictfp
+Kotlin.Jvm.ISynchronized, Xamarin.Kotlin.StdLib;kotlin.jvm.Synchronized
+Kotlin.Jvm.ISynchronized;kotlin.jvm.Synchronized
+kotlin.jvm.Synchronized;kotlin.jvm.Synchronized
+Kotlin.Jvm.IThrows, Xamarin.Kotlin.StdLib;kotlin.jvm.Throws
+Kotlin.Jvm.IThrows;kotlin.jvm.Throws
+kotlin.jvm.Throws;kotlin.jvm.Throws
+Kotlin.Jvm.ITransient, Xamarin.Kotlin.StdLib;kotlin.jvm.Transient
+Kotlin.Jvm.ITransient;kotlin.jvm.Transient
+kotlin.jvm.Transient;kotlin.jvm.Transient
+Kotlin.Jvm.IVolatile, Xamarin.Kotlin.StdLib;kotlin.jvm.Volatile
+Kotlin.Jvm.IVolatile;kotlin.jvm.Volatile
+kotlin.jvm.Volatile;kotlin.jvm.Volatile
+Kotlin.Jvm.Internal.IClassBasedDeclarationContainer, Xamarin.Kotlin.StdLib;kotlin.jvm.internal.ClassBasedDeclarationContainer
+Kotlin.Jvm.Internal.IClassBasedDeclarationContainer;kotlin.jvm.internal.ClassBasedDeclarationContainer
+kotlin.jvm.internal.ClassBasedDeclarationContainer;kotlin.jvm.internal.ClassBasedDeclarationContainer
+Kotlin.Jvm.Internal.IFunctionAdapter, Xamarin.Kotlin.StdLib;kotlin.jvm.internal.FunctionAdapter
+Kotlin.Jvm.Internal.IFunctionAdapter;kotlin.jvm.internal.FunctionAdapter
+kotlin.jvm.internal.FunctionAdapter;kotlin.jvm.internal.FunctionAdapter
+Kotlin.Jvm.Internal.IFunctionBase, Xamarin.Kotlin.StdLib;kotlin.jvm.internal.FunctionBase
+Kotlin.Jvm.Internal.IFunctionBase;kotlin.jvm.internal.FunctionBase
+kotlin.jvm.internal.FunctionBase;kotlin.jvm.internal.FunctionBase
+Kotlin.Jvm.Internal.IKTypeBase, Xamarin.Kotlin.StdLib;kotlin.jvm.internal.KTypeBase
+Kotlin.Jvm.Internal.IKTypeBase;kotlin.jvm.internal.KTypeBase
+kotlin.jvm.internal.KTypeBase;kotlin.jvm.internal.KTypeBase
+Kotlin.Jvm.Internal.IRepeatableContainer, Xamarin.Kotlin.StdLib;kotlin.jvm.internal.RepeatableContainer
+Kotlin.Jvm.Internal.IRepeatableContainer;kotlin.jvm.internal.RepeatableContainer
+kotlin.jvm.internal.RepeatableContainer;kotlin.jvm.internal.RepeatableContainer
+Kotlin.Jvm.Internal.ISerializedIr, Xamarin.Kotlin.StdLib;kotlin.jvm.internal.SerializedIr
+Kotlin.Jvm.Internal.ISerializedIr;kotlin.jvm.internal.SerializedIr
+kotlin.jvm.internal.SerializedIr;kotlin.jvm.internal.SerializedIr
+Kotlin.Jvm.Internal.Markers.IKMappedMarker, Xamarin.Kotlin.StdLib;kotlin.jvm.internal.markers.KMappedMarker
+Kotlin.Jvm.Internal.Markers.IKMappedMarker;kotlin.jvm.internal.markers.KMappedMarker
+kotlin.jvm.internal.markers.KMappedMarker;kotlin.jvm.internal.markers.KMappedMarker
+Kotlin.Jvm.Internal.Markers.IKMutableCollection, Xamarin.Kotlin.StdLib;kotlin.jvm.internal.markers.KMutableCollection
+Kotlin.Jvm.Internal.Markers.IKMutableCollection;kotlin.jvm.internal.markers.KMutableCollection
+kotlin.jvm.internal.markers.KMutableCollection;kotlin.jvm.internal.markers.KMutableCollection
+Kotlin.Jvm.Internal.Markers.IKMutableIterable, Xamarin.Kotlin.StdLib;kotlin.jvm.internal.markers.KMutableIterable
+Kotlin.Jvm.Internal.Markers.IKMutableIterable;kotlin.jvm.internal.markers.KMutableIterable
+kotlin.jvm.internal.markers.KMutableIterable;kotlin.jvm.internal.markers.KMutableIterable
+Kotlin.Jvm.Internal.Markers.IKMutableIterator, Xamarin.Kotlin.StdLib;kotlin.jvm.internal.markers.KMutableIterator
+Kotlin.Jvm.Internal.Markers.IKMutableIterator;kotlin.jvm.internal.markers.KMutableIterator
+kotlin.jvm.internal.markers.KMutableIterator;kotlin.jvm.internal.markers.KMutableIterator
+Kotlin.Jvm.Internal.Markers.IKMutableList, Xamarin.Kotlin.StdLib;kotlin.jvm.internal.markers.KMutableList
+Kotlin.Jvm.Internal.Markers.IKMutableList;kotlin.jvm.internal.markers.KMutableList
+kotlin.jvm.internal.markers.KMutableList;kotlin.jvm.internal.markers.KMutableList
+Kotlin.Jvm.Internal.Markers.IKMutableListIterator, Xamarin.Kotlin.StdLib;kotlin.jvm.internal.markers.KMutableListIterator
+Kotlin.Jvm.Internal.Markers.IKMutableListIterator;kotlin.jvm.internal.markers.KMutableListIterator
+kotlin.jvm.internal.markers.KMutableListIterator;kotlin.jvm.internal.markers.KMutableListIterator
+Kotlin.Jvm.Internal.Markers.IKMutableMapEntry, Xamarin.Kotlin.StdLib;kotlin.jvm.internal.markers.KMutableMap$Entry
+Kotlin.Jvm.Internal.Markers.IKMutableMapEntry;kotlin.jvm.internal.markers.KMutableMap$Entry
+kotlin.jvm.internal.markers.KMutableMap$Entry;kotlin.jvm.internal.markers.KMutableMap$Entry
+Kotlin.Jvm.Internal.Markers.IKMutableMap, Xamarin.Kotlin.StdLib;kotlin.jvm.internal.markers.KMutableMap
+Kotlin.Jvm.Internal.Markers.IKMutableMap;kotlin.jvm.internal.markers.KMutableMap
+kotlin.jvm.internal.markers.KMutableMap;kotlin.jvm.internal.markers.KMutableMap
+Kotlin.Jvm.Internal.Markers.IKMutableSet, Xamarin.Kotlin.StdLib;kotlin.jvm.internal.markers.KMutableSet
+Kotlin.Jvm.Internal.Markers.IKMutableSet;kotlin.jvm.internal.markers.KMutableSet
+kotlin.jvm.internal.markers.KMutableSet;kotlin.jvm.internal.markers.KMutableSet
+Kotlin.Jvm.Functions.IFunction0, Xamarin.Kotlin.StdLib;kotlin.jvm.functions.Function0
+Kotlin.Jvm.Functions.IFunction0;kotlin.jvm.functions.Function0
+kotlin.jvm.functions.Function0;kotlin.jvm.functions.Function0
+Kotlin.Jvm.Functions.IFunction1, Xamarin.Kotlin.StdLib;kotlin.jvm.functions.Function1
+Kotlin.Jvm.Functions.IFunction1;kotlin.jvm.functions.Function1
+kotlin.jvm.functions.Function1;kotlin.jvm.functions.Function1
+Kotlin.Jvm.Functions.IFunction10, Xamarin.Kotlin.StdLib;kotlin.jvm.functions.Function10
+Kotlin.Jvm.Functions.IFunction10;kotlin.jvm.functions.Function10
+kotlin.jvm.functions.Function10;kotlin.jvm.functions.Function10
+Kotlin.Jvm.Functions.IFunction11, Xamarin.Kotlin.StdLib;kotlin.jvm.functions.Function11
+Kotlin.Jvm.Functions.IFunction11;kotlin.jvm.functions.Function11
+kotlin.jvm.functions.Function11;kotlin.jvm.functions.Function11
+Kotlin.Jvm.Functions.IFunction12, Xamarin.Kotlin.StdLib;kotlin.jvm.functions.Function12
+Kotlin.Jvm.Functions.IFunction12;kotlin.jvm.functions.Function12
+kotlin.jvm.functions.Function12;kotlin.jvm.functions.Function12
+Kotlin.Jvm.Functions.IFunction13, Xamarin.Kotlin.StdLib;kotlin.jvm.functions.Function13
+Kotlin.Jvm.Functions.IFunction13;kotlin.jvm.functions.Function13
+kotlin.jvm.functions.Function13;kotlin.jvm.functions.Function13
+Kotlin.Jvm.Functions.IFunction14, Xamarin.Kotlin.StdLib;kotlin.jvm.functions.Function14
+Kotlin.Jvm.Functions.IFunction14;kotlin.jvm.functions.Function14
+kotlin.jvm.functions.Function14;kotlin.jvm.functions.Function14
+Kotlin.Jvm.Functions.IFunction15, Xamarin.Kotlin.StdLib;kotlin.jvm.functions.Function15
+Kotlin.Jvm.Functions.IFunction15;kotlin.jvm.functions.Function15
+kotlin.jvm.functions.Function15;kotlin.jvm.functions.Function15
+Kotlin.Jvm.Functions.IFunction16, Xamarin.Kotlin.StdLib;kotlin.jvm.functions.Function16
+Kotlin.Jvm.Functions.IFunction16;kotlin.jvm.functions.Function16
+kotlin.jvm.functions.Function16;kotlin.jvm.functions.Function16
+Kotlin.Jvm.Functions.IFunction17, Xamarin.Kotlin.StdLib;kotlin.jvm.functions.Function17
+Kotlin.Jvm.Functions.IFunction17;kotlin.jvm.functions.Function17
+kotlin.jvm.functions.Function17;kotlin.jvm.functions.Function17
+Kotlin.Jvm.Functions.IFunction18, Xamarin.Kotlin.StdLib;kotlin.jvm.functions.Function18
+Kotlin.Jvm.Functions.IFunction18;kotlin.jvm.functions.Function18
+kotlin.jvm.functions.Function18;kotlin.jvm.functions.Function18
+Kotlin.Jvm.Functions.IFunction19, Xamarin.Kotlin.StdLib;kotlin.jvm.functions.Function19
+Kotlin.Jvm.Functions.IFunction19;kotlin.jvm.functions.Function19
+kotlin.jvm.functions.Function19;kotlin.jvm.functions.Function19
+Kotlin.Jvm.Functions.IFunction2, Xamarin.Kotlin.StdLib;kotlin.jvm.functions.Function2
+Kotlin.Jvm.Functions.IFunction2;kotlin.jvm.functions.Function2
+kotlin.jvm.functions.Function2;kotlin.jvm.functions.Function2
+Kotlin.Jvm.Functions.IFunction20, Xamarin.Kotlin.StdLib;kotlin.jvm.functions.Function20
+Kotlin.Jvm.Functions.IFunction20;kotlin.jvm.functions.Function20
+kotlin.jvm.functions.Function20;kotlin.jvm.functions.Function20
+Kotlin.Jvm.Functions.IFunction21, Xamarin.Kotlin.StdLib;kotlin.jvm.functions.Function21
+Kotlin.Jvm.Functions.IFunction21;kotlin.jvm.functions.Function21
+kotlin.jvm.functions.Function21;kotlin.jvm.functions.Function21
+Kotlin.Jvm.Functions.IFunction22, Xamarin.Kotlin.StdLib;kotlin.jvm.functions.Function22
+Kotlin.Jvm.Functions.IFunction22;kotlin.jvm.functions.Function22
+kotlin.jvm.functions.Function22;kotlin.jvm.functions.Function22
+Kotlin.Jvm.Functions.IFunction3, Xamarin.Kotlin.StdLib;kotlin.jvm.functions.Function3
+Kotlin.Jvm.Functions.IFunction3;kotlin.jvm.functions.Function3
+kotlin.jvm.functions.Function3;kotlin.jvm.functions.Function3
+Kotlin.Jvm.Functions.IFunction4, Xamarin.Kotlin.StdLib;kotlin.jvm.functions.Function4
+Kotlin.Jvm.Functions.IFunction4;kotlin.jvm.functions.Function4
+kotlin.jvm.functions.Function4;kotlin.jvm.functions.Function4
+Kotlin.Jvm.Functions.IFunction5, Xamarin.Kotlin.StdLib;kotlin.jvm.functions.Function5
+Kotlin.Jvm.Functions.IFunction5;kotlin.jvm.functions.Function5
+kotlin.jvm.functions.Function5;kotlin.jvm.functions.Function5
+Kotlin.Jvm.Functions.IFunction6, Xamarin.Kotlin.StdLib;kotlin.jvm.functions.Function6
+Kotlin.Jvm.Functions.IFunction6;kotlin.jvm.functions.Function6
+kotlin.jvm.functions.Function6;kotlin.jvm.functions.Function6
+Kotlin.Jvm.Functions.IFunction7, Xamarin.Kotlin.StdLib;kotlin.jvm.functions.Function7
+Kotlin.Jvm.Functions.IFunction7;kotlin.jvm.functions.Function7
+kotlin.jvm.functions.Function7;kotlin.jvm.functions.Function7
+Kotlin.Jvm.Functions.IFunction8, Xamarin.Kotlin.StdLib;kotlin.jvm.functions.Function8
+Kotlin.Jvm.Functions.IFunction8;kotlin.jvm.functions.Function8
+kotlin.jvm.functions.Function8;kotlin.jvm.functions.Function8
+Kotlin.Jvm.Functions.IFunction9, Xamarin.Kotlin.StdLib;kotlin.jvm.functions.Function9
+Kotlin.Jvm.Functions.IFunction9;kotlin.jvm.functions.Function9
+kotlin.jvm.functions.Function9;kotlin.jvm.functions.Function9
+Kotlin.Jvm.Functions.IFunctionN, Xamarin.Kotlin.StdLib;kotlin.jvm.functions.FunctionN
+Kotlin.Jvm.Functions.IFunctionN;kotlin.jvm.functions.FunctionN
+kotlin.jvm.functions.FunctionN;kotlin.jvm.functions.FunctionN
+Kotlin.JS.IExperimentalJsExport, Xamarin.Kotlin.StdLib;kotlin.js.ExperimentalJsExport
+Kotlin.JS.IExperimentalJsExport;kotlin.js.ExperimentalJsExport
+kotlin.js.ExperimentalJsExport;kotlin.js.ExperimentalJsExport
+Kotlin.Experimental.IExperimentalTypeInference, Xamarin.Kotlin.StdLib;kotlin.experimental.ExperimentalTypeInference
+Kotlin.Experimental.IExperimentalTypeInference;kotlin.experimental.ExperimentalTypeInference
+kotlin.experimental.ExperimentalTypeInference;kotlin.experimental.ExperimentalTypeInference
+Kotlin.Coroutines.IContinuation, Xamarin.Kotlin.StdLib;kotlin.coroutines.Continuation
+Kotlin.Coroutines.IContinuation;kotlin.coroutines.Continuation
+kotlin.coroutines.Continuation;kotlin.coroutines.Continuation
+Kotlin.Coroutines.IContinuationInterceptor, Xamarin.Kotlin.StdLib;kotlin.coroutines.ContinuationInterceptor
+Kotlin.Coroutines.IContinuationInterceptor;kotlin.coroutines.ContinuationInterceptor
+kotlin.coroutines.ContinuationInterceptor;kotlin.coroutines.ContinuationInterceptor
+Kotlin.Coroutines.ICoroutineContextElement, Xamarin.Kotlin.StdLib;kotlin.coroutines.CoroutineContext$Element
+Kotlin.Coroutines.ICoroutineContextElement;kotlin.coroutines.CoroutineContext$Element
+kotlin.coroutines.CoroutineContext$Element;kotlin.coroutines.CoroutineContext$Element
+Kotlin.Coroutines.ICoroutineContextKey, Xamarin.Kotlin.StdLib;kotlin.coroutines.CoroutineContext$Key
+Kotlin.Coroutines.ICoroutineContextKey;kotlin.coroutines.CoroutineContext$Key
+kotlin.coroutines.CoroutineContext$Key;kotlin.coroutines.CoroutineContext$Key
+Kotlin.Coroutines.ICoroutineContext, Xamarin.Kotlin.StdLib;kotlin.coroutines.CoroutineContext
+Kotlin.Coroutines.ICoroutineContext;kotlin.coroutines.CoroutineContext
+kotlin.coroutines.CoroutineContext;kotlin.coroutines.CoroutineContext
+Kotlin.Coroutines.IRestrictsSuspension, Xamarin.Kotlin.StdLib;kotlin.coroutines.RestrictsSuspension
+Kotlin.Coroutines.IRestrictsSuspension;kotlin.coroutines.RestrictsSuspension
+kotlin.coroutines.RestrictsSuspension;kotlin.coroutines.RestrictsSuspension
+Kotlin.Coroutines.Jvm.Internal.ICoroutineStackFrame, Xamarin.Kotlin.StdLib;kotlin.coroutines.jvm.internal.CoroutineStackFrame
+Kotlin.Coroutines.Jvm.Internal.ICoroutineStackFrame;kotlin.coroutines.jvm.internal.CoroutineStackFrame
+kotlin.coroutines.jvm.internal.CoroutineStackFrame;kotlin.coroutines.jvm.internal.CoroutineStackFrame
+Kotlin.Contracts.ICallsInPlace, Xamarin.Kotlin.StdLib;kotlin.contracts.CallsInPlace
+Kotlin.Contracts.ICallsInPlace;kotlin.contracts.CallsInPlace
+kotlin.contracts.CallsInPlace;kotlin.contracts.CallsInPlace
+Kotlin.Contracts.IConditionalEffect, Xamarin.Kotlin.StdLib;kotlin.contracts.ConditionalEffect
+Kotlin.Contracts.IConditionalEffect;kotlin.contracts.ConditionalEffect
+kotlin.contracts.ConditionalEffect;kotlin.contracts.ConditionalEffect
+Kotlin.Contracts.IContractBuilder, Xamarin.Kotlin.StdLib;kotlin.contracts.ContractBuilder
+Kotlin.Contracts.IContractBuilder;kotlin.contracts.ContractBuilder
+kotlin.contracts.ContractBuilder;kotlin.contracts.ContractBuilder
+Kotlin.Contracts.IEffect, Xamarin.Kotlin.StdLib;kotlin.contracts.Effect
+Kotlin.Contracts.IEffect;kotlin.contracts.Effect
+kotlin.contracts.Effect;kotlin.contracts.Effect
+Kotlin.Contracts.IExperimentalContracts, Xamarin.Kotlin.StdLib;kotlin.contracts.ExperimentalContracts
+Kotlin.Contracts.IExperimentalContracts;kotlin.contracts.ExperimentalContracts
+kotlin.contracts.ExperimentalContracts;kotlin.contracts.ExperimentalContracts
+Kotlin.Contracts.IReturns, Xamarin.Kotlin.StdLib;kotlin.contracts.Returns
+Kotlin.Contracts.IReturns;kotlin.contracts.Returns
+kotlin.contracts.Returns;kotlin.contracts.Returns
+Kotlin.Contracts.IReturnsNotNull, Xamarin.Kotlin.StdLib;kotlin.contracts.ReturnsNotNull
+Kotlin.Contracts.IReturnsNotNull;kotlin.contracts.ReturnsNotNull
+kotlin.contracts.ReturnsNotNull;kotlin.contracts.ReturnsNotNull
+Kotlin.Contracts.ISimpleEffect, Xamarin.Kotlin.StdLib;kotlin.contracts.SimpleEffect
+Kotlin.Contracts.ISimpleEffect;kotlin.contracts.SimpleEffect
+kotlin.contracts.SimpleEffect;kotlin.contracts.SimpleEffect
+Kotlin.Annotation.IMustBeDocumented, Xamarin.Kotlin.StdLib;kotlin.annotation.MustBeDocumented
+Kotlin.Annotation.IMustBeDocumented;kotlin.annotation.MustBeDocumented
+kotlin.annotation.MustBeDocumented;kotlin.annotation.MustBeDocumented
+Kotlin.Annotation.IRepeatable, Xamarin.Kotlin.StdLib;kotlin.annotation.Repeatable
+Kotlin.Annotation.IRepeatable;kotlin.annotation.Repeatable
+kotlin.annotation.Repeatable;kotlin.annotation.Repeatable
+Kotlin.Annotation.IRetention, Xamarin.Kotlin.StdLib;kotlin.annotation.Retention
+Kotlin.Annotation.IRetention;kotlin.annotation.Retention
+kotlin.annotation.Retention;kotlin.annotation.Retention
+Kotlin.Annotation.ITarget, Xamarin.Kotlin.StdLib;kotlin.annotation.Target
+Kotlin.Annotation.ITarget;kotlin.annotation.Target
+kotlin.annotation.Target;kotlin.annotation.Target
+Kotlin.Ranges.IClosedFloatingPointRange, Xamarin.Kotlin.StdLib;kotlin.ranges.ClosedFloatingPointRange
+Kotlin.Ranges.IClosedFloatingPointRange;kotlin.ranges.ClosedFloatingPointRange
+kotlin.ranges.ClosedFloatingPointRange;kotlin.ranges.ClosedFloatingPointRange
+Kotlin.Ranges.IClosedRange, Xamarin.Kotlin.StdLib;kotlin.ranges.ClosedRange
+Kotlin.Ranges.IClosedRange;kotlin.ranges.ClosedRange
+kotlin.ranges.ClosedRange;kotlin.ranges.ClosedRange
+Kotlin.Collections.IGrouping, Xamarin.Kotlin.StdLib;kotlin.collections.Grouping
+Kotlin.Collections.IGrouping;kotlin.collections.Grouping
+kotlin.collections.Grouping;kotlin.collections.Grouping

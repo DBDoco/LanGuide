@@ -44,11 +44,39 @@
             },
             "Xamarin.Essentials": {
               "target": "Package",
-              "version": "[1.7.0, )"
+              "version": "[1.7.3, )"
+            },
+            "Xamarin.Firebase.Auth": {
+              "target": "Package",
+              "version": "[121.0.1.3, )"
+            },
+            "Xamarin.Firebase.Common": {
+              "target": "Package",
+              "version": "[120.0.0.5, )"
+            },
+            "Xamarin.Firebase.Config": {
+              "target": "Package",
+              "version": "[121.0.1.5, )"
+            },
+            "Xamarin.Firebase.Iid": {
+              "target": "Package",
+              "version": "[121.1.0.5, )"
             },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[5.0.0.2196, )"
+              "version": "[5.0.0.2478, )"
+            },
+            "Xamarin.GooglePlayServices.Base": {
+              "target": "Package",
+              "version": "[118.0.1.1, )"
+            },
+            "Xamarin.GooglePlayServices.Basement": {
+              "target": "Package",
+              "version": "[118.0.2.1, )"
+            },
+            "Xamarin.GooglePlayServices.Tasks": {
+              "target": "Package",
+              "version": "[118.0.1.1, )"
             },
             "sqlite-net-pcl": {
               "target": "Package",

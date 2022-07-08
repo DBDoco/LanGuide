@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "836055245190",
+    "project_id": "languide-xamarin",
+    "storage_bucket": "languide-xamarin.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:836055245190:android:5ca79117c3bda2039ccc07",
+        "android_client_info": {
+          "package_name": "com.companyname.zavrsni"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "836055245190-pvf24okq0suslie8mkohadnt3b6hteh3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAa2SwbuRdhcxzwbHBTUFKjteBGI5z0nwQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "836055245190-pvf24okq0suslie8mkohadnt3b6hteh3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
