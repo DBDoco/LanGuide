@@ -23,3 +23,7 @@ $ cd Zavrsni-RDMA
 ```
 Open "Zavrsni.sln";<br>
 Compile with VS and run.
+
+## Login Info:
+Email: dominik@mail.com
+Password: dominik123
