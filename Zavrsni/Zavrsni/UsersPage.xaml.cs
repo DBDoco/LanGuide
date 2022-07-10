@@ -32,10 +32,15 @@ namespace Zavrsni
             var users = await User.GetUsers();
             if (keyword == "")
                 userListView.ItemsSource = users;
-            else
+            int y = 0;
+            if (Int32.TryParse(keyword, out y))
+            {
                 userListView.ItemsSource = from user in users
-                                           where user.id_user == Int16.Parse(keyword)
+                                           where user.id_user == Int32.Parse(keyword)
                                            select user;
+            }
+            else
+                return;
         }
 
         private async void ImageButton_Pressed(object sender, EventArgs e)

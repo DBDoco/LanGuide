@@ -299,7 +299,72 @@ assembly_store_bundled_assemblies:
 	.quad	0x0	# config_data
 	.quad	0x0	# descriptor
 
-	.size	assembly_store_bundled_assemblies, 1600
+	.quad	0x0	# image_data
+	.quad	0x0	# debug_info_data
+	.quad	0x0	# config_data
+	.quad	0x0	# descriptor
+
+	.quad	0x0	# image_data
+	.quad	0x0	# debug_info_data
+	.quad	0x0	# config_data
+	.quad	0x0	# descriptor
+
+	.quad	0x0	# image_data
+	.quad	0x0	# debug_info_data
+	.quad	0x0	# config_data
+	.quad	0x0	# descriptor
+
+	.quad	0x0	# image_data
+	.quad	0x0	# debug_info_data
+	.quad	0x0	# config_data
+	.quad	0x0	# descriptor
+
+	.quad	0x0	# image_data
+	.quad	0x0	# debug_info_data
+	.quad	0x0	# config_data
+	.quad	0x0	# descriptor
+
+	.quad	0x0	# image_data
+	.quad	0x0	# debug_info_data
+	.quad	0x0	# config_data
+	.quad	0x0	# descriptor
+
+	.quad	0x0	# image_data
+	.quad	0x0	# debug_info_data
+	.quad	0x0	# config_data
+	.quad	0x0	# descriptor
+
+	.quad	0x0	# image_data
+	.quad	0x0	# debug_info_data
+	.quad	0x0	# config_data
+	.quad	0x0	# descriptor
+
+	.quad	0x0	# image_data
+	.quad	0x0	# debug_info_data
+	.quad	0x0	# config_data
+	.quad	0x0	# descriptor
+
+	.quad	0x0	# image_data
+	.quad	0x0	# debug_info_data
+	.quad	0x0	# config_data
+	.quad	0x0	# descriptor
+
+	.quad	0x0	# image_data
+	.quad	0x0	# debug_info_data
+	.quad	0x0	# config_data
+	.quad	0x0	# descriptor
+
+	.quad	0x0	# image_data
+	.quad	0x0	# debug_info_data
+	.quad	0x0	# config_data
+	.quad	0x0	# descriptor
+
+	.quad	0x0	# image_data
+	.quad	0x0	# debug_info_data
+	.quad	0x0	# config_data
+	.quad	0x0	# descriptor
+
+	.size	assembly_store_bundled_assemblies, 2016
 	# Assembly store data
 
 	.type	assembly_stores, @object
@@ -495,7 +560,7 @@ application_config:
 	.long	0x3	# package_naming_policy
 	.long	0xc	# environment_variable_count
 	.long	0x0	# system_property_count
-	.long	0x32	# number_of_assemblies_in_apk
+	.long	0x3f	# number_of_assemblies_in_apk
 	.long	0x0	# bundled_assembly_name_width
 	.long	0x2	# number_of_assembly_store_files
 	.long	0x18	# number_of_dso_cache_entries
@@ -538,7 +603,7 @@ application_config:
 
 	.type	.L.autostr.6, @object
 .L.autostr.6:
-	.asciz	"6e05c561-5c68-4244-a651-9ab882aee6bb"
+	.asciz	"7bf77086-53db-42c3-b04f-e1caf42e1d15"
 	.size	.L.autostr.6, 37
 
 	.type	.L.autostr.7, @object

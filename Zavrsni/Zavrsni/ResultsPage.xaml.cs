@@ -33,10 +33,15 @@ namespace Zavrsni
             var results = await Result.GetResults();
             if (keyword == "")
                 resultListView.ItemsSource = results;
-            else
+            int y = 0;
+            if (Int32.TryParse(keyword, out y))
+            {
                 resultListView.ItemsSource = from x in results
-                                         where x.id_user == Int16.Parse(keyword)
-                                         select x;
+                                             where x.id_user == Int32.Parse(keyword)
+                                             select x;
+            }
+            else
+                return;
         }
 
         public async void searchExerciseID_TextChanged(object sender, EventArgs e)
@@ -60,16 +65,16 @@ namespace Zavrsni
                 resultListView.ItemsSource = results.Where(result => result.skill.ToLower().Contains(keyword.ToLower()));
         }
 
-
-        private async void searchLanguage_TextChanged(object sender, TextChangedEventArgs e)
+        private async void searchLanguage_SearchButtonPressed(object sender, EventArgs e)
         {
             var keyword = searchLanguage.Text;
             var results = await Result.GetResults();
             if (keyword == "")
                 resultListView.ItemsSource = results;
             else
-                resultListView.ItemsSource = results.Where(result => result.language.ToLower().Contains(keyword.ToLower()));
-        }   
+                resultListView.ItemsSource = results.Where(result => result.language.Contains(keyword));
+        }
+
 
         private async void ImageButton_Pressed(object sender, EventArgs e)
         {
@@ -149,10 +154,15 @@ namespace Zavrsni
             var results = await Result.GetResults();
             if (keyword == "")
                 resultListView.ItemsSource = results;
-            else
+            int y = 0;
+            if (Int32.TryParse(keyword, out y))
+            {
                 resultListView.ItemsSource = from result in results
-                                             where result.result_percent <= Int16.Parse(keyword)
+                                             where result.result_percent <= Int32.Parse(keyword)
                                              select result;
+            }
+            else
+                return;
         }
 
         private async void resultPercentMin_TextChanged(object sender, TextChangedEventArgs e)
@@ -162,10 +172,15 @@ namespace Zavrsni
             var results = await Result.GetResults();
             if (keyword == "")
                 resultListView.ItemsSource = results;
-            else
+            int y = 0;
+            if (Int32.TryParse(keyword, out y))
+            {
                 resultListView.ItemsSource = from result in results
-                                             where result.result_percent >= Int16.Parse(keyword)
+                                             where result.result_percent >= Int32.Parse(keyword)
                                              select result;
+            }
+            else
+                return;
         }
 
         private async void resultScoreMax_TextChanged(object sender, TextChangedEventArgs e)
@@ -175,10 +190,16 @@ namespace Zavrsni
             var results = await Result.GetResults();
             if (keyword == "")
                 resultListView.ItemsSource = results;
-            else
+            int y = 0;
+            if (Int32.TryParse(keyword, out y))
+            {
                 resultListView.ItemsSource = from result in results
-                                             where result.result_score <= Int16.Parse(keyword)
+                                             where result.result_score <= Int32.Parse(keyword)
                                              select result;
+            }
+            else
+                return;
+
         }
 
         private async void resultScoreMin_TextChanged(object sender, TextChangedEventArgs e)
@@ -188,10 +209,15 @@ namespace Zavrsni
             var results = await Result.GetResults();
             if (keyword == "")
                 resultListView.ItemsSource = results;
-            else
+            int y = 0;
+            if (Int32.TryParse(keyword, out y))
+            {
                 resultListView.ItemsSource = from result in results
-                                             where result.result_score >= Int16.Parse(keyword)
+                                             where result.result_score >= Int32.Parse(keyword)
                                              select result;
+            }
+            else
+                return;
         }
 
         private async void scoreMax_TextChanged(object sender, TextChangedEventArgs e)
@@ -201,10 +227,15 @@ namespace Zavrsni
             var results = await Result.GetResults();
             if (keyword == "")
                 resultListView.ItemsSource = results;
-            else
+            int y = 0;
+            if (Int32.TryParse(keyword, out y))
+            {
                 resultListView.ItemsSource = from result in results
-                                             where result.result_max <= Int16.Parse(keyword)
+                                             where result.result_max <= Int32.Parse(keyword)
                                              select result;
+            }
+            else
+                return;
         }
 
         private async void scoreMin_TextChanged(object sender, TextChangedEventArgs e)
@@ -214,11 +245,17 @@ namespace Zavrsni
             var results = await Result.GetResults();
             if (keyword == "")
                 resultListView.ItemsSource = results;
-            else
+            int y = 0;
+            if (Int32.TryParse(keyword, out y))
+            {
                 resultListView.ItemsSource = from result in results
                                              where result.result_max >= Int16.Parse(keyword)
                                              select result;
+            }
+            else
+                return;
         }
+
 
     }
 }

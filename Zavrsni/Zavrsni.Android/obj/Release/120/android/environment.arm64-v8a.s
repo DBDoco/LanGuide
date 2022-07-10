@@ -300,7 +300,72 @@ assembly_store_bundled_assemblies:
 	.xword	0x0	// config_data
 	.xword	0x0	// descriptor
 
-	.size	assembly_store_bundled_assemblies, 1600
+	.xword	0x0	// image_data
+	.xword	0x0	// debug_info_data
+	.xword	0x0	// config_data
+	.xword	0x0	// descriptor
+
+	.xword	0x0	// image_data
+	.xword	0x0	// debug_info_data
+	.xword	0x0	// config_data
+	.xword	0x0	// descriptor
+
+	.xword	0x0	// image_data
+	.xword	0x0	// debug_info_data
+	.xword	0x0	// config_data
+	.xword	0x0	// descriptor
+
+	.xword	0x0	// image_data
+	.xword	0x0	// debug_info_data
+	.xword	0x0	// config_data
+	.xword	0x0	// descriptor
+
+	.xword	0x0	// image_data
+	.xword	0x0	// debug_info_data
+	.xword	0x0	// config_data
+	.xword	0x0	// descriptor
+
+	.xword	0x0	// image_data
+	.xword	0x0	// debug_info_data
+	.xword	0x0	// config_data
+	.xword	0x0	// descriptor
+
+	.xword	0x0	// image_data
+	.xword	0x0	// debug_info_data
+	.xword	0x0	// config_data
+	.xword	0x0	// descriptor
+
+	.xword	0x0	// image_data
+	.xword	0x0	// debug_info_data
+	.xword	0x0	// config_data
+	.xword	0x0	// descriptor
+
+	.xword	0x0	// image_data
+	.xword	0x0	// debug_info_data
+	.xword	0x0	// config_data
+	.xword	0x0	// descriptor
+
+	.xword	0x0	// image_data
+	.xword	0x0	// debug_info_data
+	.xword	0x0	// config_data
+	.xword	0x0	// descriptor
+
+	.xword	0x0	// image_data
+	.xword	0x0	// debug_info_data
+	.xword	0x0	// config_data
+	.xword	0x0	// descriptor
+
+	.xword	0x0	// image_data
+	.xword	0x0	// debug_info_data
+	.xword	0x0	// config_data
+	.xword	0x0	// descriptor
+
+	.xword	0x0	// image_data
+	.xword	0x0	// debug_info_data
+	.xword	0x0	// config_data
+	.xword	0x0	// descriptor
+
+	.size	assembly_store_bundled_assemblies, 2016
 	// Assembly store data
 
 	.type	assembly_stores, @object
@@ -496,7 +561,7 @@ application_config:
 	.word	0x3	// package_naming_policy
 	.word	0xc	// environment_variable_count
 	.word	0x0	// system_property_count
-	.word	0x32	// number_of_assemblies_in_apk
+	.word	0x3f	// number_of_assemblies_in_apk
 	.word	0x0	// bundled_assembly_name_width
 	.word	0x2	// number_of_assembly_store_files
 	.word	0x18	// number_of_dso_cache_entries
@@ -539,7 +604,7 @@ application_config:
 
 	.type	.L.autostr.6, @object
 .L.autostr.6:
-	.asciz	"6e05c561-5c68-4244-a651-9ab882aee6bb"
+	.asciz	"7bf77086-53db-42c3-b04f-e1caf42e1d15"
 	.size	.L.autostr.6, 37
 
 	.type	.L.autostr.7, @object
