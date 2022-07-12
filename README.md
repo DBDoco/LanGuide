@@ -3,11 +3,20 @@
   <br>
 </h1>
 
-<h4 align="center">Android application made with <a href="https://dotnet.microsoft.com/en-us/apps/xamarin" target="_blank">Xamarin</a>. Made for tablets or large phones.</h4>
+<h4 align="center">Android application made with <a href="https://dotnet.microsoft.com/en-us/apps/xamarin" target="_blank">Xamarin</a> and <a href="https://firebase.google.com/" target="_blank">Google Firebase</a>.
+   <br>Made for tablets or large phones.</h4>
 
 <p align="center">
   <img src="https://media2.giphy.com/media/FzO7cuZfiNDbL72Srr/giphy.gif?cid=790b7611d2354ff67f4deedff6bc50210d097322cdf79743&rid=giphy.gif&ct=g" alt="languide" />
 </p>
+
+## Login Info:
+Email: dominik@mail.com <br>
+Password: dominik123
+
+## API for HTTP get request
+https://www.idt.mdh.se/personal/plt01/languide/?get=users - For getting "Users"<br>
+https://www.idt.mdh.se/personal/plt01/languide/?get=results - For getting "Results"
 
 ## How To Compile
 
@@ -24,6 +33,5 @@ $ cd Zavrsni-RDMA
 Open "Zavrsni.sln";<br>
 Compile with VS and run.
 
-## Login Info:
-Email: dominik@mail.com <br>
-Password: dominik123
+## Known issues
+App will crash if it can't connect to API after login screen.
