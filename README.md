@@ -6,7 +6,7 @@
 <h4 align="center">Android application made with <a href="https://dotnet.microsoft.com/en-us/apps/xamarin" target="_blank">Xamarin</a>. Made for tablets or large phones.</h4>
 
 <p align="center">
-  <img src="https://media3.giphy.com/media/oeRa7lWq6DDRT8WPV5/giphy.gif?cid=790b7611f3935de902470c0cccf8e8e7f6b2ccd3fb0c80dd&rid=giphy.gif&ct=g" alt="languide" />
+  <img src="https://media2.giphy.com/media/FzO7cuZfiNDbL72Srr/giphy.gif?cid=790b7611d2354ff67f4deedff6bc50210d097322cdf79743&rid=giphy.gif&ct=g" alt="languide" />
 </p>
 
 ## How To Compile
