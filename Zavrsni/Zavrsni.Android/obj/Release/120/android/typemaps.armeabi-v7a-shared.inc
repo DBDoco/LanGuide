@@ -132,33 +132,33 @@ map_aname.25:
 
 	.type	map_aname.26, %object
 map_aname.26:
-	.asciz	"Zavrsni.Android"
-	.size	map_aname.26, 16
+	.asciz	"Xamarin.Google.Guava.ListenableFuture"
+	.size	map_aname.26, 38
 
 	.type	map_aname.27, %object
 map_aname.27:
-	.asciz	"Xamarin.Google.Guava.ListenableFuture"
-	.size	map_aname.27, 38
+	.asciz	"Xamarin.AndroidX.CoordinatorLayout"
+	.size	map_aname.27, 35
 
 	.type	map_aname.28, %object
 map_aname.28:
-	.asciz	"Xamarin.AndroidX.CoordinatorLayout"
-	.size	map_aname.28, 35
+	.asciz	"Xamarin.AndroidX.AppCompat"
+	.size	map_aname.28, 27
 
 	.type	map_aname.29, %object
 map_aname.29:
-	.asciz	"Xamarin.AndroidX.AppCompat"
-	.size	map_aname.29, 27
+	.asciz	"Xamarin.Jetbrains.Annotations"
+	.size	map_aname.29, 30
 
 	.type	map_aname.30, %object
 map_aname.30:
-	.asciz	"Xamarin.Jetbrains.Annotations"
-	.size	map_aname.30, 30
+	.asciz	"Xamarin.AndroidX.Lifecycle.Common"
+	.size	map_aname.30, 34
 
 	.type	map_aname.31, %object
 map_aname.31:
-	.asciz	"Xamarin.AndroidX.Lifecycle.Common"
-	.size	map_aname.31, 34
+	.asciz	"Zavrsni.Android"
+	.size	map_aname.31, 16
 
 	.type	map_aname.32, %object
 map_aname.32:

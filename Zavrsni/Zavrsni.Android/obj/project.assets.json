@@ -4830,11 +4830,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Fakultet\\Razvoj aplikacija\\Zavrsni\\Zavrsni\\Zavrsni.Android\\Zavrsni.Android.csproj",
+      "projectUniqueName": "D:\\Fakultet\\Razvoj aplikacija\\Zavrsni-RDMA\\Zavrsni\\Zavrsni.Android\\Zavrsni.Android.csproj",
       "projectName": "Zavrsni.Android",
-      "projectPath": "D:\\Fakultet\\Razvoj aplikacija\\Zavrsni\\Zavrsni\\Zavrsni.Android\\Zavrsni.Android.csproj",
+      "projectPath": "D:\\Fakultet\\Razvoj aplikacija\\Zavrsni-RDMA\\Zavrsni\\Zavrsni.Android\\Zavrsni.Android.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "D:\\Fakultet\\Razvoj aplikacija\\Zavrsni\\Zavrsni\\Zavrsni.Android\\obj\\",
+      "outputPath": "D:\\Fakultet\\Razvoj aplikacija\\Zavrsni-RDMA\\Zavrsni\\Zavrsni.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
@@ -4851,8 +4851,8 @@
       "frameworks": {
         "monoandroid12.0": {
           "projectReferences": {
-            "D:\\Fakultet\\Razvoj aplikacija\\Zavrsni\\Zavrsni\\Zavrsni\\Zavrsni.csproj": {
-              "projectPath": "D:\\Fakultet\\Razvoj aplikacija\\Zavrsni\\Zavrsni\\Zavrsni\\Zavrsni.csproj"
+            "D:\\Fakultet\\Razvoj aplikacija\\Zavrsni-RDMA\\Zavrsni\\Zavrsni\\Zavrsni.csproj": {
+              "projectPath": "D:\\Fakultet\\Razvoj aplikacija\\Zavrsni-RDMA\\Zavrsni\\Zavrsni\\Zavrsni.csproj"
             }
           }
         }

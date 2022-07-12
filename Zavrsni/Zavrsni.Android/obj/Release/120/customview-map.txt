@@ -1,53 +1,53 @@
-@string/appbar_scrolling_view_behavior;D:\Fakultet\Razvoj aplikacija\Zavrsni\Zavrsni\Zavrsni.Android\obj\Release\120\lp\68\jl\res\layout\rootlayout.xml
+@string/appbar_scrolling_view_behavior;D:\Fakultet\Razvoj aplikacija\Zavrsni-RDMA\Zavrsni\Zavrsni.Android\obj\Release\120\lp\68\jl\res\layout\rootlayout.xml
 adaptive-icon;obj\Release\120\res\mipmap-anydpi-v26\icon.xml
 adaptive-icon;obj\Release\120\res\mipmap-anydpi-v26\icon_round.xml
-alpha;D:\Fakultet\Razvoj aplikacija\Zavrsni\Zavrsni\Zavrsni.Android\obj\Release\120\lp\68\jl\res\anim\enterfromleft.xml
-alpha;D:\Fakultet\Razvoj aplikacija\Zavrsni\Zavrsni\Zavrsni.Android\obj\Release\120\lp\68\jl\res\anim\exittoleft.xml
-androidx.appcompat.widget.Toolbar;D:\Fakultet\Razvoj aplikacija\Zavrsni\Zavrsni\Zavrsni.Android\obj\Release\120\lp\68\jl\res\layout\fallbacktoolbardonotuse.xml
-androidx.appcompat.widget.Toolbar;D:\Fakultet\Razvoj aplikacija\Zavrsni\Zavrsni\Zavrsni.Android\obj\Release\120\lp\68\jl\res\layout\rootlayout.xml
-androidx.appcompat.widget.Toolbar;D:\Fakultet\Razvoj aplikacija\Zavrsni\Zavrsni\Zavrsni.Android\obj\Release\120\lp\68\jl\res\layout\shellcontent.xml
-androidx.appcompat.widget.Toolbar;D:\Fakultet\Razvoj aplikacija\Zavrsni\Zavrsni\Zavrsni.Android\obj\Release\120\lp\68\jl\res\layout\toolbar.xml
-androidx.coordinatorlayout.widget.CoordinatorLayout;D:\Fakultet\Razvoj aplikacija\Zavrsni\Zavrsni\Zavrsni.Android\obj\Release\120\lp\68\jl\res\layout\rootlayout.xml
-androidx.coordinatorlayout.widget.CoordinatorLayout;D:\Fakultet\Razvoj aplikacija\Zavrsni\Zavrsni\Zavrsni.Android\obj\Release\120\lp\68\jl\res\layout\shellcontent.xml
-attr;D:\Fakultet\Razvoj aplikacija\Zavrsni\Zavrsni\Zavrsni.Android\obj\Release\120\lp\68\jl\res\values\attrs.xml
+alpha;D:\Fakultet\Razvoj aplikacija\Zavrsni-RDMA\Zavrsni\Zavrsni.Android\obj\Release\120\lp\68\jl\res\anim\enterfromleft.xml
+alpha;D:\Fakultet\Razvoj aplikacija\Zavrsni-RDMA\Zavrsni\Zavrsni.Android\obj\Release\120\lp\68\jl\res\anim\exittoleft.xml
+androidx.appcompat.widget.Toolbar;D:\Fakultet\Razvoj aplikacija\Zavrsni-RDMA\Zavrsni\Zavrsni.Android\obj\Release\120\lp\68\jl\res\layout\fallbacktoolbardonotuse.xml
+androidx.appcompat.widget.Toolbar;D:\Fakultet\Razvoj aplikacija\Zavrsni-RDMA\Zavrsni\Zavrsni.Android\obj\Release\120\lp\68\jl\res\layout\rootlayout.xml
+androidx.appcompat.widget.Toolbar;D:\Fakultet\Razvoj aplikacija\Zavrsni-RDMA\Zavrsni\Zavrsni.Android\obj\Release\120\lp\68\jl\res\layout\shellcontent.xml
+androidx.appcompat.widget.Toolbar;D:\Fakultet\Razvoj aplikacija\Zavrsni-RDMA\Zavrsni\Zavrsni.Android\obj\Release\120\lp\68\jl\res\layout\toolbar.xml
+androidx.coordinatorlayout.widget.CoordinatorLayout;D:\Fakultet\Razvoj aplikacija\Zavrsni-RDMA\Zavrsni\Zavrsni.Android\obj\Release\120\lp\68\jl\res\layout\rootlayout.xml
+androidx.coordinatorlayout.widget.CoordinatorLayout;D:\Fakultet\Razvoj aplikacija\Zavrsni-RDMA\Zavrsni\Zavrsni.Android\obj\Release\120\lp\68\jl\res\layout\shellcontent.xml
+attr;D:\Fakultet\Razvoj aplikacija\Zavrsni-RDMA\Zavrsni\Zavrsni.Android\obj\Release\120\lp\68\jl\res\values\attrs.xml
 background;obj\Release\120\res\mipmap-anydpi-v26\icon.xml
 background;obj\Release\120\res\mipmap-anydpi-v26\icon_round.xml
-cache-path;D:\Fakultet\Razvoj aplikacija\Zavrsni\Zavrsni\Zavrsni.Android\obj\Release\120\lp\55\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+cache-path;D:\Fakultet\Razvoj aplikacija\Zavrsni-RDMA\Zavrsni\Zavrsni.Android\obj\Release\120\lp\55\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
 color;obj\Release\120\res\values\colors.xml
-com.google.android.material.appbar.AppBarLayout;D:\Fakultet\Razvoj aplikacija\Zavrsni\Zavrsni\Zavrsni.Android\obj\Release\120\lp\68\jl\res\layout\flyoutcontent.xml
-com.google.android.material.appbar.AppBarLayout;D:\Fakultet\Razvoj aplikacija\Zavrsni\Zavrsni\Zavrsni.Android\obj\Release\120\lp\68\jl\res\layout\rootlayout.xml
-com.google.android.material.appbar.AppBarLayout;D:\Fakultet\Razvoj aplikacija\Zavrsni\Zavrsni\Zavrsni.Android\obj\Release\120\lp\68\jl\res\layout\shellcontent.xml
-com.google.android.material.bottomnavigation.BottomNavigationView;D:\Fakultet\Razvoj aplikacija\Zavrsni\Zavrsni\Zavrsni.Android\obj\Release\120\lp\68\jl\res\layout\bottomtablayout.xml
-com.google.android.material.tabs.TabLayout;D:\Fakultet\Razvoj aplikacija\Zavrsni\Zavrsni\Zavrsni.Android\obj\Release\120\lp\68\jl\res\layout\fallbacktabbardonotuse.xml
-com.google.android.material.tabs.TabLayout;D:\Fakultet\Razvoj aplikacija\Zavrsni\Zavrsni\Zavrsni.Android\obj\Release\120\lp\68\jl\res\layout\rootlayout.xml
-com.google.android.material.tabs.TabLayout;D:\Fakultet\Razvoj aplikacija\Zavrsni\Zavrsni\Zavrsni.Android\obj\Release\120\lp\68\jl\res\layout\tabbar.xml
-declare-styleable;D:\Fakultet\Razvoj aplikacija\Zavrsni\Zavrsni\Zavrsni.Android\obj\Release\120\lp\68\jl\res\values\attrs.xml
-external-cache-path;D:\Fakultet\Razvoj aplikacija\Zavrsni\Zavrsni\Zavrsni.Android\obj\Release\120\lp\55\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
-external-path;D:\Fakultet\Razvoj aplikacija\Zavrsni\Zavrsni\Zavrsni.Android\obj\Release\120\lp\55\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+com.google.android.material.appbar.AppBarLayout;D:\Fakultet\Razvoj aplikacija\Zavrsni-RDMA\Zavrsni\Zavrsni.Android\obj\Release\120\lp\68\jl\res\layout\flyoutcontent.xml
+com.google.android.material.appbar.AppBarLayout;D:\Fakultet\Razvoj aplikacija\Zavrsni-RDMA\Zavrsni\Zavrsni.Android\obj\Release\120\lp\68\jl\res\layout\rootlayout.xml
+com.google.android.material.appbar.AppBarLayout;D:\Fakultet\Razvoj aplikacija\Zavrsni-RDMA\Zavrsni\Zavrsni.Android\obj\Release\120\lp\68\jl\res\layout\shellcontent.xml
+com.google.android.material.bottomnavigation.BottomNavigationView;D:\Fakultet\Razvoj aplikacija\Zavrsni-RDMA\Zavrsni\Zavrsni.Android\obj\Release\120\lp\68\jl\res\layout\bottomtablayout.xml
+com.google.android.material.tabs.TabLayout;D:\Fakultet\Razvoj aplikacija\Zavrsni-RDMA\Zavrsni\Zavrsni.Android\obj\Release\120\lp\68\jl\res\layout\fallbacktabbardonotuse.xml
+com.google.android.material.tabs.TabLayout;D:\Fakultet\Razvoj aplikacija\Zavrsni-RDMA\Zavrsni\Zavrsni.Android\obj\Release\120\lp\68\jl\res\layout\rootlayout.xml
+com.google.android.material.tabs.TabLayout;D:\Fakultet\Razvoj aplikacija\Zavrsni-RDMA\Zavrsni\Zavrsni.Android\obj\Release\120\lp\68\jl\res\layout\tabbar.xml
+declare-styleable;D:\Fakultet\Razvoj aplikacija\Zavrsni-RDMA\Zavrsni\Zavrsni.Android\obj\Release\120\lp\68\jl\res\values\attrs.xml
+external-cache-path;D:\Fakultet\Razvoj aplikacija\Zavrsni-RDMA\Zavrsni\Zavrsni.Android\obj\Release\120\lp\55\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+external-path;D:\Fakultet\Razvoj aplikacija\Zavrsni-RDMA\Zavrsni\Zavrsni.Android\obj\Release\120\lp\55\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
 foreground;obj\Release\120\res\mipmap-anydpi-v26\icon.xml
 foreground;obj\Release\120\res\mipmap-anydpi-v26\icon_round.xml
-FrameLayout;D:\Fakultet\Razvoj aplikacija\Zavrsni\Zavrsni\Zavrsni.Android\obj\Release\120\lp\68\jl\res\layout\bottomtablayout.xml
-item;D:\Fakultet\Razvoj aplikacija\Zavrsni\Zavrsni\Zavrsni.Android\obj\Release\120\lp\68\jl\res\values\styles.xml
+FrameLayout;D:\Fakultet\Razvoj aplikacija\Zavrsni-RDMA\Zavrsni\Zavrsni.Android\obj\Release\120\lp\68\jl\res\layout\bottomtablayout.xml
+item;D:\Fakultet\Razvoj aplikacija\Zavrsni-RDMA\Zavrsni\Zavrsni.Android\obj\Release\120\lp\68\jl\res\values\styles.xml
 item;obj\Release\120\res\values\styles.xml
-LinearLayout;D:\Fakultet\Razvoj aplikacija\Zavrsni\Zavrsni\Zavrsni.Android\obj\Release\120\lp\68\jl\res\layout\bottomtablayout.xml
-paths;D:\Fakultet\Razvoj aplikacija\Zavrsni\Zavrsni\Zavrsni.Android\obj\Release\120\lp\55\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
-resources;D:\Fakultet\Razvoj aplikacija\Zavrsni\Zavrsni\Zavrsni.Android\obj\Release\120\googsvcsjson\values\goog_svcs_json.xml
-resources;D:\Fakultet\Razvoj aplikacija\Zavrsni\Zavrsni\Zavrsni.Android\obj\Release\120\lp\68\jl\res\values\attrs.xml
-resources;D:\Fakultet\Razvoj aplikacija\Zavrsni\Zavrsni\Zavrsni.Android\obj\Release\120\lp\68\jl\res\values\strings.xml
-resources;D:\Fakultet\Razvoj aplikacija\Zavrsni\Zavrsni\Zavrsni.Android\obj\Release\120\lp\68\jl\res\values\styles.xml
+LinearLayout;D:\Fakultet\Razvoj aplikacija\Zavrsni-RDMA\Zavrsni\Zavrsni.Android\obj\Release\120\lp\68\jl\res\layout\bottomtablayout.xml
+paths;D:\Fakultet\Razvoj aplikacija\Zavrsni-RDMA\Zavrsni\Zavrsni.Android\obj\Release\120\lp\55\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+resources;D:\Fakultet\Razvoj aplikacija\Zavrsni-RDMA\Zavrsni\Zavrsni.Android\obj\Release\120\googsvcsjson\values\goog_svcs_json.xml
+resources;D:\Fakultet\Razvoj aplikacija\Zavrsni-RDMA\Zavrsni\Zavrsni.Android\obj\Release\120\lp\68\jl\res\values\attrs.xml
+resources;D:\Fakultet\Razvoj aplikacija\Zavrsni-RDMA\Zavrsni\Zavrsni.Android\obj\Release\120\lp\68\jl\res\values\strings.xml
+resources;D:\Fakultet\Razvoj aplikacija\Zavrsni-RDMA\Zavrsni\Zavrsni.Android\obj\Release\120\lp\68\jl\res\values\styles.xml
 resources;obj\Release\120\res\values\colors.xml
 resources;obj\Release\120\res\values\styles.xml
-set;D:\Fakultet\Razvoj aplikacija\Zavrsni\Zavrsni\Zavrsni.Android\obj\Release\120\lp\68\jl\res\anim\enterfromleft.xml
-set;D:\Fakultet\Razvoj aplikacija\Zavrsni\Zavrsni\Zavrsni.Android\obj\Release\120\lp\68\jl\res\anim\enterfromright.xml
-set;D:\Fakultet\Razvoj aplikacija\Zavrsni\Zavrsni\Zavrsni.Android\obj\Release\120\lp\68\jl\res\anim\exittoleft.xml
-set;D:\Fakultet\Razvoj aplikacija\Zavrsni\Zavrsni\Zavrsni.Android\obj\Release\120\lp\68\jl\res\anim\exittoright.xml
-string;D:\Fakultet\Razvoj aplikacija\Zavrsni\Zavrsni\Zavrsni.Android\obj\Release\120\googsvcsjson\values\goog_svcs_json.xml
-string;D:\Fakultet\Razvoj aplikacija\Zavrsni\Zavrsni\Zavrsni.Android\obj\Release\120\lp\68\jl\res\values\strings.xml
-style;D:\Fakultet\Razvoj aplikacija\Zavrsni\Zavrsni\Zavrsni.Android\obj\Release\120\lp\68\jl\res\values\styles.xml
+set;D:\Fakultet\Razvoj aplikacija\Zavrsni-RDMA\Zavrsni\Zavrsni.Android\obj\Release\120\lp\68\jl\res\anim\enterfromleft.xml
+set;D:\Fakultet\Razvoj aplikacija\Zavrsni-RDMA\Zavrsni\Zavrsni.Android\obj\Release\120\lp\68\jl\res\anim\enterfromright.xml
+set;D:\Fakultet\Razvoj aplikacija\Zavrsni-RDMA\Zavrsni\Zavrsni.Android\obj\Release\120\lp\68\jl\res\anim\exittoleft.xml
+set;D:\Fakultet\Razvoj aplikacija\Zavrsni-RDMA\Zavrsni\Zavrsni.Android\obj\Release\120\lp\68\jl\res\anim\exittoright.xml
+string;D:\Fakultet\Razvoj aplikacija\Zavrsni-RDMA\Zavrsni\Zavrsni.Android\obj\Release\120\googsvcsjson\values\goog_svcs_json.xml
+string;D:\Fakultet\Razvoj aplikacija\Zavrsni-RDMA\Zavrsni\Zavrsni.Android\obj\Release\120\lp\68\jl\res\values\strings.xml
+style;D:\Fakultet\Razvoj aplikacija\Zavrsni-RDMA\Zavrsni\Zavrsni.Android\obj\Release\120\lp\68\jl\res\values\styles.xml
 style;obj\Release\120\res\values\styles.xml
-translate;D:\Fakultet\Razvoj aplikacija\Zavrsni\Zavrsni\Zavrsni.Android\obj\Release\120\lp\68\jl\res\anim\enterfromleft.xml
-translate;D:\Fakultet\Razvoj aplikacija\Zavrsni\Zavrsni\Zavrsni.Android\obj\Release\120\lp\68\jl\res\anim\enterfromright.xml
-translate;D:\Fakultet\Razvoj aplikacija\Zavrsni\Zavrsni\Zavrsni.Android\obj\Release\120\lp\68\jl\res\anim\exittoleft.xml
-translate;D:\Fakultet\Razvoj aplikacija\Zavrsni\Zavrsni\Zavrsni.Android\obj\Release\120\lp\68\jl\res\anim\exittoright.xml
-xamarin.forms.platform.android.appcompat.FormsViewPager;D:\Fakultet\Razvoj aplikacija\Zavrsni\Zavrsni\Zavrsni.Android\obj\Release\120\lp\68\jl\res\layout\rootlayout.xml
-xamarin.forms.platform.android.ShellFlyoutLayout;D:\Fakultet\Razvoj aplikacija\Zavrsni\Zavrsni\Zavrsni.Android\obj\Release\120\lp\68\jl\res\layout\flyoutcontent.xml
+translate;D:\Fakultet\Razvoj aplikacija\Zavrsni-RDMA\Zavrsni\Zavrsni.Android\obj\Release\120\lp\68\jl\res\anim\enterfromleft.xml
+translate;D:\Fakultet\Razvoj aplikacija\Zavrsni-RDMA\Zavrsni\Zavrsni.Android\obj\Release\120\lp\68\jl\res\anim\enterfromright.xml
+translate;D:\Fakultet\Razvoj aplikacija\Zavrsni-RDMA\Zavrsni\Zavrsni.Android\obj\Release\120\lp\68\jl\res\anim\exittoleft.xml
+translate;D:\Fakultet\Razvoj aplikacija\Zavrsni-RDMA\Zavrsni\Zavrsni.Android\obj\Release\120\lp\68\jl\res\anim\exittoright.xml
+xamarin.forms.platform.android.appcompat.FormsViewPager;D:\Fakultet\Razvoj aplikacija\Zavrsni-RDMA\Zavrsni\Zavrsni.Android\obj\Release\120\lp\68\jl\res\layout\rootlayout.xml
+xamarin.forms.platform.android.ShellFlyoutLayout;D:\Fakultet\Razvoj aplikacija\Zavrsni-RDMA\Zavrsni\Zavrsni.Android\obj\Release\120\lp\68\jl\res\layout\flyoutcontent.xml

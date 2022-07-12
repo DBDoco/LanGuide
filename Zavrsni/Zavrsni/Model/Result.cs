@@ -23,16 +23,19 @@ namespace Zavrsni.Model
         public async static Task<List<Result>> GetResults()
         {
             List<Result> results = new List<Result>();
-            var url = "https://www.idt.mdh.se/personal/plt01/languide/?get=results&limit=500";
+            var url = new Uri ("https://www.idt.mdh.se/personal/plt01/languide/?get=results&limit=500");
 
-            using (HttpClient client = new HttpClient())
-            {
-                var response = await client.GetAsync(url);
-                var json = await response.Content.ReadAsStringAsync();
+            HttpClient client = new HttpClient();
+            
+                var response = client.GetAsync(url).GetAwaiter().GetResult();
+                if (response.IsSuccessStatusCode)
+                {
+                    var json = await response.Content.ReadAsStringAsync();
 
-                var resultRoot = JsonConvert.DeserializeObject<ResultRoot>(json);
-                results = resultRoot.data as List<Result>;
-            }
+                    var resultRoot = JsonConvert.DeserializeObject<ResultRoot>(json);
+                    results = resultRoot.data as List<Result>;
+                }
+            
             return results;
         }
     }

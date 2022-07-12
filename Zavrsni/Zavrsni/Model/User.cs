@@ -17,16 +17,18 @@ namespace Zavrsni.Model
         public async static Task<List<User>> GetUsers()
         {
             List<User> users = new List<User>();
-            var url = "https://www.idt.mdh.se/personal/plt01/languide/?get=users";
+            var url = new Uri ("https://www.idt.mdh.se/personal/plt01/languide/?get=users");
 
-            using (HttpClient client = new HttpClient())
-            {
-                var response = await client.GetAsync(url);
-                var json = await response.Content.ReadAsStringAsync();
+            HttpClient client = new HttpClient();
+                var response = client.GetAsync(url).GetAwaiter().GetResult();
+                if (response.IsSuccessStatusCode)
+                {
+                    var json = await response.Content.ReadAsStringAsync();
 
-                var userRoot = JsonConvert.DeserializeObject<UserRoot>(json);
-                users = userRoot.data as List<User>;
-            }
+                    var userRoot = JsonConvert.DeserializeObject<UserRoot>(json);
+                    users = userRoot.data as List<User>;
+                }
+ 
             return users;
         }
     }

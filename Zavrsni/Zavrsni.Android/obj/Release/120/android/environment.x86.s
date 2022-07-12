@@ -600,7 +600,7 @@ application_config:
 
 	.type	.L.autostr.6, @object
 .L.autostr.6:
-	.asciz	"7bf77086-53db-42c3-b04f-e1caf42e1d15"
+	.asciz	"25f38113-571b-4d2c-8503-f609fc85c38f"
 	.size	.L.autostr.6, 37
 
 	.type	.L.autostr.7, @object

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Fakultet\\Razvoj aplikacija\\Zavrsni\\Zavrsni\\Zavrsni\\Zavrsni.csproj": {}
+    "D:\\Fakultet\\Razvoj aplikacija\\Zavrsni-RDMA\\Zavrsni\\Zavrsni\\Zavrsni.csproj": {}
   },
   "projects": {
-    "D:\\Fakultet\\Razvoj aplikacija\\Zavrsni\\Zavrsni\\Zavrsni\\Zavrsni.csproj": {
+    "D:\\Fakultet\\Razvoj aplikacija\\Zavrsni-RDMA\\Zavrsni\\Zavrsni\\Zavrsni.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Fakultet\\Razvoj aplikacija\\Zavrsni\\Zavrsni\\Zavrsni\\Zavrsni.csproj",
+        "projectUniqueName": "D:\\Fakultet\\Razvoj aplikacija\\Zavrsni-RDMA\\Zavrsni\\Zavrsni\\Zavrsni.csproj",
         "projectName": "Zavrsni",
-        "projectPath": "D:\\Fakultet\\Razvoj aplikacija\\Zavrsni\\Zavrsni\\Zavrsni\\Zavrsni.csproj",
+        "projectPath": "D:\\Fakultet\\Razvoj aplikacija\\Zavrsni-RDMA\\Zavrsni\\Zavrsni\\Zavrsni.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "D:\\Fakultet\\Razvoj aplikacija\\Zavrsni\\Zavrsni\\Zavrsni\\obj\\",
+        "outputPath": "D:\\Fakultet\\Razvoj aplikacija\\Zavrsni-RDMA\\Zavrsni\\Zavrsni\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",

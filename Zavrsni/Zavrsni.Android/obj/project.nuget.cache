@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mcPwh0/8oV7a7mksM86C9mFg9UC4a+3r6P2qIArwx4g7DdqcTTPUp4JYQNRzhPVgaNflr3gheoElrfU7UfPymw==",
+  "dgSpecHash": "SOCJlOpmxSMA3K46B7Pd515vCph2qvSBZvQWFLOynBD/AseYXS4PoEiV1K7kDedssBaNbg/m/8LpHPHLQ5nlCA==",
   "success": true,
-  "projectFilePath": "D:\\Fakultet\\Razvoj aplikacija\\Zavrsni\\Zavrsni\\Zavrsni.Android\\Zavrsni.Android.csproj",
+  "projectFilePath": "D:\\Fakultet\\Razvoj aplikacija\\Zavrsni-RDMA\\Zavrsni\\Zavrsni.Android\\Zavrsni.Android.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\5.0.0\\microsoft.bcl.asyncinterfaces.5.0.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",

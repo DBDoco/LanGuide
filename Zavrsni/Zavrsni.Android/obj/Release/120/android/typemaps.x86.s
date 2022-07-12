@@ -304,22 +304,12 @@ map_modules:
 	.long	0x0	# java_name_width
 	.long	0x0	# java_map
 
-	.byte	0xde, 0x64, 0x64, 0xf9, 0x80, 0x35, 0xe7, 0x40, 0xb5, 0x76, 0xe0, 0xa8, 0x87, 0x86, 0x65, 0xe3	# module_uuid: f96464de-3580-40e7-b576-e0a8878665e3
-	.long	0x1	# entry_count
-	.long	0x0	# duplicate_count
-	.long	.L.module26_managed_to_java	# map
-	.long	0	# duplicate_map
-	.long	map_aname.26	# assembly_name: Zavrsni.Android
-	.long	0x0	# image
-	.long	0x0	# java_name_width
-	.long	0x0	# java_map
-
 	.byte	0xdf, 0xe5, 0x2, 0x84, 0x13, 0x48, 0x7, 0x4e, 0xaf, 0x80, 0x0, 0xa, 0x1d, 0xa4, 0x9d, 0xb1	# module_uuid: 8402e5df-4813-4e07-af80-000a1da49db1
 	.long	0x1	# entry_count
 	.long	0x1	# duplicate_count
-	.long	.L.module27_managed_to_java	# map
-	.long	.L.module27_managed_to_java_duplicates	# duplicate_map
-	.long	map_aname.27	# assembly_name: Xamarin.Google.Guava.ListenableFuture
+	.long	.L.module26_managed_to_java	# map
+	.long	.L.module26_managed_to_java_duplicates	# duplicate_map
+	.long	map_aname.26	# assembly_name: Xamarin.Google.Guava.ListenableFuture
 	.long	0x0	# image
 	.long	0x0	# java_name_width
 	.long	0x0	# java_map
@@ -327,9 +317,9 @@ map_modules:
 	.byte	0xe5, 0x97, 0x74, 0x2a, 0xdc, 0xbc, 0x4f, 0x4c, 0xa2, 0xc5, 0x76, 0x24, 0x90, 0x90, 0x76, 0x6e	# module_uuid: 2a7497e5-bcdc-4c4f-a2c5-76249090766e
 	.long	0x4	# entry_count
 	.long	0x2	# duplicate_count
-	.long	.L.module28_managed_to_java	# map
-	.long	.L.module28_managed_to_java_duplicates	# duplicate_map
-	.long	map_aname.28	# assembly_name: Xamarin.AndroidX.CoordinatorLayout
+	.long	.L.module27_managed_to_java	# map
+	.long	.L.module27_managed_to_java_duplicates	# duplicate_map
+	.long	map_aname.27	# assembly_name: Xamarin.AndroidX.CoordinatorLayout
 	.long	0x0	# image
 	.long	0x0	# java_name_width
 	.long	0x0	# java_map
@@ -337,9 +327,9 @@ map_modules:
 	.byte	0xe8, 0xd6, 0xa3, 0x89, 0x9e, 0xd1, 0xc4, 0x44, 0xb6, 0x87, 0x8, 0x1f, 0xfb, 0x8a, 0xc4, 0x60	# module_uuid: 89a3d6e8-d19e-44c4-b687-081ffb8ac460
 	.long	0x38	# entry_count
 	.long	0x16	# duplicate_count
-	.long	.L.module29_managed_to_java	# map
-	.long	.L.module29_managed_to_java_duplicates	# duplicate_map
-	.long	map_aname.29	# assembly_name: Xamarin.AndroidX.AppCompat
+	.long	.L.module28_managed_to_java	# map
+	.long	.L.module28_managed_to_java_duplicates	# duplicate_map
+	.long	map_aname.28	# assembly_name: Xamarin.AndroidX.AppCompat
 	.long	0x0	# image
 	.long	0x0	# java_name_width
 	.long	0x0	# java_map
@@ -347,9 +337,9 @@ map_modules:
 	.byte	0xeb, 0x15, 0xf8, 0x81, 0xb2, 0x1b, 0xba, 0x46, 0x9e, 0xc9, 0x24, 0xaa, 0xcb, 0x69, 0x2c, 0xd2	# module_uuid: 81f815eb-1bb2-46ba-9ec9-24aacb692cd2
 	.long	0x38	# entry_count
 	.long	0x35	# duplicate_count
-	.long	.L.module30_managed_to_java	# map
-	.long	.L.module30_managed_to_java_duplicates	# duplicate_map
-	.long	map_aname.30	# assembly_name: Xamarin.Jetbrains.Annotations
+	.long	.L.module29_managed_to_java	# map
+	.long	.L.module29_managed_to_java_duplicates	# duplicate_map
+	.long	map_aname.29	# assembly_name: Xamarin.Jetbrains.Annotations
 	.long	0x0	# image
 	.long	0x0	# java_name_width
 	.long	0x0	# java_map
@@ -357,9 +347,19 @@ map_modules:
 	.byte	0xf5, 0x57, 0xa, 0x7f, 0x61, 0x2b, 0x68, 0x46, 0xa8, 0xa5, 0x28, 0xc5, 0x9e, 0xd9, 0x86, 0x92	# module_uuid: 7f0a57f5-2b61-4668-a8a5-28c59ed98692
 	.long	0x4	# entry_count
 	.long	0x3	# duplicate_count
+	.long	.L.module30_managed_to_java	# map
+	.long	.L.module30_managed_to_java_duplicates	# duplicate_map
+	.long	map_aname.30	# assembly_name: Xamarin.AndroidX.Lifecycle.Common
+	.long	0x0	# image
+	.long	0x0	# java_name_width
+	.long	0x0	# java_map
+
+	.byte	0xf7, 0xa7, 0x2c, 0x49, 0x20, 0x9f, 0xa0, 0x49, 0x88, 0x36, 0x48, 0xb0, 0xb0, 0xb, 0xb7, 0xec	# module_uuid: 492ca7f7-9f20-49a0-8836-48b0b00bb7ec
+	.long	0x1	# entry_count
+	.long	0x0	# duplicate_count
 	.long	.L.module31_managed_to_java	# map
-	.long	.L.module31_managed_to_java_duplicates	# duplicate_map
-	.long	map_aname.31	# assembly_name: Xamarin.AndroidX.Lifecycle.Common
+	.long	0	# duplicate_map
+	.long	map_aname.31	# assembly_name: Zavrsni.Android
 	.long	0x0	# image
 	.long	0x0	# java_name_width
 	.long	0x0	# java_map
@@ -2533,109 +2533,109 @@ map_java:
 	.zero	27	# byteCount == 74; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1d	# module_index
+	.long	0x1c	# module_index
 	.long	0x200003c	# type_token_id
 	.ascii	"androidx/appcompat/app/ActionBar"	# java_name
 	.zero	69	# byteCount == 32; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1d	# module_index
+	.long	0x1c	# module_index
 	.long	0x200003d	# type_token_id
 	.ascii	"androidx/appcompat/app/ActionBar$LayoutParams"	# java_name
 	.zero	56	# byteCount == 45; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1d	# module_index
+	.long	0x1c	# module_index
 	.long	0x0	# type_token_id
 	.ascii	"androidx/appcompat/app/ActionBar$OnMenuVisibilityListener"	# java_name
 	.zero	44	# byteCount == 57; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1d	# module_index
+	.long	0x1c	# module_index
 	.long	0x0	# type_token_id
 	.ascii	"androidx/appcompat/app/ActionBar$OnNavigationListener"	# java_name
 	.zero	48	# byteCount == 53; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1d	# module_index
+	.long	0x1c	# module_index
 	.long	0x2000044	# type_token_id
 	.ascii	"androidx/appcompat/app/ActionBar$Tab"	# java_name
 	.zero	65	# byteCount == 36; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1d	# module_index
+	.long	0x1c	# module_index
 	.long	0x0	# type_token_id
 	.ascii	"androidx/appcompat/app/ActionBar$TabListener"	# java_name
 	.zero	57	# byteCount == 44; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1d	# module_index
+	.long	0x1c	# module_index
 	.long	0x200004b	# type_token_id
 	.ascii	"androidx/appcompat/app/ActionBarDrawerToggle"	# java_name
 	.zero	57	# byteCount == 44; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1d	# module_index
+	.long	0x1c	# module_index
 	.long	0x0	# type_token_id
 	.ascii	"androidx/appcompat/app/ActionBarDrawerToggle$Delegate"	# java_name
 	.zero	48	# byteCount == 53; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1d	# module_index
+	.long	0x1c	# module_index
 	.long	0x0	# type_token_id
 	.ascii	"androidx/appcompat/app/ActionBarDrawerToggle$DelegateProvider"	# java_name
 	.zero	40	# byteCount == 61; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1d	# module_index
+	.long	0x1c	# module_index
 	.long	0x2000037	# type_token_id
 	.ascii	"androidx/appcompat/app/AlertDialog"	# java_name
 	.zero	67	# byteCount == 34; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1d	# module_index
+	.long	0x1c	# module_index
 	.long	0x2000038	# type_token_id
 	.ascii	"androidx/appcompat/app/AlertDialog$Builder"	# java_name
 	.zero	59	# byteCount == 42; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1d	# module_index
+	.long	0x1c	# module_index
 	.long	0x200003a	# type_token_id
 	.ascii	"androidx/appcompat/app/AlertDialog_IDialogInterfaceOnCancelListenerImplementor"	# java_name
 	.zero	23	# byteCount == 78; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1d	# module_index
+	.long	0x1c	# module_index
 	.long	0x2000039	# type_token_id
 	.ascii	"androidx/appcompat/app/AlertDialog_IDialogInterfaceOnClickListenerImplementor"	# java_name
 	.zero	24	# byteCount == 77; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1d	# module_index
+	.long	0x1c	# module_index
 	.long	0x200003b	# type_token_id
 	.ascii	"androidx/appcompat/app/AlertDialog_IDialogInterfaceOnMultiChoiceClickListenerImplementor"	# java_name
 	.zero	13	# byteCount == 88; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1d	# module_index
+	.long	0x1c	# module_index
 	.long	0x2000050	# type_token_id
 	.ascii	"androidx/appcompat/app/AppCompatActivity"	# java_name
 	.zero	61	# byteCount == 40; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1d	# module_index
+	.long	0x1c	# module_index
 	.long	0x0	# type_token_id
 	.ascii	"androidx/appcompat/app/AppCompatCallback"	# java_name
 	.zero	61	# byteCount == 40; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1d	# module_index
+	.long	0x1c	# module_index
 	.long	0x2000051	# type_token_id
 	.ascii	"androidx/appcompat/app/AppCompatDelegate"	# java_name
 	.zero	61	# byteCount == 40; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1d	# module_index
+	.long	0x1c	# module_index
 	.long	0x2000053	# type_token_id
 	.ascii	"androidx/appcompat/app/AppCompatDialog"	# java_name
 	.zero	63	# byteCount == 38; fixedWidth == 101; returned size == 101
@@ -2653,199 +2653,199 @@ map_java:
 	.zero	49	# byteCount == 52; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1d	# module_index
+	.long	0x1c	# module_index
 	.long	0x2000036	# type_token_id
 	.ascii	"androidx/appcompat/graphics/drawable/DrawerArrowDrawable"	# java_name
 	.zero	45	# byteCount == 56; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1d	# module_index
+	.long	0x1c	# module_index
 	.long	0x2000087	# type_token_id
 	.ascii	"androidx/appcompat/view/ActionMode"	# java_name
 	.zero	67	# byteCount == 34; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1d	# module_index
+	.long	0x1c	# module_index
 	.long	0x0	# type_token_id
 	.ascii	"androidx/appcompat/view/ActionMode$Callback"	# java_name
 	.zero	58	# byteCount == 43; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1d	# module_index
+	.long	0x1c	# module_index
 	.long	0x0	# type_token_id
 	.ascii	"androidx/appcompat/view/CollapsibleActionView"	# java_name
 	.zero	56	# byteCount == 45; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1d	# module_index
+	.long	0x1c	# module_index
 	.long	0x200008d	# type_token_id
 	.ascii	"androidx/appcompat/view/menu/MenuBuilder"	# java_name
 	.zero	61	# byteCount == 40; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1d	# module_index
+	.long	0x1c	# module_index
 	.long	0x0	# type_token_id
 	.ascii	"androidx/appcompat/view/menu/MenuBuilder$Callback"	# java_name
 	.zero	52	# byteCount == 49; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1d	# module_index
+	.long	0x1c	# module_index
 	.long	0x2000098	# type_token_id
 	.ascii	"androidx/appcompat/view/menu/MenuItemImpl"	# java_name
 	.zero	60	# byteCount == 41; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1d	# module_index
+	.long	0x1c	# module_index
 	.long	0x0	# type_token_id
 	.ascii	"androidx/appcompat/view/menu/MenuPresenter"	# java_name
 	.zero	59	# byteCount == 42; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1d	# module_index
+	.long	0x1c	# module_index
 	.long	0x0	# type_token_id
 	.ascii	"androidx/appcompat/view/menu/MenuPresenter$Callback"	# java_name
 	.zero	50	# byteCount == 51; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1d	# module_index
+	.long	0x1c	# module_index
 	.long	0x0	# type_token_id
 	.ascii	"androidx/appcompat/view/menu/MenuView"	# java_name
 	.zero	64	# byteCount == 37; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1d	# module_index
+	.long	0x1c	# module_index
 	.long	0x0	# type_token_id
 	.ascii	"androidx/appcompat/view/menu/MenuView$ItemView"	# java_name
 	.zero	55	# byteCount == 46; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1d	# module_index
+	.long	0x1c	# module_index
 	.long	0x2000099	# type_token_id
 	.ascii	"androidx/appcompat/view/menu/SubMenuBuilder"	# java_name
 	.zero	58	# byteCount == 43; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1d	# module_index
+	.long	0x1c	# module_index
 	.long	0x2000060	# type_token_id
 	.ascii	"androidx/appcompat/widget/AppCompatAutoCompleteTextView"	# java_name
 	.zero	46	# byteCount == 55; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1d	# module_index
+	.long	0x1c	# module_index
 	.long	0x2000061	# type_token_id
 	.ascii	"androidx/appcompat/widget/AppCompatButton"	# java_name
 	.zero	60	# byteCount == 41; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1d	# module_index
+	.long	0x1c	# module_index
 	.long	0x2000062	# type_token_id
 	.ascii	"androidx/appcompat/widget/AppCompatCheckBox"	# java_name
 	.zero	58	# byteCount == 43; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1d	# module_index
+	.long	0x1c	# module_index
 	.long	0x2000063	# type_token_id
 	.ascii	"androidx/appcompat/widget/AppCompatEditText"	# java_name
 	.zero	58	# byteCount == 43; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1d	# module_index
+	.long	0x1c	# module_index
 	.long	0x2000064	# type_token_id
 	.ascii	"androidx/appcompat/widget/AppCompatImageButton"	# java_name
 	.zero	55	# byteCount == 46; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1d	# module_index
+	.long	0x1c	# module_index
 	.long	0x2000065	# type_token_id
 	.ascii	"androidx/appcompat/widget/AppCompatImageView"	# java_name
 	.zero	57	# byteCount == 44; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1d	# module_index
+	.long	0x1c	# module_index
 	.long	0x2000066	# type_token_id
 	.ascii	"androidx/appcompat/widget/AppCompatRadioButton"	# java_name
 	.zero	55	# byteCount == 46; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1d	# module_index
+	.long	0x1c	# module_index
 	.long	0x2000067	# type_token_id
 	.ascii	"androidx/appcompat/widget/AppCompatTextView"	# java_name
 	.zero	58	# byteCount == 43; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1d	# module_index
+	.long	0x1c	# module_index
 	.long	0x0	# type_token_id
 	.ascii	"androidx/appcompat/widget/DecorToolbar"	# java_name
 	.zero	63	# byteCount == 38; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1d	# module_index
+	.long	0x1c	# module_index
 	.long	0x200006a	# type_token_id
 	.ascii	"androidx/appcompat/widget/LinearLayoutCompat"	# java_name
 	.zero	57	# byteCount == 44; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1d	# module_index
+	.long	0x1c	# module_index
 	.long	0x200006b	# type_token_id
 	.ascii	"androidx/appcompat/widget/ScrollingTabContainerView"	# java_name
 	.zero	50	# byteCount == 51; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1d	# module_index
+	.long	0x1c	# module_index
 	.long	0x200006c	# type_token_id
 	.ascii	"androidx/appcompat/widget/ScrollingTabContainerView$VisibilityAnimListener"	# java_name
 	.zero	27	# byteCount == 74; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1d	# module_index
+	.long	0x1c	# module_index
 	.long	0x200006d	# type_token_id
 	.ascii	"androidx/appcompat/widget/SearchView"	# java_name
 	.zero	65	# byteCount == 36; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1d	# module_index
+	.long	0x1c	# module_index
 	.long	0x0	# type_token_id
 	.ascii	"androidx/appcompat/widget/SearchView$OnCloseListener"	# java_name
 	.zero	49	# byteCount == 52; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1d	# module_index
+	.long	0x1c	# module_index
 	.long	0x0	# type_token_id
 	.ascii	"androidx/appcompat/widget/SearchView$OnQueryTextListener"	# java_name
 	.zero	45	# byteCount == 56; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1d	# module_index
+	.long	0x1c	# module_index
 	.long	0x0	# type_token_id
 	.ascii	"androidx/appcompat/widget/SearchView$OnSuggestionListener"	# java_name
 	.zero	44	# byteCount == 57; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1d	# module_index
+	.long	0x1c	# module_index
 	.long	0x2000086	# type_token_id
 	.ascii	"androidx/appcompat/widget/SwitchCompat"	# java_name
 	.zero	63	# byteCount == 38; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1d	# module_index
+	.long	0x1c	# module_index
 	.long	0x2000056	# type_token_id
 	.ascii	"androidx/appcompat/widget/Toolbar"	# java_name
 	.zero	68	# byteCount == 33; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1d	# module_index
+	.long	0x1c	# module_index
 	.long	0x2000059	# type_token_id
 	.ascii	"androidx/appcompat/widget/Toolbar$LayoutParams"	# java_name
 	.zero	55	# byteCount == 46; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1d	# module_index
+	.long	0x1c	# module_index
 	.long	0x0	# type_token_id
 	.ascii	"androidx/appcompat/widget/Toolbar$OnMenuItemClickListener"	# java_name
 	.zero	44	# byteCount == 57; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1d	# module_index
+	.long	0x1c	# module_index
 	.long	0x2000057	# type_token_id
 	.ascii	"androidx/appcompat/widget/Toolbar_NavigationOnClickEventDispatcher"	# java_name
 	.zero	35	# byteCount == 66; fixedWidth == 101; returned size == 101
@@ -2857,25 +2857,25 @@ map_java:
 	.zero	68	# byteCount == 33; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1c	# module_index
+	.long	0x1b	# module_index
 	.long	0x2000027	# type_token_id
 	.ascii	"androidx/coordinatorlayout/widget/CoordinatorLayout"	# java_name
 	.zero	50	# byteCount == 51; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1c	# module_index
+	.long	0x1b	# module_index
 	.long	0x0	# type_token_id
 	.ascii	"androidx/coordinatorlayout/widget/CoordinatorLayout$AttachedBehavior"	# java_name
 	.zero	33	# byteCount == 68; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1c	# module_index
+	.long	0x1b	# module_index
 	.long	0x200002a	# type_token_id
 	.ascii	"androidx/coordinatorlayout/widget/CoordinatorLayout$Behavior"	# java_name
 	.zero	41	# byteCount == 60; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1c	# module_index
+	.long	0x1b	# module_index
 	.long	0x200002c	# type_token_id
 	.ascii	"androidx/coordinatorlayout/widget/CoordinatorLayout$LayoutParams"	# java_name
 	.zero	37	# byteCount == 64; fixedWidth == 101; returned size == 101
@@ -3505,25 +3505,25 @@ map_java:
 	.zero	48	# byteCount == 53; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1f	# module_index
+	.long	0x1e	# module_index
 	.long	0x2000004	# type_token_id
 	.ascii	"androidx/lifecycle/Lifecycle"	# java_name
 	.zero	73	# byteCount == 28; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1f	# module_index
+	.long	0x1e	# module_index
 	.long	0x2000005	# type_token_id
 	.ascii	"androidx/lifecycle/Lifecycle$State"	# java_name
 	.zero	67	# byteCount == 34; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1f	# module_index
+	.long	0x1e	# module_index
 	.long	0x0	# type_token_id
 	.ascii	"androidx/lifecycle/LifecycleObserver"	# java_name
 	.zero	65	# byteCount == 36; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1f	# module_index
+	.long	0x1e	# module_index
 	.long	0x0	# type_token_id
 	.ascii	"androidx/lifecycle/LifecycleOwner"	# java_name
 	.zero	68	# byteCount == 33; fixedWidth == 101; returned size == 101
@@ -4165,7 +4165,7 @@ map_java:
 	.zero	51	# byteCount == 50; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1b	# module_index
+	.long	0x1a	# module_index
 	.long	0x0	# type_token_id
 	.ascii	"com/google/common/util/concurrent/ListenableFuture"	# java_name
 	.zero	51	# byteCount == 50; fixedWidth == 101; returned size == 101
@@ -4417,7 +4417,7 @@ map_java:
 	.zero	63	# byteCount == 38; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1a	# module_index
+	.long	0x1f	# module_index
 	.long	0x2000002	# type_token_id
 	.ascii	"crc640884d118108b8a16/MainActivity"	# java_name
 	.zero	67	# byteCount == 34; fixedWidth == 101; returned size == 101
@@ -9499,31 +9499,31 @@ map_java:
 	.zero	28	# byteCount == 73; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1d	# module_index
+	.long	0x1c	# module_index
 	.long	0x2000041	# type_token_id
 	.ascii	"mono/androidx/appcompat/app/ActionBar_OnMenuVisibilityListenerImplementor"	# java_name
 	.zero	28	# byteCount == 73; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1d	# module_index
+	.long	0x1c	# module_index
 	.long	0x2000071	# type_token_id
 	.ascii	"mono/androidx/appcompat/widget/SearchView_OnCloseListenerImplementor"	# java_name
 	.zero	33	# byteCount == 68; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1d	# module_index
+	.long	0x1c	# module_index
 	.long	0x2000076	# type_token_id
 	.ascii	"mono/androidx/appcompat/widget/SearchView_OnQueryTextListenerImplementor"	# java_name
 	.zero	29	# byteCount == 72; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1d	# module_index
+	.long	0x1c	# module_index
 	.long	0x200007b	# type_token_id
 	.ascii	"mono/androidx/appcompat/widget/SearchView_OnSuggestionListenerImplementor"	# java_name
 	.zero	28	# byteCount == 73; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1d	# module_index
+	.long	0x1c	# module_index
 	.long	0x200005d	# type_token_id
 	.ascii	"mono/androidx/appcompat/widget/Toolbar_OnMenuItemClickListenerImplementor"	# java_name
 	.zero	28	# byteCount == 73; fixedWidth == 101; returned size == 101
@@ -9667,337 +9667,337 @@ map_java:
 	.zero	67	# byteCount == 34; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1e	# module_index
+	.long	0x1d	# module_index
 	.long	0x2000042	# type_token_id
 	.ascii	"org/intellij/lang/annotations/Flow"	# java_name
 	.zero	67	# byteCount == 34; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1e	# module_index
+	.long	0x1d	# module_index
 	.long	0x0	# type_token_id
 	.ascii	"org/intellij/lang/annotations/Identifier"	# java_name
 	.zero	61	# byteCount == 40; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1e	# module_index
+	.long	0x1d	# module_index
 	.long	0x2000054	# type_token_id
 	.ascii	"org/intellij/lang/annotations/JdkConstants"	# java_name
 	.zero	59	# byteCount == 42; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1e	# module_index
+	.long	0x1d	# module_index
 	.long	0x0	# type_token_id
 	.ascii	"org/intellij/lang/annotations/JdkConstants$AdjustableOrientation"	# java_name
 	.zero	37	# byteCount == 64; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1e	# module_index
+	.long	0x1d	# module_index
 	.long	0x0	# type_token_id
 	.ascii	"org/intellij/lang/annotations/JdkConstants$BoxLayoutAxis"	# java_name
 	.zero	45	# byteCount == 56; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1e	# module_index
+	.long	0x1d	# module_index
 	.long	0x0	# type_token_id
 	.ascii	"org/intellij/lang/annotations/JdkConstants$CalendarMonth"	# java_name
 	.zero	45	# byteCount == 56; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1e	# module_index
+	.long	0x1d	# module_index
 	.long	0x0	# type_token_id
 	.ascii	"org/intellij/lang/annotations/JdkConstants$CursorType"	# java_name
 	.zero	48	# byteCount == 53; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1e	# module_index
+	.long	0x1d	# module_index
 	.long	0x0	# type_token_id
 	.ascii	"org/intellij/lang/annotations/JdkConstants$FlowLayoutAlignment"	# java_name
 	.zero	39	# byteCount == 62; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1e	# module_index
+	.long	0x1d	# module_index
 	.long	0x0	# type_token_id
 	.ascii	"org/intellij/lang/annotations/JdkConstants$FontStyle"	# java_name
 	.zero	49	# byteCount == 52; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1e	# module_index
+	.long	0x1d	# module_index
 	.long	0x0	# type_token_id
 	.ascii	"org/intellij/lang/annotations/JdkConstants$HorizontalAlignment"	# java_name
 	.zero	39	# byteCount == 62; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1e	# module_index
+	.long	0x1d	# module_index
 	.long	0x0	# type_token_id
 	.ascii	"org/intellij/lang/annotations/JdkConstants$HorizontalScrollBarPolicy"	# java_name
 	.zero	33	# byteCount == 68; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1e	# module_index
+	.long	0x1d	# module_index
 	.long	0x0	# type_token_id
 	.ascii	"org/intellij/lang/annotations/JdkConstants$InputEventMask"	# java_name
 	.zero	44	# byteCount == 57; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1e	# module_index
+	.long	0x1d	# module_index
 	.long	0x0	# type_token_id
 	.ascii	"org/intellij/lang/annotations/JdkConstants$ListSelectionMode"	# java_name
 	.zero	41	# byteCount == 60; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1e	# module_index
+	.long	0x1d	# module_index
 	.long	0x0	# type_token_id
 	.ascii	"org/intellij/lang/annotations/JdkConstants$PatternFlags"	# java_name
 	.zero	46	# byteCount == 55; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1e	# module_index
+	.long	0x1d	# module_index
 	.long	0x0	# type_token_id
 	.ascii	"org/intellij/lang/annotations/JdkConstants$TabLayoutPolicy"	# java_name
 	.zero	43	# byteCount == 58; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1e	# module_index
+	.long	0x1d	# module_index
 	.long	0x0	# type_token_id
 	.ascii	"org/intellij/lang/annotations/JdkConstants$TabPlacement"	# java_name
 	.zero	46	# byteCount == 55; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1e	# module_index
+	.long	0x1d	# module_index
 	.long	0x0	# type_token_id
 	.ascii	"org/intellij/lang/annotations/JdkConstants$TitledBorderJustification"	# java_name
 	.zero	33	# byteCount == 68; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1e	# module_index
+	.long	0x1d	# module_index
 	.long	0x0	# type_token_id
 	.ascii	"org/intellij/lang/annotations/JdkConstants$TitledBorderTitlePosition"	# java_name
 	.zero	33	# byteCount == 68; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1e	# module_index
+	.long	0x1d	# module_index
 	.long	0x0	# type_token_id
 	.ascii	"org/intellij/lang/annotations/JdkConstants$TreeSelectionMode"	# java_name
 	.zero	41	# byteCount == 60; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1e	# module_index
+	.long	0x1d	# module_index
 	.long	0x0	# type_token_id
 	.ascii	"org/intellij/lang/annotations/JdkConstants$VerticalScrollBarPolicy"	# java_name
 	.zero	35	# byteCount == 66; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1e	# module_index
+	.long	0x1d	# module_index
 	.long	0x0	# type_token_id
 	.ascii	"org/intellij/lang/annotations/Language"	# java_name
 	.zero	63	# byteCount == 38; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1e	# module_index
+	.long	0x1d	# module_index
 	.long	0x0	# type_token_id
 	.ascii	"org/intellij/lang/annotations/MagicConstant"	# java_name
 	.zero	58	# byteCount == 43; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1e	# module_index
+	.long	0x1d	# module_index
 	.long	0x0	# type_token_id
 	.ascii	"org/intellij/lang/annotations/Pattern"	# java_name
 	.zero	64	# byteCount == 37; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1e	# module_index
+	.long	0x1d	# module_index
 	.long	0x0	# type_token_id
 	.ascii	"org/intellij/lang/annotations/PrintFormat"	# java_name
 	.zero	60	# byteCount == 41; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1e	# module_index
+	.long	0x1d	# module_index
 	.long	0x0	# type_token_id
 	.ascii	"org/intellij/lang/annotations/RegExp"	# java_name
 	.zero	65	# byteCount == 36; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1e	# module_index
+	.long	0x1d	# module_index
 	.long	0x0	# type_token_id
 	.ascii	"org/intellij/lang/annotations/Subst"	# java_name
 	.zero	66	# byteCount == 35; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1e	# module_index
+	.long	0x1d	# module_index
 	.long	0x2000008	# type_token_id
 	.ascii	"org/jetbrains/annotations/ApiStatus"	# java_name
 	.zero	66	# byteCount == 35; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1e	# module_index
+	.long	0x1d	# module_index
 	.long	0x0	# type_token_id
 	.ascii	"org/jetbrains/annotations/ApiStatus$AvailableSince"	# java_name
 	.zero	51	# byteCount == 50; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1e	# module_index
+	.long	0x1d	# module_index
 	.long	0x0	# type_token_id
 	.ascii	"org/jetbrains/annotations/ApiStatus$Experimental"	# java_name
 	.zero	53	# byteCount == 48; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1e	# module_index
+	.long	0x1d	# module_index
 	.long	0x0	# type_token_id
 	.ascii	"org/jetbrains/annotations/ApiStatus$Internal"	# java_name
 	.zero	57	# byteCount == 44; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1e	# module_index
+	.long	0x1d	# module_index
 	.long	0x0	# type_token_id
 	.ascii	"org/jetbrains/annotations/ApiStatus$NonExtendable"	# java_name
 	.zero	52	# byteCount == 49; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1e	# module_index
+	.long	0x1d	# module_index
 	.long	0x0	# type_token_id
 	.ascii	"org/jetbrains/annotations/ApiStatus$OverrideOnly"	# java_name
 	.zero	53	# byteCount == 48; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1e	# module_index
+	.long	0x1d	# module_index
 	.long	0x0	# type_token_id
 	.ascii	"org/jetbrains/annotations/ApiStatus$ScheduledForRemoval"	# java_name
 	.zero	46	# byteCount == 55; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1e	# module_index
+	.long	0x1d	# module_index
 	.long	0x2000009	# type_token_id
 	.ascii	"org/jetbrains/annotations/Async"	# java_name
 	.zero	70	# byteCount == 31; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1e	# module_index
+	.long	0x1d	# module_index
 	.long	0x0	# type_token_id
 	.ascii	"org/jetbrains/annotations/Async$Execute"	# java_name
 	.zero	62	# byteCount == 39; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1e	# module_index
+	.long	0x1d	# module_index
 	.long	0x0	# type_token_id
 	.ascii	"org/jetbrains/annotations/Async$Schedule"	# java_name
 	.zero	61	# byteCount == 40; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1e	# module_index
+	.long	0x1d	# module_index
 	.long	0x0	# type_token_id
 	.ascii	"org/jetbrains/annotations/Blocking"	# java_name
 	.zero	67	# byteCount == 34; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1e	# module_index
+	.long	0x1d	# module_index
 	.long	0x0	# type_token_id
 	.ascii	"org/jetbrains/annotations/BlockingExecutor"	# java_name
 	.zero	59	# byteCount == 42; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1e	# module_index
+	.long	0x1d	# module_index
 	.long	0x0	# type_token_id
 	.ascii	"org/jetbrains/annotations/Contract"	# java_name
 	.zero	67	# byteCount == 34; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1e	# module_index
+	.long	0x1d	# module_index
 	.long	0x200000d	# type_token_id
 	.ascii	"org/jetbrains/annotations/Debug"	# java_name
 	.zero	70	# byteCount == 31; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1e	# module_index
+	.long	0x1d	# module_index
 	.long	0x0	# type_token_id
 	.ascii	"org/jetbrains/annotations/Debug$Renderer"	# java_name
 	.zero	61	# byteCount == 40; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1e	# module_index
+	.long	0x1d	# module_index
 	.long	0x0	# type_token_id
 	.ascii	"org/jetbrains/annotations/MustBeInvokedByOverriders"	# java_name
 	.zero	50	# byteCount == 51; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1e	# module_index
+	.long	0x1d	# module_index
 	.long	0x0	# type_token_id
 	.ascii	"org/jetbrains/annotations/Nls"	# java_name
 	.zero	72	# byteCount == 29; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1e	# module_index
+	.long	0x1d	# module_index
 	.long	0x2000016	# type_token_id
 	.ascii	"org/jetbrains/annotations/Nls$Capitalization"	# java_name
 	.zero	57	# byteCount == 44; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1e	# module_index
+	.long	0x1d	# module_index
 	.long	0x0	# type_token_id
 	.ascii	"org/jetbrains/annotations/NonBlocking"	# java_name
 	.zero	64	# byteCount == 37; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1e	# module_index
+	.long	0x1d	# module_index
 	.long	0x0	# type_token_id
 	.ascii	"org/jetbrains/annotations/NonBlockingExecutor"	# java_name
 	.zero	56	# byteCount == 45; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1e	# module_index
+	.long	0x1d	# module_index
 	.long	0x0	# type_token_id
 	.ascii	"org/jetbrains/annotations/NonNls"	# java_name
 	.zero	69	# byteCount == 32; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1e	# module_index
+	.long	0x1d	# module_index
 	.long	0x0	# type_token_id
 	.ascii	"org/jetbrains/annotations/NotNull"	# java_name
 	.zero	68	# byteCount == 33; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1e	# module_index
+	.long	0x1d	# module_index
 	.long	0x0	# type_token_id
 	.ascii	"org/jetbrains/annotations/Nullable"	# java_name
 	.zero	67	# byteCount == 34; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1e	# module_index
+	.long	0x1d	# module_index
 	.long	0x0	# type_token_id
 	.ascii	"org/jetbrains/annotations/PropertyKey"	# java_name
 	.zero	64	# byteCount == 37; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1e	# module_index
+	.long	0x1d	# module_index
 	.long	0x0	# type_token_id
 	.ascii	"org/jetbrains/annotations/Range"	# java_name
 	.zero	70	# byteCount == 31; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1e	# module_index
+	.long	0x1d	# module_index
 	.long	0x0	# type_token_id
 	.ascii	"org/jetbrains/annotations/TestOnly"	# java_name
 	.zero	67	# byteCount == 34; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1e	# module_index
+	.long	0x1d	# module_index
 	.long	0x0	# type_token_id
 	.ascii	"org/jetbrains/annotations/UnknownNullability"	# java_name
 	.zero	57	# byteCount == 44; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1e	# module_index
+	.long	0x1d	# module_index
 	.long	0x0	# type_token_id
 	.ascii	"org/jetbrains/annotations/Unmodifiable"	# java_name
 	.zero	63	# byteCount == 38; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1e	# module_index
+	.long	0x1d	# module_index
 	.long	0x0	# type_token_id
 	.ascii	"org/jetbrains/annotations/UnmodifiableView"	# java_name
 	.zero	59	# byteCount == 42; fixedWidth == 101; returned size == 101
 	.zero	3
 
-	.long	0x1e	# module_index
+	.long	0x1d	# module_index
 	.long	0x0	# type_token_id
 	.ascii	"org/jetbrains/annotations/VisibleForTesting"	# java_name
 	.zero	58	# byteCount == 43; fixedWidth == 101; returned size == 101
